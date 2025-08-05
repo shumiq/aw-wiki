@@ -15,7 +15,7 @@ export const TankRecord = Object.fromEntries(
 ) as Record<
   TankName,
   {
-    tank_key: string;
+    tank_key: TankName;
     title: string;
     dealer: string;
     nation: NationName;

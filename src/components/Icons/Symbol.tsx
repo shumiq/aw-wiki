@@ -1,6 +1,6 @@
 import { SymbolName } from "~/data/symbol_type";
 
-export default function Symbol({
+export function Symbol({
   variant,
   class: className,
 }: {

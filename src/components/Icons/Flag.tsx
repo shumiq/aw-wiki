@@ -6,7 +6,7 @@ const sizeMap = {
   lg: "w-[144px] h-[66px]",
 };
 
-export default function Flag({
+export function Flag({
   country,
   size = "md",
   class: className,
