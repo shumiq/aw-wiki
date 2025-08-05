@@ -1,6 +1,7 @@
 import { useLocation } from "@solidjs/router";
+import { TranslationSwitchButton } from "./Translation";
 
-export default function Nav() {
+export function Nav() {
   const location = useLocation();
   const active = (path: string) =>
     path == location.pathname ? "tab-active" : "";
@@ -22,7 +23,9 @@ export default function Nav() {
           </a>
         </div>
       </div>
-      <div class="flex-none"></div>
+      <div class="flex flex-none items-center gap-1">
+        <TranslationSwitchButton />
+      </div>
     </div>
   );
 }

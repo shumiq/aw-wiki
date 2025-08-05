@@ -29,9 +29,14 @@ export default createHandler(() => (
             href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
             rel="stylesheet"
           />
+          <script
+            type="text/javascript"
+            src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+            async
+          />
           {assets}
         </head>
-        <body class="itim-regular">
+        <body class="notranslate">
           <div id="app">{children}</div>
           {scripts}
         </body>

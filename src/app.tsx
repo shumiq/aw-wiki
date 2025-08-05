@@ -2,8 +2,9 @@ import { MetaProvider } from "@solidjs/meta";
 import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
-import Nav from "~/components/Nav";
+import { Nav } from "~/components/Nav";
 import "./app.css";
+import { TranslationProvider } from "./components/Translation";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
               <Suspense>{props.children}</Suspense>
             </div>
           </div>
+          <TranslationProvider />
         </MetaProvider>
       )}
     >
