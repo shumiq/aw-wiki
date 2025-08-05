@@ -1,0 +1,46 @@
+name: Update Dependencies
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write # Required for committing to the repo
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm i
+
+      - name: Upgrade dependencies
+        run: pnpm up --latest
+
+      - name: Download Data
+        run: pnpm download
+
+      - name: Verify build
+        run: |
+          pnpm format
+          pnpm build
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "chore: auto-update dependencies" || echo "No changes"
+          git push origin HEAD:main

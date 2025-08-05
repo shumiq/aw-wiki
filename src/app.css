@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+body {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "example-with-tailwindcss",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "format": "prettier --write .",
+    "download": "tsx scripts/download.ts"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,json,yml,css}": "prettier --write"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "^1.1.0",
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.9.5",
+    "vinxi": "^0.5.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.7",
+    "@types/jsdom": "^21.1.7",
+    "daisyui": "^5.0.50",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "lint-staged": "^16.1.4",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.0.7",
+    "tsx": "^4.20.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
