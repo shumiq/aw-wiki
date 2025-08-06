@@ -1,6 +1,6 @@
 import { TankName } from "~/data/tank_type";
 
-export function Tank({
+export function TankIcon({
   tank,
   class: className,
 }: {

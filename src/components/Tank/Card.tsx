@@ -3,7 +3,7 @@ import { SymbolName } from "~/data/symbol_type";
 import { TankName } from "~/data/tank_type";
 import { Flag } from "../Icons/Flag";
 import { Symbol } from "../Icons/Symbol";
-import { Tank } from "../Icons/Tank";
+import { TankIcon } from "../Icons/Tank";
 
 export function TankCard({
   tank,
@@ -17,7 +17,7 @@ export function TankCard({
       </button>
       <Symbol variant={`font-class-${tank.vehicle_class_icon}` as SymbolName} />
       <Flag country={`flag_${tank.nation_icon}` as FlagName} size="md" />
-      <Tank tank={tank.tank_key} />
+      <TankIcon tank={tank.tank_key} />
       <div class="badge badge-primary h-fit w-fit">{tank.data.name}</div>
     </div>
   );

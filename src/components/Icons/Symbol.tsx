@@ -7,5 +7,7 @@ export function Symbol({
   variant: SymbolName;
   class?: string;
 }) {
-  return <i class={`inline-block ${variant} ${className ?? ""}`.trim()} />;
+  return (
+    <i class={`inline-block leading-0 ${variant} ${className ?? ""}`.trim()} />
+  );
 }
