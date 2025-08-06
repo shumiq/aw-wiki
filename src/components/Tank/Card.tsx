@@ -11,14 +11,20 @@ export function TankCard({
   tank: (typeof import("~/data/record").TankRecord)[TankName];
 }) {
   return (
-    <div class="border-base-300 flex items-center gap-5 rounded-2xl border p-5 shadow-md">
-      <button class="btn btn-primary btn-circle btn-sm pointer-events-none">
-        {tank.Tier}
-      </button>
-      <Symbol variant={`font-class-${tank.vehicle_class_icon}` as SymbolName} />
-      <Flag country={`flag_${tank.nation_icon}` as FlagName} size="md" />
-      <TankIcon tank={tank.tank_key} />
-      <div class="badge badge-primary h-fit w-fit">{tank.data.name}</div>
-    </div>
+    <a href={`#${tank.tank_key}`}>
+      <div class="border-base-300 flex items-center gap-5 rounded-2xl border p-5 shadow-md">
+        <button class="btn btn-primary btn-circle btn-sm pointer-events-none">
+          {tank.Tier}
+        </button>
+        <Symbol
+          variant={`font-class-${tank.vehicle_class_icon}` as SymbolName}
+        />
+        <Flag country={`flag_${tank.nation_icon}` as FlagName} size="md" />
+        <TankIcon tank={tank.tank_key} />
+        <div class="badge badge-primary anchor h-fit w-fit" id={tank.tank_key}>
+          {tank.data.name}
+        </div>
+      </div>
+    </a>
   );
 }
