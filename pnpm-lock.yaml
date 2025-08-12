@@ -1764,44 +1764,44 @@ packages:
         integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==,
       }
 
-  "@typescript-eslint/project-service@8.39.0":
+  "@typescript-eslint/project-service@8.39.1":
     resolution:
       {
-        integrity: sha512-CTzJqaSq30V/Z2Og9jogzZt8lJRR5TKlAdXmWgdu4hgcC9Kww5flQ+xFvMxIBWVNdxJO7OifgdOK4PokMIWPew==,
+        integrity: sha512-8fZxek3ONTwBu9ptw5nCKqZOSkXshZB7uAxuFF0J/wTMkKydjXCzqqga7MlFMpHi9DoG4BadhmTkITBcg8Aybw==,
       }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
     peerDependencies:
       typescript: ">=4.8.4 <6.0.0"
 
-  "@typescript-eslint/tsconfig-utils@8.39.0":
+  "@typescript-eslint/tsconfig-utils@8.39.1":
     resolution:
       {
-        integrity: sha512-Fd3/QjmFV2sKmvv3Mrj8r6N8CryYiCS8Wdb/6/rgOXAWGcFuc+VkQuG28uk/4kVNVZBQuuDHEDUpo/pQ32zsIQ==,
+        integrity: sha512-ePUPGVtTMR8XMU2Hee8kD0Pu4NDE1CN9Q1sxGSGd/mbOtGZDM7pnhXNJnzW63zk/q+Z54zVzj44HtwXln5CvHA==,
       }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
     peerDependencies:
       typescript: ">=4.8.4 <6.0.0"
 
-  "@typescript-eslint/types@8.39.0":
+  "@typescript-eslint/types@8.39.1":
     resolution:
       {
-        integrity: sha512-ArDdaOllnCj3yn/lzKn9s0pBQYmmyme/v1HbGIGB0GB/knFI3fWMHloC+oYTJW46tVbYnGKTMDK4ah1sC2v0Kg==,
+        integrity: sha512-7sPDKQQp+S11laqTrhHqeAbsCfMkwJMrV7oTDvtDds4mEofJYir414bYKUEb8YPUm9QL3U+8f6L6YExSoAGdQw==,
       }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
 
-  "@typescript-eslint/typescript-estree@8.39.0":
+  "@typescript-eslint/typescript-estree@8.39.1":
     resolution:
       {
-        integrity: sha512-ndWdiflRMvfIgQRpckQQLiB5qAKQ7w++V4LlCHwp62eym1HLB/kw7D9f2e8ytONls/jt89TEasgvb+VwnRprsw==,
+        integrity: sha512-EKkpcPuIux48dddVDXyQBlKdeTPMmALqBUbEk38McWv0qVEZwOpVJBi7ugK5qVNgeuYjGNQxrrnoM/5+TI/BPw==,
       }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
     peerDependencies:
       typescript: ">=4.8.4 <6.0.0"
 
-  "@typescript-eslint/visitor-keys@8.39.0":
+  "@typescript-eslint/visitor-keys@8.39.1":
     resolution:
       {
-        integrity: sha512-ldgiJ+VAhQCfIjeOgu8Kj5nSxds0ktPOSO9p4+0VDH2R2pLvQraaM5Oen2d7NxzMCm+Sn/vJT+mv2H5u6b/3fA==,
+        integrity: sha512-W8FQi6kEh2e8zVhQ0eeRnxdvIoOkAp/CPAahcNio6nO9dsIwb9b34z90KOlheoyuVf6LSOEdjlkxSkapNEc+4A==,
       }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
 
@@ -2223,10 +2223,10 @@ packages:
       }
     engines: { node: ">=16" }
 
-  caniuse-lite@1.0.30001733:
+  caniuse-lite@1.0.30001734:
     resolution:
       {
-        integrity: sha512-e4QKw/O2Kavj2VQTKZWrwzkt3IxOmIlU6ajRb6LP64LHpBo1J67k2Hi4Vu/TgJWsNtynurfS0uK3MaUTCPfu5Q==,
+        integrity: sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A==,
       }
 
   ccount@2.0.1:
@@ -2820,10 +2820,10 @@ packages:
         integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==,
       }
 
-  electron-to-chromium@1.5.199:
+  electron-to-chromium@1.5.200:
     resolution:
       {
-        integrity: sha512-3gl0S7zQd88kCAZRO/DnxtBKuhMO4h0EaQIN3YgZfV6+pW+5+bf2AdQeHNESCoaQqo/gjGVYEf2YM4O5HJQqpQ==,
+        integrity: sha512-rFCxROw7aOe4uPTfIAx+rXv9cEcGx+buAF4npnhtTqCJk5KDFRnh3+KYj7rdVh6lsFt5/aPs+Irj9rZ33WMA7w==,
       }
 
   emoji-regex-xs@1.0.0:
@@ -7294,27 +7294,27 @@ snapshots:
       "@types/node": 24.2.1
     optional: true
 
-  "@typescript-eslint/project-service@8.39.0(typescript@5.9.2)":
+  "@typescript-eslint/project-service@8.39.1(typescript@5.9.2)":
     dependencies:
-      "@typescript-eslint/tsconfig-utils": 8.39.0(typescript@5.9.2)
-      "@typescript-eslint/types": 8.39.0
+      "@typescript-eslint/tsconfig-utils": 8.39.1(typescript@5.9.2)
+      "@typescript-eslint/types": 8.39.1
       debug: 4.4.1
       typescript: 5.9.2
     transitivePeerDependencies:
       - supports-color
 
-  "@typescript-eslint/tsconfig-utils@8.39.0(typescript@5.9.2)":
+  "@typescript-eslint/tsconfig-utils@8.39.1(typescript@5.9.2)":
     dependencies:
       typescript: 5.9.2
 
-  "@typescript-eslint/types@8.39.0": {}
+  "@typescript-eslint/types@8.39.1": {}
 
-  "@typescript-eslint/typescript-estree@8.39.0(typescript@5.9.2)":
+  "@typescript-eslint/typescript-estree@8.39.1(typescript@5.9.2)":
     dependencies:
-      "@typescript-eslint/project-service": 8.39.0(typescript@5.9.2)
-      "@typescript-eslint/tsconfig-utils": 8.39.0(typescript@5.9.2)
-      "@typescript-eslint/types": 8.39.0
-      "@typescript-eslint/visitor-keys": 8.39.0
+      "@typescript-eslint/project-service": 8.39.1(typescript@5.9.2)
+      "@typescript-eslint/tsconfig-utils": 8.39.1(typescript@5.9.2)
+      "@typescript-eslint/types": 8.39.1
+      "@typescript-eslint/visitor-keys": 8.39.1
       debug: 4.4.1
       fast-glob: 3.3.3
       is-glob: 4.0.3
@@ -7325,9 +7325,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  "@typescript-eslint/visitor-keys@8.39.0":
+  "@typescript-eslint/visitor-keys@8.39.1":
     dependencies:
-      "@typescript-eslint/types": 8.39.0
+      "@typescript-eslint/types": 8.39.1
       eslint-visitor-keys: 4.2.1
 
   "@ungap/structured-clone@1.3.0": {}
@@ -7598,8 +7598,8 @@ snapshots:
 
   browserslist@4.25.2:
     dependencies:
-      caniuse-lite: 1.0.30001733
-      electron-to-chromium: 1.5.199
+      caniuse-lite: 1.0.30001734
+      electron-to-chromium: 1.5.200
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.2)
 
@@ -7647,7 +7647,7 @@ snapshots:
 
   camelcase@8.0.0: {}
 
-  caniuse-lite@1.0.30001733: {}
+  caniuse-lite@1.0.30001734: {}
 
   ccount@2.0.1: {}
 
@@ -7882,7 +7882,7 @@ snapshots:
 
   detective-typescript@14.0.0(typescript@5.9.2):
     dependencies:
-      "@typescript-eslint/typescript-estree": 8.39.0(typescript@5.9.2)
+      "@typescript-eslint/typescript-estree": 8.39.1(typescript@5.9.2)
       ast-module-types: 6.0.1
       node-source-walk: 7.0.1
       typescript: 5.9.2
@@ -7928,7 +7928,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.199: {}
+  electron-to-chromium@1.5.200: {}
 
   emoji-regex-xs@1.0.0: {}
 
