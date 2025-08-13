@@ -1,30 +1,17 @@
-import { FlagName } from "~/data/flag_type";
-import { SymbolName } from "~/data/symbol_type";
-import { TankName } from "~/data/tank_type";
-import { Flag } from "../Icons/Flag";
-import { Symbol } from "../Icons/Symbol";
-import { TankIcon } from "../Icons/Tank";
-
 export function TankCard({
   tank,
 }: {
-  tank: (typeof import("~/data/record").TankRecord)[TankName];
+  tank: (typeof import("~/data/wiki_data.json"))[number];
 }) {
   return (
-    <a href={`#${tank.tank_key}`}>
-      <div class="border-base-300 flex items-center gap-5 rounded-2xl border p-5 shadow-md">
-        <button class="btn btn-primary btn-circle btn-sm pointer-events-none">
-          {tank.Tier}
-        </button>
-        <Symbol
-          variant={`font-class-${tank.vehicle_class_icon}` as SymbolName}
-        />
-        <Flag country={`flag_${tank.nation_icon}` as FlagName} size="md" />
-        <TankIcon tank={tank.tank_key} />
-        <div class="badge badge-primary anchor h-fit w-fit" id={tank.tank_key}>
-          {tank.data.name}
-        </div>
-      </div>
-    </a>
+    <div class="border-base-300 flex items-center gap-5 rounded-2xl border p-5 shadow-md">
+      <button class="btn btn-primary btn-circle btn-sm btn-outline pointer-events-none">
+        {tank.tier}
+      </button>
+      <div class="badge badge-primary badge-soft h-fit w-fit">{tank.class}</div>
+      <img src={tank.flag_icon} class="w-12" />
+      <img src={tank.icon} class="w-12" />
+      <div class="badge badge-primary badge-soft h-fit w-fit">{tank.name}</div>
+    </div>
   );
 }

@@ -1,5 +1,4 @@
 import { useLocation } from "@solidjs/router";
-import { TranslationSwitchButton } from "./Translation";
 
 export function Nav() {
   const location = useLocation();
@@ -24,7 +23,7 @@ export function Nav() {
         </div>
       </div>
       <div class="flex flex-none items-center gap-1">
-        <TranslationSwitchButton />
+        {/* <TranslationSwitchButton /> */}
       </div>
     </div>
   );

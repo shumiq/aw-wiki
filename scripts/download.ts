@@ -4,330 +4,450 @@ import { JSDOM } from "jsdom";
 const ROOT = `./src/data`;
 mkdirSync(ROOT, { recursive: true });
 
-async function downloadTypes() {
-  // Flags
-  {
-    console.log("Downloading flags...");
-    const css = await fetch(
-      "https://arwar.ru/static/arwar.ru/css/main/content/tankopedia/flags.css",
-    ).then((r) => r.text());
-    const lines = css.split("\n").map((l) => l.trim());
-    const countries = [] as string[];
-    lines.forEach(async (line) => {
-      if (!line.startsWith(".")) return;
-      countries.push(line.replace(".", "").split("{")[0].trim());
-    });
-    const flagType = `export type FlagName = ${countries.map((c) => `"${c.split(".")[0]}"`).join(" | ")};`;
-    writeFileSync(`${ROOT}/flag_type.ts`, flagType);
-  }
-  // Icons
-  {
-    console.log("Downloading icons...");
-    const css = await fetch(
-      "https://arwar.ru/static/arwar.ru/css/main/content/tankopedia/tankopedia-sprite.css",
-    ).then((r) => r.text());
-    const lines = css.split("\n").map((l) => l.trim());
-    const iconName = [] as string[];
-    lines.forEach(async (line) => {
-      if (!line.startsWith(".font-") && !line.startsWith(".icon-")) return;
-      iconName.push(
-        line.replace(".", "").split("{")[0].replace("::before", "").trim(),
-      );
-    });
-    const iconType = `export type SymbolName = ${iconName.map((c) => `"${c.split(".")[0]}"`).join(" | ")};`;
-    writeFileSync(`${ROOT}/symbol_type.ts`, iconType);
-  }
-}
-
-async function downloadTankData(key: string) {
-  const html = await fetch("https://arwar.ru/kb/get_tank/", {
-    headers: {
-      "content-type": "application/x-www-form-urlencoded",
-    },
-    body: `tank=${key}`,
-    method: "POST",
-  }).then((r) => r.text());
+async function downloadData() {
+  const html = await fetch(
+    "https://armoredwarfare.fandom.com/wiki/Vehicles",
+  ).then((r) => r.text());
   const { window } = new JSDOM(html);
-  const document = window.document;
-  const data = {
-    key: key,
-    name: document.querySelector("h2.mainheader")?.textContent,
-    info: document
-      .querySelector("div.tankopedia_tank_text")
-      ?.textContent?.replaceAll("\t", ""),
-    img: document
-      .querySelector("div.tankpedia_tank_mainimg img")
-      ?.getAttribute("src"),
-    basic: {
-      gun: document
-        .querySelector(
-          "div.tankopedia_tank_options > div[class='table table_t01'] .tr .th",
-        )
-        ?.textContent?.replace("Урон", "")
-        .trim(),
-      penetration: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01'] .tr .td",
-          )?.[1]
-          ?.textContent?.trim(),
-      ),
-      damage: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01'] .tr .td",
-          )?.[3]
-          ?.textContent?.trim(),
-      ),
-      dpm: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01'] .tr .td",
-          )?.[5]
-          ?.textContent?.trim(),
-      ),
-      reload: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01'] .tr .td",
-          )?.[7]
-          ?.textContent?.replace(" с", "")
-          .trim(),
-      ),
-      topSpeed: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01 mrgr0'] .tr .td",
-          )[1]
-          ?.textContent?.split(" ")[0]
-          .trim(),
-      ),
-      acc0to32: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01 mrgr0'] .tr .td",
-          )[3]
-          ?.textContent?.split(" ")[0]
-          .trim(),
-      ),
-      camo: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01 mrgr0'] .tr .td",
-          )[5]
-          ?.textContent?.trim(),
-      ),
-      viewRange: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table table_t01 mrgr0'] .tr .td",
-          )[7]
-          ?.textContent?.trim(),
-      ),
-      hp: Number(
-        document
-          .querySelectorAll(
-            "div.tankopedia_tank_options > div[class='table'] .tr .td",
-          )[5]
-          ?.textContent?.trim(),
-      ),
-      armor: {
-        hull: {
-          front: Number(
-            document
-              .querySelectorAll(
-                "div.tankopedia_tank_options > div[class='table'] .tr .td",
-              )[1]
-              ?.textContent?.split("/")[0]
-              .trim(),
-          ),
-          side: Number(
-            document
-              .querySelectorAll(
-                "div.tankopedia_tank_options > div[class='table'] .tr .td",
-              )[1]
-              ?.textContent?.split("/")[1]
-              .trim(),
-          ),
-          rear: Number(
-            document
-              .querySelectorAll(
-                "div.tankopedia_tank_options > div[class='table'] .tr .td",
-              )[1]
-              ?.textContent?.split("/")[2]
-              .trim(),
-          ),
-        },
-        turret: {
-          front: Number(
-            document
-              .querySelectorAll(
-                "div.tankopedia_tank_options > div[class='table mrgr0'] .tr .td",
-              )[1]
-              ?.textContent?.split("/")[0]
-              .trim(),
-          ),
-          side: Number(
-            document
-              .querySelectorAll(
-                "div.tankopedia_tank_options > div[class='table mrgr0'] .tr .td",
-              )[1]
-              ?.textContent?.split("/")[1]
-              .trim(),
-          ),
-          rear: Number(
-            document
-              .querySelectorAll(
-                "div.tankopedia_tank_options > div[class='table mrgr0'] .tr .td",
-              )[1]
-              ?.textContent?.split("/")[2]
-              .trim(),
-          ),
-        },
-      },
-    },
-    detail: {
-      guns: [
-        ...document.querySelectorAll(
-          "div.tankopedia_tank_options > div[class='table table_t02'] > .tr > .td.t01",
+  const { document } = window;
+  let count = 0;
+  const data = await Promise.all(
+    [...document.querySelectorAll("tr")]
+      .map((el) => ({
+        name:
+          el
+            .querySelector("td:first-child a:nth-child(3)")
+            ?.textContent?.trim() ?? "",
+        image:
+          el
+            .querySelector("td:first-child a:nth-child(1)")
+            ?.getAttribute("href")
+            ?.replace("https://static.wikia.nocookie.net", "") ?? "",
+        icon:
+          el
+            .querySelector("td:first-child img")
+            ?.getAttribute("data-src")
+            ?.replace("https://static.wikia.nocookie.net", "") ?? "",
+        flag_icon:
+          el
+            .querySelector("td:nth-child(4) img")
+            ?.getAttribute("data-src")
+            ?.replace("https://static.wikia.nocookie.net", "") ?? "",
+        link:
+          "https://armoredwarfare.fandom.com" +
+          (el
+            .querySelector("td:first-child a:nth-child(3)")
+            ?.getAttribute("href") ?? ""),
+        tier: Number(
+          el.querySelector("td:nth-child(2)")?.textContent?.trim() ?? 0,
         ),
-      ]
-        .filter((el) =>
-          el.parentElement?.nextElementSibling?.classList?.contains("table"),
-        )
-        .map((el) => ({
-          name: el.textContent?.replaceAll("\n", ", ").trim(),
-          shells: [
-            ...(el.parentElement?.nextElementSibling?.querySelectorAll(".tr") ??
-              []),
+        dealer: el.querySelector("td:nth-child(3)")?.textContent?.trim() ?? "",
+        traits: (el.querySelector("td:nth-child(6)")?.innerHTML?.trim() ?? "")
+          .split("<br>")
+          .map((t) => t.trim())
+          .filter(Boolean),
+      }))
+      .filter((t) => t.name)
+      .map(async (tank) => {
+        // if (tank.name !== "XM1A3") return tank;
+        // if (tank.name !== "Derivatsiya") return tank;
+        // if (tank.name !== "Boxer RIWP") return tank;
+        // if (tank.name !== "Merkava 4M") return tank;
+        // if (tank.name !== "Object 287") return tank;
+        const info = await fetch(tank.link).then((r) => r.text());
+        console.log(`Download tank data [${++count}]: ${tank.name}`);
+        const { window } = new JSDOM(info);
+        const { document } = window;
+        return {
+          ...tank,
+          class:
+            document
+              .querySelector("div[data-source='tier'] a")
+              ?.textContent?.trim() ?? "",
+          nation:
+            document
+              .querySelector("div[data-source='nation'] div")
+              ?.textContent?.trim() ?? "",
+          hp: Number(
+            document
+              .querySelector("div[data-source='hp'] div")
+              ?.textContent?.trim()
+              .replaceAll(",", "") ?? 0,
+          ),
+          ammos: [
+            ...([...document.querySelectorAll("table.wikitable")]
+              .filter(
+                (t) =>
+                  t.previousElementSibling?.textContent?.trim() ===
+                  "Ammunition[]",
+              )?.[0]
+              ?.querySelectorAll("tr") ?? []),
+          ]
+            .slice(1)
+            .map((el, i) => {
+              if (i % 2) return undefined;
+              const ammo = {
+                name:
+                  el
+                    .querySelector("td:nth-child(2)")
+                    ?.innerHTML?.trim()
+                    .replace("<br>", " + ") ?? "",
+                type:
+                  el.querySelector("td:nth-child(3)")?.textContent?.trim() ??
+                  "",
+                damage:
+                  Number(
+                    el
+                      .querySelector("td:nth-child(5)")
+                      ?.textContent?.split("[")?.[0]
+                      ?.trim()
+                      ?.replace(",", "") ?? 0,
+                  ) || 0,
+                penetration:
+                  Number(
+                    el
+                      .querySelector("td:nth-child(6)")
+                      ?.textContent?.split("[")?.[0]
+                      ?.split("mm")?.[0]
+                      ?.trim()
+                      ?.replace(",", "") ?? 0,
+                  ) || 0,
+                reload:
+                  Number(
+                    el
+                      .querySelector("td:nth-child(8)")
+                      ?.textContent?.split("[")?.[0]
+                      ?.split("s")?.[0]
+                      ?.trim()
+                      ?.replace(",", "") ?? 0,
+                  ) || 0,
+                homing:
+                  (el.nextElementSibling
+                    ?.querySelector("td")
+                    ?.textContent?.split("\n")
+                    .map((s) => s.trim())
+                    .filter((s) => s.startsWith("Self-Guided:"))?.[0]
+                    ?.split(":")?.[1]
+                    .split("[")?.[0]
+                    ?.trim()
+                    ?.toLowerCase() ?? "no") === "yes",
+              } as Record<string, unknown>;
+              const lines =
+                el.nextElementSibling
+                  ?.querySelector("td")
+                  ?.textContent?.split("\n")
+                  .map((s) => s.trim())
+                  .filter(Boolean) ?? [];
+              const magazineType =
+                lines
+                  .filter((s) => s.startsWith("Magazine Type:"))?.[0]
+                  ?.split(":")?.[1]
+                  ?.trim()
+                  ?.toLowerCase() ??
+                (lines.find((s) => s.startsWith("Shots Before Overheat:"))
+                  ? "autocanon"
+                  : "none");
+              ammo.magazine_type = magazineType;
+              if (magazineType === "none") {
+                ammo.rpm = Math.floor(60 / Number(ammo.reload));
+                ammo.dpm = Number(ammo.damage) * Number(ammo.rpm);
+              }
+              if (magazineType === "clip" || magazineType === "ready rack") {
+                ammo.magazine_size =
+                  Number(
+                    lines
+                      .filter((s) => s.startsWith("Magazine Size:"))?.[0]
+                      ?.split(":")?.[1]
+                      .split("[")?.[0]
+                      ?.replace(",", "")
+                      ?.trim() ?? 1,
+                  ) || 1;
+                if (magazineType === "clip") {
+                  ammo.partial_reload =
+                    (lines
+                      .filter((s) => s.startsWith("Partial Reload:"))?.[0]
+                      ?.split(":")?.[1]
+                      .split("[")?.[0]
+                      ?.trim()
+                      ?.toLowerCase() ?? "no") === "yes";
+                }
+                ammo.reload_within_magazine =
+                  Number(
+                    lines
+                      .filter((s) =>
+                        s.startsWith("Reload within Magazine:"),
+                      )?.[0]
+                      ?.split(":")?.[1]
+                      .split("[")?.[0]
+                      ?.split("s")?.[0]
+                      ?.trim() ?? 0,
+                  ) ||
+                  60 /
+                    Number(
+                      lines
+                        .filter((s) => s.startsWith("Burst Fire Rate:"))?.[0]
+                        ?.split(":")?.[1]
+                        .split("[")?.[0]
+                        ?.split("rd")?.[0]
+                        ?.replace(",", "")
+                        ?.trim() ?? Infinity,
+                    ) ||
+                  1;
+                ammo.burst_rate =
+                  Number(
+                    lines
+                      .filter((s) => s.startsWith("Burst Fire Rate:"))?.[0]
+                      ?.split(":")?.[1]
+                      .split("[")?.[0]
+                      ?.split("rd")?.[0]
+                      ?.replace(",", "")
+                      ?.trim(),
+                  ) ||
+                  60 /
+                    Number(
+                      lines
+                        .filter((s) =>
+                          s.startsWith("Reload within Magazine:"),
+                        )?.[0]
+                        ?.split(":")?.[1]
+                        .split("[")?.[0]
+                        ?.split("s")?.[0]
+                        ?.trim() ?? Infinity,
+                    ) ||
+                  60;
+                if (magazineType === "clip") {
+                  if (Number(ammo.burst_rate) <= Number(ammo.magazine_size)) {
+                    ammo.rpm = ammo.burst_rate;
+                  } else {
+                    ammo.rpm = Math.floor(
+                      (Number(ammo.magazine_size) * 60) /
+                        (Number(ammo.magazine_size) *
+                          Number(ammo.reload_within_magazine) +
+                          Number(ammo.reload)),
+                    );
+                  }
+                  ammo.dpm = Number(ammo.damage) * Number(ammo.rpm);
+                } else {
+                  ammo.rpm = Math.floor(
+                    Number(ammo.magazine_size) +
+                      (60 -
+                        Number(ammo.reload_within_magazine) *
+                          Number(ammo.magazine_size)) /
+                        Number(ammo.reload),
+                  );
+                  ammo.dpm = Number(ammo.damage) * Number(ammo.rpm);
+                }
+              }
+              if (magazineType === "autocanon") {
+                ammo.burst_rate =
+                  Number(
+                    lines
+                      .filter((s) => s.startsWith("Burst Fire Rate:"))?.[0]
+                      ?.split(":")?.[1]
+                      .split("[")?.[0]
+                      ?.split("rd")?.[0]
+                      ?.replace(",", "")
+                      ?.trim(),
+                  ) || 60 / Number(ammo.reload);
+                ammo.reload_within_magazine = 60 / Number(ammo.burst_rate);
+                const shots =
+                  Number(
+                    lines
+                      .filter((s) =>
+                        s.startsWith("Shots Before Overheat:"),
+                      )?.[0]
+                      ?.split(":")?.[1]
+                      .split("[")?.[0]
+                      ?.replace(",", "")
+                      ?.trim() ?? 0,
+                  ) || 0;
+                const cooldown =
+                  Number(
+                    lines
+                      .filter((s) => s.startsWith("Cooldown Time:"))?.[0]
+                      ?.split(":")?.[1]
+                      .split("[")?.[0]
+                      .split("s")?.[0]
+                      ?.trim() ?? 0,
+                  ) || 0;
+                ammo.overheat = {
+                  shots: shots,
+                  cooldown: cooldown,
+                };
+                ammo.rpm = Math.floor(
+                  (shots * 60) /
+                    (shots * Number(ammo.reload_within_magazine) + cooldown),
+                );
+                ammo.dpm = Number(ammo.damage) * Number(ammo.rpm);
+              }
+              return ammo;
+            })
+            .filter(Boolean),
+          armors: [
+            ...([...document.querySelectorAll("table.wikitable")]
+              .filter(
+                (t) =>
+                  t.previousElementSibling?.textContent?.trim() === "Armor[]",
+              )?.[0]
+              ?.querySelectorAll("tr") ?? []),
           ]
             .slice(1)
             .map((el) => ({
-              name: el.querySelector(".td.t01")?.textContent?.trim(),
-              type: el.querySelector(".td.t04")?.textContent?.trim(),
-              speed: Number(el.querySelector(".td.t02")?.textContent?.trim()),
-              penetration: Number(
-                el.querySelector(".td.t05")?.textContent?.trim(),
+              name:
+                el.querySelector("td:nth-child(1)")?.textContent?.trim() ?? "",
+              hull: {
+                ap:
+                  Number(
+                    el
+                      .querySelector("td:nth-child(3)")
+                      ?.textContent?.trim()
+                      ?.split(" mm")?.[0]
+                      ?.replaceAll(",", "") ?? 0,
+                  ) || 0,
+                heat:
+                  Number(
+                    el
+                      .querySelector("td:nth-child(3)")
+                      ?.textContent?.trim()
+                      ?.split(" mm")?.[1]
+                      ?.split(")")?.[1]
+                      ?.replaceAll(",", "") ?? 0,
+                  ) || 0,
+              },
+              turret: {
+                ap:
+                  Number(
+                    el
+                      .querySelector("td:nth-child(5)")
+                      ?.textContent?.trim()
+                      ?.split(" mm")?.[0]
+                      ?.replaceAll(",", "") ?? 0,
+                  ) || 0,
+                heat:
+                  Number(
+                    el
+                      .querySelector("td:nth-child(5)")
+                      ?.textContent?.trim()
+                      ?.split(" mm")?.[1]
+                      ?.split(")")?.[1]
+                      ?.replaceAll(",", "") ?? 0,
+                  ) || 0,
+              },
+              era:
+                el.querySelector("td:nth-child(7)")?.textContent?.trim() ??
+                "N/A",
+            }))
+            .filter((armor) => armor.hull.ap),
+          weapons: [
+            ...([...document.querySelectorAll("table.wikitable")]
+              .filter(
+                (t) =>
+                  t.previousElementSibling?.textContent?.trim() === "Weapon[]",
+              )?.[0]
+              ?.querySelectorAll("tr") ?? []),
+          ]
+            .slice(1)
+            .map((el, i) =>
+              i % 2
+                ? undefined
+                : {
+                    name:
+                      el
+                        .querySelector("td:nth-child(2)")
+                        ?.innerHTML?.trim()
+                        .replace("<br>", " + ") ?? "",
+                    shells:
+                      el.nextElementSibling
+                        ?.querySelector("td div:nth-child(2)")
+                        ?.innerHTML.split("<br>")
+                        .slice(1)
+                        .map((s) => s.trim())
+                        .filter(Boolean) ?? "",
+                  },
+            )
+            .filter(Boolean),
+          engines: [
+            ...([...document.querySelectorAll("table.wikitable")]
+              .filter(
+                (t) =>
+                  t.previousElementSibling?.textContent?.trim() === "Engine[]",
+              )?.[0]
+              ?.querySelectorAll("tr") ?? []),
+          ]
+            .slice(1)
+            .map((el) => ({
+              name:
+                el.querySelector("td:nth-child(1)")?.textContent?.trim() ?? "",
+              top_speed: Number(
+                el
+                  .querySelector("td:nth-child(4)")
+                  ?.textContent?.trim()
+                  .split(" ")[0] ?? 0,
               ),
-              damage: Number(el.querySelector(".td.t06")?.textContent?.trim()),
+              acc_to_32: Number(
+                el
+                  .querySelector("td:nth-child(6)")
+                  ?.textContent?.trim()
+                  .split(" s ")[0] ?? 0,
+              ),
+              acc_to_top: Number(
+                el
+                  .querySelector("td:nth-child(6)")
+                  ?.textContent?.trim()
+                  .split(" s ")[1]
+                  ?.split(")")
+                  .slice(-1)[0] ?? 0,
+              ),
             })),
-        })),
-      armors: [
-        ...document.querySelectorAll(
-          "div.tankopedia_tank_options > div[class='table table_t05'] .tr",
-        ),
-      ]
-        .slice(1)
-        .map((el) => ({
-          name: el.querySelector(".td.t01")?.textContent?.trim(),
-          hull: {
-            front: Number(
-              el.querySelectorAll(".td.t04 span")?.[0]?.textContent?.trim(),
-            ),
-            side: Number(
-              el.querySelectorAll(".td.t04 span")?.[1]?.textContent?.trim(),
-            ),
-            rear: Number(
-              el.querySelectorAll(".td.t04 span")?.[2]?.textContent?.trim(),
-            ),
-          },
-          turret: {
-            front: Number(
-              el.querySelectorAll(".td.t06 span")?.[0]?.textContent?.trim(),
-            ),
-            side: Number(
-              el.querySelectorAll(".td.t06 span")?.[1]?.textContent?.trim(),
-            ),
-            rear: Number(
-              el.querySelectorAll(".td.t06 span")?.[2]?.textContent?.trim(),
-            ),
-          },
-        })),
-      equipments: [
-        ...document.querySelectorAll(
-          "div.tankopedia_tank_options > div[class='table table_t06'] .tr .td.t01",
-        ),
-      ].map((e) => e.textContent?.trim()),
-      smoke: [
-        ...document.querySelectorAll(
-          "div.tankopedia_tank_options > div[class='table table_t02'] > .tr > .td.t01",
-        ),
-      ]
-        .filter(
-          (el) =>
-            !el.parentElement?.nextElementSibling?.classList?.contains("table"),
-        )
-        .map((e) => e.textContent?.trim()),
-    },
-  };
-  return data;
+          parts: [
+            ...([...document.querySelectorAll("table.wikitable")]
+              .filter(
+                (t) =>
+                  t.previousElementSibling?.textContent?.trim() === "Parts[]",
+              )?.[0]
+              ?.querySelectorAll("tr") ?? []),
+          ]
+            .slice(1)
+            .map((el) => ({
+              name:
+                el.querySelector("td:nth-child(1)")?.textContent?.trim() ?? "",
+              icon:
+                el
+                  .querySelector("td:nth-child(1) img")
+                  ?.getAttribute("data-src")
+                  ?.replace("https://static.wikia.nocookie.net", "") ?? "",
+            })),
+          abilities: [
+            ...([...document.querySelectorAll("table.wikitable")]
+              .filter(
+                (t) =>
+                  t.previousElementSibling?.textContent?.trim() ===
+                  "Abilities[]",
+              )?.[0]
+              ?.querySelectorAll("tr") ?? []),
+          ]
+            .slice(1)
+            .map((el, i) =>
+              i % 2
+                ? undefined
+                : {
+                    name:
+                      el
+                        .querySelector("td:nth-child(2)")
+                        ?.textContent?.trim() ?? "",
+                    icon:
+                      el
+                        .querySelector("td:nth-child(2) img")
+                        ?.getAttribute("data-src")
+                        ?.replace("https://static.wikia.nocookie.net", "") ??
+                      "",
+                  },
+            )
+            .filter(Boolean),
+        };
+      }),
+  );
+  writeFileSync(`${ROOT}/wiki_data.json`, JSON.stringify(data, null, 2));
 }
 
-async function downloadData() {
-  console.log("Downloading data...");
-  const html = await fetch("https://arwar.ru/kb/").then((r) => r.text());
-  const lines = html.split("\n").map((l) => l.trim());
-  lines
-    .filter((line) => line.startsWith("var "))
-    .forEach(async (line) => {
-      const parts = line.split("=");
-      const name = parts[0].replace("var ", "");
-      const value = parts[1].replace(";", "");
-      if (name === "datajson") {
-        const data = JSON.parse(value) as Record<string, { tank_key: string }>;
-        writeFileSync(`${ROOT}/tanks.json`, JSON.stringify(data, null, 2));
-        const tankNames = Object.values(data)
-          .filter((t) => typeof t === "object" && t.tank_key)
-          .map((t) => t.tank_key);
-        writeFileSync(
-          `${ROOT}/tank_type.ts`,
-          `export type TankName = ${tankNames
-            .map((name) => `"${name}"`)
-            .join(" | ")};`,
-        );
-        let count = 0;
-        const tankData = await Promise.all(
-          tankNames.map(async (name) => {
-            // if (name !== "boxer-tracked") return;
-            const data = await downloadTankData(name);
-            console.log(
-              `Downloading tank data [${++count}/${tankNames.length}]: ${name} `,
-            );
-            return data;
-          }),
-        );
-        writeFileSync(
-          `${ROOT}/tank_data.json`,
-          JSON.stringify(
-            Object.fromEntries(
-              tankData.filter(Boolean).map((t) => [t!.key, t]),
-            ),
-            null,
-            2,
-          ),
-        );
-      }
-      if (name === "typenation") {
-        const data = JSON.parse(value) as Record<string, string>;
-        writeFileSync(`${ROOT}/nations.json`, JSON.stringify(data, null, 2));
-        writeFileSync(
-          `${ROOT}/nation_type.ts`,
-          `export type NationName = ${Object.keys(data)
-            .map((t) => `"${t}"`)
-            .join(" | ")};`,
-        );
-      }
-      if (name === "typeclass") {
-        const data = JSON.parse(value) as Record<string, string>;
-        writeFileSync(`${ROOT}/classes.json`, JSON.stringify(data, null, 2));
-        writeFileSync(
-          `${ROOT}/class_type.ts`,
-          `export type TankClassName = ${Object.keys(data)
-            .map((t) => `"${t}"`)
-            .join(" | ")};`,
-        );
-      }
-    });
-}
-
-Promise.all([downloadTypes(), downloadData()]);
+Promise.all([downloadData()]);
