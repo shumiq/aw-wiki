@@ -8,6 +8,7 @@ import {
 import { createEffect, createSignal, For } from "solid-js";
 import { TankCard } from "~/components/Tank/Card";
 import Tanks from "~/data/wiki_data.json";
+import { getHighestDPM } from "~/utils/ranking";
 
 const ITEMS_PER_PAGE = 10;
 
@@ -33,7 +34,7 @@ export default function Wiki() {
         {(tank) => <TankCard tank={tank} />}
       </For>
       <div class="sticky bottom-[20px] flex">
-        <div class="join mx-auto flex rounded-xl bg-black/50">
+        <div class="join mx-auto flex items-center rounded-xl bg-black/50">
           <button
             class="btn btn-square btn-ghost rounded-xl"
             onclick={() => setPage(1)}
@@ -48,6 +49,18 @@ export default function Wiki() {
           >
             <TbChevronLeft />
           </button>
+          <select
+            class="select select-ghost select-sm"
+            onchange={(e) => setPage(Number(e.target.value))}
+          >
+            <For each={Array.from({ length: maxPages }, (_, i) => i + 1)}>
+              {(p) => (
+                <option value={p} selected={page() === p}>
+                  {p}
+                </option>
+              )}
+            </For>
+          </select>
           <button
             class="btn btn-square btn-ghost rounded-xl"
             onclick={() => setPage(page() + 1)}

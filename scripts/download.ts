@@ -90,11 +90,13 @@ async function downloadData() {
                 name:
                   el
                     .querySelector("td:nth-child(2)")
-                    ?.innerHTML?.trim()
-                    .replace("<br>", " + ") ?? "",
+                    ?.textContent?.split("[")?.[0]
+                    ?.trim() ?? "",
                 type:
-                  el.querySelector("td:nth-child(3)")?.textContent?.trim() ??
-                  "",
+                  el
+                    .querySelector("td:nth-child(3)")
+                    ?.textContent?.split("[")?.[0]
+                    ?.trim() ?? "",
                 damage:
                   Number(
                     el
@@ -138,21 +140,32 @@ async function downloadData() {
                   ?.textContent?.split("\n")
                   .map((s) => s.trim())
                   .filter(Boolean) ?? [];
-              const magazineType =
+              let magazineType =
                 lines
                   .filter((s) => s.startsWith("Magazine Type:"))?.[0]
                   ?.split(":")?.[1]
+                  ?.split("[")?.[0]
                   ?.trim()
                   ?.toLowerCase() ??
                 (lines.find((s) => s.startsWith("Shots Before Overheat:"))
                   ? "autocanon"
                   : "none");
+              if (magazineType === "overheat") magazineType = "autocanon";
+              if (magazineType === "clip") magazineType = "magazine";
+              if (
+                magazineType === "none" &&
+                lines.find((s) => s.startsWith("Magazine Size:"))
+              )
+                magazineType = "magazine";
               ammo.magazine_type = magazineType;
               if (magazineType === "none") {
                 ammo.rpm = Math.floor(60 / Number(ammo.reload));
                 ammo.dpm = Number(ammo.damage) * Number(ammo.rpm);
               }
-              if (magazineType === "clip" || magazineType === "ready rack") {
+              if (
+                magazineType === "ready rack" ||
+                magazineType === "magazine"
+              ) {
                 ammo.magazine_size =
                   Number(
                     lines
@@ -162,7 +175,7 @@ async function downloadData() {
                       ?.replace(",", "")
                       ?.trim() ?? 1,
                   ) || 1;
-                if (magazineType === "clip") {
+                if (magazineType === "magazine") {
                   ammo.partial_reload =
                     (lines
                       .filter((s) => s.startsWith("Partial Reload:"))?.[0]
@@ -215,7 +228,7 @@ async function downloadData() {
                         ?.trim() ?? Infinity,
                     ) ||
                   60;
-                if (magazineType === "clip") {
+                if (magazineType === "magazine") {
                   if (Number(ammo.burst_rate) <= Number(ammo.magazine_size)) {
                     ammo.rpm = ammo.burst_rate;
                   } else {
@@ -377,7 +390,10 @@ async function downloadData() {
             .slice(1)
             .map((el) => ({
               name:
-                el.querySelector("td:nth-child(1)")?.textContent?.trim() ?? "",
+                el
+                  .querySelector("td:nth-child(1)")
+                  ?.textContent?.split("[")?.[0]
+                  ?.trim() ?? "",
               top_speed: Number(
                 el
                   .querySelector("td:nth-child(4)")
