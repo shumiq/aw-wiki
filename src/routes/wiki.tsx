@@ -8,7 +8,7 @@ import {
 import { createEffect, createSignal, For } from "solid-js";
 import { TankCard } from "~/components/Tank/Card";
 import Tanks from "~/data/wiki_data.json";
-import { getHighestDPM } from "~/utils/ranking";
+import { getBestDPM } from "~/utils/ranking";
 
 const ITEMS_PER_PAGE = 10;
 

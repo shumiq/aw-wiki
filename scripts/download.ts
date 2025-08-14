@@ -411,13 +411,13 @@ async function downloadData() {
                   ?.textContent?.trim()
                   .split(" ")[0] ?? 0,
               ),
-              acc_to_32: Number(
+              time_to_speed_32: Number(
                 el
                   .querySelector("td:nth-child(6)")
                   ?.textContent?.trim()
                   .split(" s ")[0] ?? 0,
               ),
-              acc_to_top: Number(
+              time_to_speed_top: Number(
                 el
                   .querySelector("td:nth-child(6)")
                   ?.textContent?.trim()

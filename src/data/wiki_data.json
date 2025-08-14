@@ -95,14 +95,14 @@
       {
         "name": "General Motors 6046 410 hp Diesel Engine",
         "top_speed": 45,
-        "acc_to_32": 5.19,
-        "acc_to_top": 11.26
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 11.26
       },
       {
         "name": "General Motors 6046 460 hp Diesel Engine",
         "top_speed": 45,
-        "acc_to_32": 4.93,
-        "acc_to_top": 10.66
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 10.66
       }
     ],
     "parts": [
@@ -224,14 +224,14 @@
       {
         "name": "NORINCO 12150L-7 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 7.83,
-        "acc_to_top": 25.34
+        "time_to_speed_32": 7.83,
+        "time_to_speed_top": 25.34
       },
       {
         "name": "NORINCO 12150L Qianghua 650 650 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.83,
-        "acc_to_top": 22.51
+        "time_to_speed_32": 6.83,
+        "time_to_speed_top": 22.51
       }
     ],
     "parts": [
@@ -362,8 +362,8 @@
       {
         "name": "Continental AVDS-1790-2A 750 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 5.09,
-        "acc_to_top": 16.38
+        "time_to_speed_32": 5.09,
+        "time_to_speed_top": 16.38
       }
     ],
     "parts": [
@@ -473,8 +473,8 @@
       {
         "name": "Detroit Diesel 8V92TA 535 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 4.53,
-        "acc_to_top": 12.35
+        "time_to_speed_32": 4.53,
+        "time_to_speed_top": 12.35
       }
     ],
     "parts": [
@@ -604,8 +604,8 @@
       {
         "name": "ChTZ V-55 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.06,
-        "acc_to_top": 19.98
+        "time_to_speed_32": 6.06,
+        "time_to_speed_top": 19.98
       }
     ],
     "parts": [
@@ -731,14 +731,14 @@
       {
         "name": "NORINCO 12150L-7 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.83,
-        "acc_to_top": 22.04
+        "time_to_speed_32": 6.83,
+        "time_to_speed_top": 22.04
       },
       {
         "name": "NORINCO 12150L Qianghua 650 650 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.49,
-        "acc_to_top": 25.87
+        "time_to_speed_32": 5.49,
+        "time_to_speed_top": 25.87
       }
     ],
     "parts": [
@@ -856,8 +856,8 @@
       {
         "name": "Maybach HL 295 12VC 1000 hp Petrol Engine",
         "top_speed": 51,
-        "acc_to_32": 5.53,
-        "acc_to_top": 23.78
+        "time_to_speed_32": 5.53,
+        "time_to_speed_top": 23.78
       }
     ],
     "parts": [
@@ -1019,14 +1019,14 @@
       {
         "name": "Leyland L60 Mk. 4A2 585 hp Diesel Engine",
         "top_speed": 48,
-        "acc_to_32": 9.06,
-        "acc_to_top": 26.61
+        "time_to_speed_32": 9.06,
+        "time_to_speed_top": 26.61
       },
       {
         "name": "Leyland L60 Mk. 7A 720 hp Diesel Engine",
         "top_speed": 48,
-        "acc_to_32": 8.13,
-        "acc_to_top": 23.91
+        "time_to_speed_32": 8.13,
+        "time_to_speed_top": 23.91
       }
     ],
     "parts": [
@@ -1164,8 +1164,8 @@
       {
         "name": "MTU MB 838 Ca-500 830 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.6,
-        "acc_to_top": 22.71
+        "time_to_speed_32": 4.6,
+        "time_to_speed_top": 22.71
       }
     ],
     "parts": [
@@ -1315,14 +1315,14 @@
       {
         "name": "Continental AVDS-1790-2 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.03,
-        "acc_to_top": 16.22
+        "time_to_speed_32": 6.03,
+        "time_to_speed_top": 16.22
       },
       {
         "name": "Continental AVDS-1790-2A 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.23,
-        "acc_to_top": 14.05
+        "time_to_speed_32": 5.23,
+        "time_to_speed_top": 14.05
       }
     ],
     "parts": [
@@ -1452,8 +1452,8 @@
       {
         "name": "ChTZ V-55 580 hp Diesel Engine",
         "top_speed": 45,
-        "acc_to_32": 6.89,
-        "acc_to_top": 17.78
+        "time_to_speed_32": 6.89,
+        "time_to_speed_top": 17.78
       }
     ],
     "parts": [
@@ -1583,14 +1583,14 @@
       {
         "name": "ChTZ V-55V 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.93,
-        "acc_to_top": 19.51
+        "time_to_speed_32": 5.93,
+        "time_to_speed_top": 19.51
       },
       {
         "name": "ChTZ V-55U 620 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.39,
-        "acc_to_top": 17.85
+        "time_to_speed_32": 5.39,
+        "time_to_speed_top": 17.85
       }
     ],
     "parts": [
@@ -1745,14 +1745,14 @@
       {
         "name": "ChTZ V-55V 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.89,
-        "acc_to_top": 19.38
+        "time_to_speed_32": 5.89,
+        "time_to_speed_top": 19.38
       },
       {
         "name": "ChTZ V-55U 620 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.36,
-        "acc_to_top": 17.75
+        "time_to_speed_32": 5.36,
+        "time_to_speed_top": 17.75
       }
     ],
     "parts": [
@@ -1902,14 +1902,14 @@
       {
         "name": "NORINCO 12150L-7BW 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 7.19,
-        "acc_to_top": 23.11
+        "time_to_speed_32": 7.19,
+        "time_to_speed_top": 23.11
       },
       {
         "name": "NORINCO 12150L-7BWA 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 7.19,
-        "acc_to_top": 23.41
+        "time_to_speed_32": 7.19,
+        "time_to_speed_top": 23.41
       }
     ],
     "parts": [
@@ -2053,14 +2053,14 @@
       {
         "name": "Hispano-Suiza HS-110 720 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.79,
-        "acc_to_top": 32.63
+        "time_to_speed_32": 5.79,
+        "time_to_speed_top": 32.63
       },
       {
         "name": "Mack E9 750 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.4,
-        "acc_to_top": 24.84
+        "time_to_speed_32": 4.4,
+        "time_to_speed_top": 24.84
       }
     ],
     "parts": [
@@ -2257,14 +2257,14 @@
       {
         "name": "Hispano-Suiza HS-110 720 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.79,
-        "acc_to_top": 32.63
+        "time_to_speed_32": 5.79,
+        "time_to_speed_top": 32.63
       },
       {
         "name": "Mack E9 750 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.4,
-        "acc_to_top": 24.81
+        "time_to_speed_32": 4.4,
+        "time_to_speed_top": 24.81
       }
     ],
     "parts": [
@@ -2423,8 +2423,8 @@
       {
         "name": "LMZ M-50T 1050 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 6.26,
-        "acc_to_top": 30.5
+        "time_to_speed_32": 6.26,
+        "time_to_speed_top": 30.5
       }
     ],
     "parts": [
@@ -2542,8 +2542,8 @@
       {
         "name": "Continental AVDS-1790-2A 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.26,
-        "acc_to_top": 17.15
+        "time_to_speed_32": 6.26,
+        "time_to_speed_top": 17.15
       }
     ],
     "parts": [
@@ -2661,14 +2661,14 @@
       {
         "name": "Continental AVDS-1790-2A 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.49,
-        "acc_to_top": 19.15
+        "time_to_speed_32": 6.49,
+        "time_to_speed_top": 19.15
       },
       {
         "name": "Continental AVDS-1790-2D 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.99,
-        "acc_to_top": 17.72
+        "time_to_speed_32": 5.99,
+        "time_to_speed_top": 17.72
       }
     ],
     "parts": [
@@ -2814,14 +2814,14 @@
       {
         "name": "MTU MB 838 Ca-500 830 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.16,
-        "acc_to_top": 22.04
+        "time_to_speed_32": 5.16,
+        "time_to_speed_top": 22.04
       },
       {
         "name": "Iveco V12M TCA 1200 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 3.56,
-        "acc_to_top": 14.02
+        "time_to_speed_32": 3.56,
+        "time_to_speed_top": 14.02
       }
     ],
     "parts": [
@@ -2951,8 +2951,8 @@
       {
         "name": "KhZTM TTD 570 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.23,
-        "acc_to_top": 20.68
+        "time_to_speed_32": 6.23,
+        "time_to_speed_top": 20.68
       }
     ],
     "parts": [
@@ -3070,14 +3070,14 @@
       {
         "name": "Continental AVDS-1790-2 750 hp Diesel Engine",
         "top_speed": 48,
-        "acc_to_32": 6.26,
-        "acc_to_top": 15.12
+        "time_to_speed_32": 6.26,
+        "time_to_speed_top": 15.12
       },
       {
         "name": "Continental AVDS-1790-2A 750 hp Diesel Engine",
         "top_speed": 48,
-        "acc_to_32": 5.79,
-        "acc_to_top": 14.02
+        "time_to_speed_32": 5.79,
+        "time_to_speed_top": 14.02
       }
     ],
     "parts": [
@@ -3207,8 +3207,8 @@
       {
         "name": "ChTZ V-55U 620 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.69,
-        "acc_to_top": 18.75
+        "time_to_speed_32": 5.69,
+        "time_to_speed_top": 18.75
       }
     ],
     "parts": [
@@ -3338,8 +3338,8 @@
       {
         "name": "ChTZ V-55U 620 Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.43,
-        "acc_to_top": 17.92
+        "time_to_speed_32": 5.43,
+        "time_to_speed_top": 17.92
       }
     ],
     "parts": [
@@ -3485,14 +3485,14 @@
       {
         "name": "KhZTM 5DTF 700 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.19,
-        "acc_to_top": 17.18
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 17.18
       },
       {
         "name": "KhZTM 5DTFM 1000 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 4.23,
-        "acc_to_top": 14.05
+        "time_to_speed_32": 4.23,
+        "time_to_speed_top": 14.05
       }
     ],
     "parts": [
@@ -3622,8 +3622,8 @@
       {
         "name": "NORINCO 12150L-7 580 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.66,
-        "acc_to_top": 18.45
+        "time_to_speed_32": 5.66,
+        "time_to_speed_top": 18.45
       }
     ],
     "parts": [
@@ -3753,14 +3753,14 @@
       {
         "name": "NORINCO 12150L-7BW 580 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 5.09,
-        "acc_to_top": 20.68
+        "time_to_speed_32": 5.09,
+        "time_to_speed_top": 20.68
       },
       {
         "name": "NORINCO 12150ZL 730 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 4.66,
-        "acc_to_top": 18.98
+        "time_to_speed_32": 4.66,
+        "time_to_speed_top": 18.98
       }
     ],
     "parts": [
@@ -3903,8 +3903,8 @@
       {
         "name": "Poyaud V12X 1100 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.46,
-        "acc_to_top": 29.54
+        "time_to_speed_32": 4.46,
+        "time_to_speed_top": 29.54
       }
     ],
     "parts": [
@@ -4070,14 +4070,14 @@
       {
         "name": "Leyland L60 Mk. 8A 750 hp Diesel Engine",
         "top_speed": 48,
-        "acc_to_32": 8.56,
-        "acc_to_top": 25.18
+        "time_to_speed_32": 8.56,
+        "time_to_speed_top": 25.18
       },
       {
         "name": "Perkins Condor V12-900 900 hp Diesel Engine",
         "top_speed": 52,
-        "acc_to_32": 7.03,
-        "acc_to_top": 25.21
+        "time_to_speed_32": 7.03,
+        "time_to_speed_top": 25.21
       }
     ],
     "parts": [
@@ -4187,8 +4187,8 @@
       {
         "name": "Perkins Condor V12-900 900 hp Diesel Engine",
         "top_speed": 52,
-        "acc_to_32": 7.13,
-        "acc_to_top": 25.57
+        "time_to_speed_32": 7.13,
+        "time_to_speed_top": 25.57
       }
     ],
     "parts": [
@@ -4298,8 +4298,8 @@
       {
         "name": "Perkins Condor V12-900 900 hp Diesel Engine",
         "top_speed": 52,
-        "acc_to_32": 7.13,
-        "acc_to_top": 25.57
+        "time_to_speed_32": 7.13,
+        "time_to_speed_top": 25.57
       }
     ],
     "parts": [
@@ -4437,8 +4437,8 @@
       {
         "name": "MTU MB 838 Ca-M500 830 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.16,
-        "acc_to_top": 25.47
+        "time_to_speed_32": 5.16,
+        "time_to_speed_top": 25.47
       }
     ],
     "parts": [
@@ -4580,8 +4580,8 @@
       {
         "name": "Continental AVDS-1790-2A 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.36,
-        "acc_to_top": 17.02
+        "time_to_speed_32": 6.36,
+        "time_to_speed_top": 17.02
       }
     ],
     "parts": [
@@ -4719,14 +4719,14 @@
       {
         "name": "Continental AVDS-1790-2C 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.89,
-        "acc_to_top": 18.85
+        "time_to_speed_32": 6.89,
+        "time_to_speed_top": 18.85
       },
       {
         "name": "Continental AVDS-1790-5A 908 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 5.66,
-        "acc_to_top": 18.25
+        "time_to_speed_32": 5.66,
+        "time_to_speed_top": 18.25
       }
     ],
     "parts": [
@@ -4864,14 +4864,14 @@
       {
         "name": "Continental AVDS-1790-2C 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.73,
-        "acc_to_top": 19.78
+        "time_to_speed_32": 6.73,
+        "time_to_speed_top": 19.78
       },
       {
         "name": "Continental AVDS-1790-5A 908 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 5.76,
-        "acc_to_top": 19.61
+        "time_to_speed_32": 5.76,
+        "time_to_speed_top": 19.61
       }
     ],
     "parts": [
@@ -5031,8 +5031,8 @@
       {
         "name": "Continental AVDS-1790-6A 900 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 7.79,
-        "acc_to_top": 28.41
+        "time_to_speed_32": 7.79,
+        "time_to_speed_top": 28.41
       }
     ],
     "parts": [
@@ -5169,8 +5169,8 @@
       {
         "name": "UTMZ 2DG8-M 1000 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 6.83,
-        "acc_to_top": 30.04
+        "time_to_speed_32": 6.83,
+        "time_to_speed_top": 30.04
       }
     ],
     "parts": [
@@ -5309,14 +5309,14 @@
       {
         "name": "KhZTM 5DTF 700 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.96,
-        "acc_to_top": 19.81
+        "time_to_speed_32": 5.96,
+        "time_to_speed_top": 19.81
       },
       {
         "name": "KhZTM 5DTFM 1000 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 4.9,
-        "acc_to_top": 16.32
+        "time_to_speed_32": 4.9,
+        "time_to_speed_top": 16.32
       }
     ],
     "parts": [
@@ -5480,20 +5480,20 @@
       {
         "name": "ChTZ V-46 780 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 5.56,
-        "acc_to_top": 22.58
+        "time_to_speed_32": 5.56,
+        "time_to_speed_top": 22.58
       },
       {
         "name": "ChTZ V-46-6 780 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 5.16,
-        "acc_to_top": 20.91
+        "time_to_speed_32": 5.16,
+        "time_to_speed_top": 20.91
       },
       {
         "name": "ChTZ V-84 840 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 4.93,
-        "acc_to_top": 20.01
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 20.01
       }
     ],
     "parts": [
@@ -5631,14 +5631,14 @@
       {
         "name": "ChTZ V-46-6 780 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 5.23,
-        "acc_to_top": 21.11
+        "time_to_speed_32": 5.23,
+        "time_to_speed_top": 21.11
       },
       {
         "name": "ChTZ V-84 840 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 4.93,
-        "acc_to_top": 20.01
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 20.01
       }
     ],
     "parts": [
@@ -5764,8 +5764,8 @@
       {
         "name": "ChTZ V-84 840 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 4.93,
-        "acc_to_top": 20.01
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 20.01
       }
     ],
     "parts": [
@@ -5899,8 +5899,8 @@
       {
         "name": "Klimov GTD-1000T 1000 hp Gas Turbine Engine",
         "top_speed": 65,
-        "acc_to_32": 4.43,
-        "acc_to_top": 15.78
+        "time_to_speed_32": 4.43,
+        "time_to_speed_top": 15.78
       }
     ],
     "parts": [
@@ -6042,8 +6042,8 @@
       {
         "name": "INMT 8VSA-2T2M 900 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 4.76,
-        "acc_to_top": 23.21
+        "time_to_speed_32": 4.76,
+        "time_to_speed_top": 23.21
       }
     ],
     "parts": [
@@ -6179,8 +6179,8 @@
       {
         "name": "Mitsubishi 10ZF-22WT 750 hp Diesel Engine",
         "top_speed": 61,
-        "acc_to_32": 5.29,
-        "acc_to_top": 23.28
+        "time_to_speed_32": 5.29,
+        "time_to_speed_top": 23.28
       }
     ],
     "parts": [
@@ -6319,8 +6319,8 @@
       {
         "name": "NORINCO 12150L 730 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.89,
-        "acc_to_top": 27.41
+        "time_to_speed_32": 5.89,
+        "time_to_speed_top": 27.41
       }
     ],
     "parts": [
@@ -6450,14 +6450,14 @@
       {
         "name": "Rolls Royce 12V-900E 900 hp Diesel Engine",
         "top_speed": 52,
-        "acc_to_32": 8.09,
-        "acc_to_top": 27.81
+        "time_to_speed_32": 8.09,
+        "time_to_speed_top": 27.81
       },
       {
         "name": "MTU MB 837 Ka-501 1000 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 6.16,
-        "acc_to_top": 19.75
+        "time_to_speed_32": 6.16,
+        "time_to_speed_top": 19.75
       }
     ],
     "parts": [
@@ -6623,8 +6623,8 @@
       {
         "name": "MTU MB 873 Ka-500 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 4.06,
-        "acc_to_top": 22.74
+        "time_to_speed_32": 4.06,
+        "time_to_speed_top": 22.74
       }
     ],
     "parts": [
@@ -6799,14 +6799,14 @@
       {
         "name": "MTU MB 873 Ka-501 1500 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.06,
-        "acc_to_top": 23.64
+        "time_to_speed_32": 4.06,
+        "time_to_speed_top": 23.64
       },
       {
         "name": "Honeywell AGT-1500 1500 hp Gas Turbine Engine",
         "top_speed": 75,
-        "acc_to_32": 4.6,
-        "acc_to_top": 19.11
+        "time_to_speed_32": 4.6,
+        "time_to_speed_top": 19.11
       }
     ],
     "parts": [
@@ -6964,8 +6964,8 @@
       {
         "name": "Honeywell AGT-1500 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 4.5,
-        "acc_to_top": 20.75
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 20.75
       }
     ],
     "parts": [
@@ -7079,8 +7079,8 @@
       {
         "name": "L3Harris AVDS-1790-5A 950 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 4.83,
-        "acc_to_top": 15.52
+        "time_to_speed_32": 4.83,
+        "time_to_speed_top": 15.52
       }
     ],
     "parts": [
@@ -7203,8 +7203,8 @@
       {
         "name": "Continental AVCR-1100-3 1475 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.1,
-        "acc_to_top": 19.31
+        "time_to_speed_32": 4.1,
+        "time_to_speed_top": 19.31
       }
     ],
     "parts": [
@@ -7331,8 +7331,8 @@
       {
         "name": "Continental AVDS-1790-5A 908 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 6.13,
-        "acc_to_top": 20.85
+        "time_to_speed_32": 6.13,
+        "time_to_speed_top": 20.85
       }
     ],
     "parts": [
@@ -7470,14 +7470,14 @@
       {
         "name": "Continental AVDS-1790-5A 908 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 6.36,
-        "acc_to_top": 21.61
+        "time_to_speed_32": 6.36,
+        "time_to_speed_top": 21.61
       },
       {
         "name": "Continental AVDS-1790-6A 900 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 5.56,
-        "acc_to_top": 20.95
+        "time_to_speed_32": 5.56,
+        "time_to_speed_top": 20.95
       }
     ],
     "parts": [
@@ -7650,8 +7650,8 @@
       {
         "name": "Continental AVDS-1790-6A 900 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 7.49,
-        "acc_to_top": 30.37
+        "time_to_speed_32": 7.49,
+        "time_to_speed_top": 30.37
       }
     ],
     "parts": [
@@ -7805,8 +7805,8 @@
       {
         "name": "VTDT-1000T 1000 hp Gas Turbine Engine",
         "top_speed": 70,
-        "acc_to_32": 4.66,
-        "acc_to_top": 19.51
+        "time_to_speed_32": 4.66,
+        "time_to_speed_top": 19.51
       }
     ],
     "parts": [
@@ -7945,8 +7945,8 @@
       {
         "name": "Mannheim MWM 834 1014 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.9,
-        "acc_to_top": 26.07
+        "time_to_speed_32": 4.9,
+        "time_to_speed_top": 26.07
       }
     ],
     "parts": [
@@ -8072,8 +8072,8 @@
       {
         "name": "V-46K1 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.86,
-        "acc_to_top": 22.98
+        "time_to_speed_32": 3.86,
+        "time_to_speed_top": 22.98
       }
     ],
     "parts": [
@@ -8232,14 +8232,14 @@
       {
         "name": "ChTZ V-84-1 840 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 5.86,
-        "acc_to_top": 23.74
+        "time_to_speed_32": 5.86,
+        "time_to_speed_top": 23.74
       },
       {
         "name": "ChTZ V-84M 840 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.86,
-        "acc_to_top": 28.41
+        "time_to_speed_32": 5.86,
+        "time_to_speed_top": 28.41
       }
     ],
     "parts": [
@@ -8369,8 +8369,8 @@
       {
         "name": "PZL-WOLA S-12U 1000 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.43,
-        "acc_to_top": 26.34
+        "time_to_speed_32": 5.43,
+        "time_to_speed_top": 26.34
       }
     ],
     "parts": [
@@ -8524,8 +8524,8 @@
       {
         "name": "Klimov GTD-1000TF 1100 hp Gas Turbine Engine",
         "top_speed": 70,
-        "acc_to_32": 4.5,
-        "acc_to_top": 18.78
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 18.78
       }
     ],
     "parts": [
@@ -8675,14 +8675,14 @@
       {
         "name": "Perkins CV12-1200 TCA 1200 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.16,
-        "acc_to_top": 30.94
+        "time_to_speed_32": 5.16,
+        "time_to_speed_top": 30.94
       },
       {
         "name": "KMDB 6TD-2 1200 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.3,
-        "acc_to_top": 24.64
+        "time_to_speed_32": 4.3,
+        "time_to_speed_top": 24.64
       }
     ],
     "parts": [
@@ -8812,8 +8812,8 @@
       {
         "name": "NORINCO 12150ZLC 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.46,
-        "acc_to_top": 20.61
+        "time_to_speed_32": 4.46,
+        "time_to_speed_top": 20.61
       }
     ],
     "parts": [
@@ -8964,8 +8964,8 @@
       {
         "name": "MTU MB 8V331 TC41 910 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.7,
-        "acc_to_top": 21.85
+        "time_to_speed_32": 4.7,
+        "time_to_speed_top": 21.85
       }
     ],
     "parts": [
@@ -9083,8 +9083,8 @@
       {
         "name": "Honeywell AGT-1500 1500 hp Gas Turbine Engine",
         "top_speed": 77,
-        "acc_to_32": 4.5,
-        "acc_to_top": 19.65
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 19.65
       }
     ],
     "parts": [
@@ -9226,14 +9226,14 @@
       {
         "name": "MTU WD 396 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.86,
-        "acc_to_top": 29.4
+        "time_to_speed_32": 5.86,
+        "time_to_speed_top": 29.4
       },
       {
         "name": "Shanxi 12V150HB 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.56,
-        "acc_to_top": 27.84
+        "time_to_speed_32": 5.56,
+        "time_to_speed_top": 27.84
       }
     ],
     "parts": [
@@ -9401,8 +9401,8 @@
       {
         "name": "CVRDE V12 1500 hp Diesel Engine",
         "top_speed": 58,
-        "acc_to_32": 4.53,
-        "acc_to_top": 16.92
+        "time_to_speed_32": 4.53,
+        "time_to_speed_top": 16.92
       }
     ],
     "parts": [
@@ -9541,8 +9541,8 @@
       {
         "name": "Perkins CV-12-1200 TCA 1200 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 7.69,
-        "acc_to_top": 26.44
+        "time_to_speed_32": 7.69,
+        "time_to_speed_top": 26.44
       }
     ],
     "parts": [
@@ -9666,8 +9666,8 @@
       {
         "name": "MTU MB 871 Ka-501 1200 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.23,
-        "acc_to_top": 29.4
+        "time_to_speed_32": 6.23,
+        "time_to_speed_top": 29.4
       }
     ],
     "parts": [
@@ -9828,14 +9828,14 @@
       {
         "name": "UNIDIESEL V8X 1500 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 4.96,
-        "acc_to_top": 25.67
+        "time_to_speed_32": 4.96,
+        "time_to_speed_top": 25.67
       },
       {
         "name": "Improved Transmission",
         "top_speed": 72,
-        "acc_to_32": 4.73,
-        "acc_to_top": 24.51
+        "time_to_speed_32": 4.73,
+        "time_to_speed_top": 24.51
       }
     ],
     "parts": [
@@ -10034,8 +10034,8 @@
       {
         "name": "MTU MB 873 Ka-501 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 4.7,
-        "acc_to_top": 29.54
+        "time_to_speed_32": 4.7,
+        "time_to_speed_top": 29.54
       }
     ],
     "parts": [
@@ -10185,8 +10185,8 @@
       {
         "name": "Honeywell AGT-1500C 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.73,
-        "acc_to_top": 26.84
+        "time_to_speed_32": 5.73,
+        "time_to_speed_top": 26.84
       }
     ],
     "parts": [
@@ -10308,8 +10308,8 @@
       {
         "name": "Honeywell AGT-1500C 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.73,
-        "acc_to_top": 26.84
+        "time_to_speed_32": 5.73,
+        "time_to_speed_top": 26.84
       }
     ],
     "parts": [
@@ -10427,8 +10427,8 @@
       {
         "name": "Continental AVDS-1790-9AR 1200 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 6.93,
-        "acc_to_top": 38.69
+        "time_to_speed_32": 6.93,
+        "time_to_speed_top": 38.69
       }
     ],
     "parts": [
@@ -10559,8 +10559,8 @@
       {
         "name": "Continental AVDS-1790-6A 900 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 7.53,
-        "acc_to_top": 35
+        "time_to_speed_32": 7.53,
+        "time_to_speed_top": 35
       }
     ],
     "parts": [
@@ -10694,14 +10694,14 @@
       {
         "name": "ChTZ A-85-2 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.63,
-        "acc_to_top": 30.47
+        "time_to_speed_32": 5.63,
+        "time_to_speed_top": 30.47
       },
       {
         "name": "Klimov GTD-1250 1250 hp Gas Turbine Engine",
         "top_speed": 75,
-        "acc_to_32": 5.23,
-        "acc_to_top": 25.57
+        "time_to_speed_32": 5.23,
+        "time_to_speed_top": 25.57
       }
     ],
     "parts": [
@@ -10815,8 +10815,8 @@
       {
         "name": "MTU MT 881 Ka-501 1000 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 5.26,
-        "acc_to_top": 16.95
+        "time_to_speed_32": 5.26,
+        "time_to_speed_top": 16.95
       }
     ],
     "parts": [
@@ -10974,14 +10974,14 @@
       {
         "name": "KhZTM 5TDF 700 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 6.23,
-        "acc_to_top": 26.61
+        "time_to_speed_32": 6.23,
+        "time_to_speed_top": 26.61
       },
       {
         "name": "KhZTM 5TDFM 850 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.19,
-        "acc_to_top": 22.24
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 22.24
       }
     ],
     "parts": [
@@ -11115,8 +11115,8 @@
       {
         "name": "Perkins CV-12-1000 TC Condor 1000 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.56,
-        "acc_to_top": 26.91
+        "time_to_speed_32": 5.56,
+        "time_to_speed_top": 26.91
       }
     ],
     "parts": [
@@ -11282,14 +11282,14 @@
       {
         "name": "Klimov GTD-1000TF 1100 hp Gas Turbine Engine",
         "top_speed": 70,
-        "acc_to_32": 5.89,
-        "acc_to_top": 24.44
+        "time_to_speed_32": 5.89,
+        "time_to_speed_top": 24.44
       },
       {
         "name": "Klimov GTD-1250 1250 hp Gas Turbine Engine",
         "top_speed": 75,
-        "acc_to_32": 5.33,
-        "acc_to_top": 24.88
+        "time_to_speed_32": 5.33,
+        "time_to_speed_top": 24.88
       }
     ],
     "parts": [
@@ -11454,14 +11454,14 @@
       {
         "name": "ChTZ V-84MS 840 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 6.93,
-        "acc_to_top": 29.54
+        "time_to_speed_32": 6.93,
+        "time_to_speed_top": 29.54
       },
       {
         "name": "ChTZ V-92S2 1000 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 6.26,
-        "acc_to_top": 26.54
+        "time_to_speed_32": 6.26,
+        "time_to_speed_top": 26.54
       }
     ],
     "parts": [
@@ -11591,8 +11591,8 @@
       {
         "name": "Mitsubishi 10ZG 1500 hp Diesel Engine",
         "top_speed": 73,
-        "acc_to_32": 4.8,
-        "acc_to_top": 28.27
+        "time_to_speed_32": 4.8,
+        "time_to_speed_top": 28.27
       }
     ],
     "parts": [
@@ -11731,8 +11731,8 @@
       {
         "name": "NORINCO 12150ZLC 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.03,
-        "acc_to_top": 25.57
+        "time_to_speed_32": 6.03,
+        "time_to_speed_top": 25.57
       }
     ],
     "parts": [
@@ -11899,8 +11899,8 @@
       {
         "name": "Perkins CV12-1200 TCA 1200 Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 7.69,
-        "acc_to_top": 26.44
+        "time_to_speed_32": 7.69,
+        "time_to_speed_top": 26.44
       }
     ],
     "parts": [
@@ -12056,8 +12056,8 @@
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.76,
-        "acc_to_top": 30.1
+        "time_to_speed_32": 5.76,
+        "time_to_speed_top": 30.1
       }
     ],
     "parts": [
@@ -12199,14 +12199,14 @@
       {
         "name": "Iveco V12M TCA 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.26,
-        "acc_to_top": 26.04
+        "time_to_speed_32": 5.26,
+        "time_to_speed_top": 26.04
       },
       {
         "name": "Iveco V12M TCA 1275 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.96,
-        "acc_to_top": 24.61
+        "time_to_speed_32": 4.96,
+        "time_to_speed_top": 24.61
       }
     ],
     "parts": [
@@ -12313,8 +12313,8 @@
       {
         "name": "Rolls Royce Meteor 650 hp Petrol Engine",
         "top_speed": 34,
-        "acc_to_32": 9.46,
-        "acc_to_top": 11.06
+        "time_to_speed_32": 9.46,
+        "time_to_speed_top": 11.06
       }
     ],
     "parts": [
@@ -12455,8 +12455,8 @@
       {
         "name": "Perkins CV12-1200 TCA 1200 Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 6.39,
-        "acc_to_top": 21.88
+        "time_to_speed_32": 6.39,
+        "time_to_speed_top": 21.88
       }
     ],
     "parts": [
@@ -12602,8 +12602,8 @@
       {
         "name": "MTU MB 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 4.93,
-        "acc_to_top": 31.04
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 31.04
       }
     ],
     "parts": [
@@ -12757,14 +12757,14 @@
       {
         "name": "MTU MB 873 Ka-501 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.83,
-        "acc_to_top": 36.7
+        "time_to_speed_32": 5.83,
+        "time_to_speed_top": 36.7
       },
       {
         "name": "MTU MB 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.46,
-        "acc_to_top": 34.53
+        "time_to_speed_32": 5.46,
+        "time_to_speed_top": 34.53
       }
     ],
     "parts": [
@@ -12902,8 +12902,8 @@
       {
         "name": "MTU MB 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.46,
-        "acc_to_top": 34.53
+        "time_to_speed_32": 5.46,
+        "time_to_speed_top": 34.53
       }
     ],
     "parts": [
@@ -13091,8 +13091,8 @@
       {
         "name": "FAMOS V-46TK1 1200 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 5.59,
-        "acc_to_top": 32.07
+        "time_to_speed_32": 5.59,
+        "time_to_speed_top": 32.07
       }
     ],
     "parts": [
@@ -13234,8 +13234,8 @@
       {
         "name": "Honeywell AGT-1500 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.73,
-        "acc_to_top": 26.87
+        "time_to_speed_32": 5.73,
+        "time_to_speed_top": 26.87
       }
     ],
     "parts": [
@@ -13377,8 +13377,8 @@
       {
         "name": "Honeywell AGT-1500C 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.43,
-        "acc_to_top": 25.44
+        "time_to_speed_32": 5.43,
+        "time_to_speed_top": 25.44
       }
     ],
     "parts": [
@@ -13555,8 +13555,8 @@
       {
         "name": "Continental AVDS-1790-9AR 1200 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.83,
-        "acc_to_top": 31.97
+        "time_to_speed_32": 6.83,
+        "time_to_speed_top": 31.97
       }
     ],
     "parts": [
@@ -13729,14 +13729,14 @@
       {
         "name": "KhZTM 6TD 1000 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.19,
-        "acc_to_top": 22.24
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 22.24
       },
       {
         "name": "KhZTM 6TD-2 1200 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 4.5,
-        "acc_to_top": 19.41
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 19.41
       }
     ],
     "parts": [
@@ -13886,8 +13886,8 @@
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.99,
-        "acc_to_top": 25.47
+        "time_to_speed_32": 5.99,
+        "time_to_speed_top": 25.47
       }
     ],
     "parts": [
@@ -14041,14 +14041,14 @@
       {
         "name": "Klimov GTD-1250 1250 hp Gas Turbine Engine",
         "top_speed": 75,
-        "acc_to_32": 5.33,
-        "acc_to_top": 24.88
+        "time_to_speed_32": 5.33,
+        "time_to_speed_top": 24.88
       },
       {
         "name": "Klimov GTD-1400 1400 hp Gas Turbine Engine",
         "top_speed": 80,
-        "acc_to_32": 5.25,
-        "acc_to_top": 25.3
+        "time_to_speed_32": 5.25,
+        "time_to_speed_top": 25.3
       }
     ],
     "parts": [
@@ -14210,20 +14210,20 @@
       {
         "name": "ChTZ V-92S2 1000 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 6.39,
-        "acc_to_top": 27.41
+        "time_to_speed_32": 6.39,
+        "time_to_speed_top": 27.41
       },
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.76,
-        "acc_to_top": 30.1
+        "time_to_speed_32": 5.76,
+        "time_to_speed_top": 30.1
       },
       {
         "name": "ChTZ V-99 1200 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.48,
-        "acc_to_top": 26.8
+        "time_to_speed_32": 5.48,
+        "time_to_speed_top": 26.8
       }
     ],
     "parts": [
@@ -14374,8 +14374,8 @@
       {
         "name": "Shanxi 12V150HB 1200 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.36,
-        "acc_to_top": 30.57
+        "time_to_speed_32": 5.36,
+        "time_to_speed_top": 30.57
       }
     ],
     "parts": [
@@ -14558,8 +14558,8 @@
       {
         "name": "Shanxi 12V150HB 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.29,
-        "acc_to_top": 26.44
+        "time_to_speed_32": 5.29,
+        "time_to_speed_top": 26.44
       }
     ],
     "parts": [
@@ -14710,14 +14710,14 @@
       {
         "name": "Shanxi 12V150HB 1200 hp Diesel Engine",
         "top_speed": 71,
-        "acc_to_32": 6.09,
-        "acc_to_top": 24.14
+        "time_to_speed_32": 6.09,
+        "time_to_speed_top": 24.14
       },
       {
         "name": "Shanxi 12V150HB-2 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.86,
-        "acc_to_top": 23.64
+        "time_to_speed_32": 4.86,
+        "time_to_speed_top": 23.64
       }
     ],
     "parts": [
@@ -14847,8 +14847,8 @@
       {
         "name": "MTU MB 873 Ka-501 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 4.93,
-        "acc_to_top": 28.24
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 28.24
       }
     ],
     "parts": [
@@ -14986,8 +14986,8 @@
       {
         "name": "KhZTM 6TD-3 1500 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.19,
-        "acc_to_top": 33.4
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 33.4
       }
     ],
     "parts": [
@@ -15106,8 +15106,8 @@
       {
         "name": "MTU MT 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 7.16,
-        "acc_to_top": 29.27
+        "time_to_speed_32": 7.16,
+        "time_to_speed_top": 29.27
       }
     ],
     "parts": [
@@ -15237,14 +15237,14 @@
       {
         "name": "Perkins CV12-1200 TCA 1200 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 8.06,
-        "acc_to_top": 33
+        "time_to_speed_32": 8.06,
+        "time_to_speed_top": 33
       },
       {
         "name": "MTU MT 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 7.16,
-        "acc_to_top": 29.3
+        "time_to_speed_32": 7.16,
+        "time_to_speed_top": 29.3
       }
     ],
     "parts": [
@@ -15420,14 +15420,14 @@
       {
         "name": "Wärtsilä V8X SACM 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 5.49,
-        "acc_to_top": 28.47
+        "time_to_speed_32": 5.49,
+        "time_to_speed_top": 28.47
       },
       {
         "name": "Improved Transmission",
         "top_speed": 72,
-        "acc_to_32": 5.19,
-        "acc_to_top": 26.97
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 26.97
       }
     ],
     "parts": [
@@ -15614,8 +15614,8 @@
       {
         "name": "MTU MT 883 Ka-501 1630 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.29,
-        "acc_to_top": 32.77
+        "time_to_speed_32": 5.29,
+        "time_to_speed_top": 32.77
       }
     ],
     "parts": [
@@ -15773,8 +15773,8 @@
       {
         "name": "MTU MT 883 Ka-501 1630 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.29,
-        "acc_to_top": 32.77
+        "time_to_speed_32": 5.29,
+        "time_to_speed_top": 32.77
       }
     ],
     "parts": [
@@ -15933,14 +15933,14 @@
       {
         "name": "Honeywell AGT-1500C Tiger 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.73,
-        "acc_to_top": 26.84
+        "time_to_speed_32": 5.73,
+        "time_to_speed_top": 26.84
       },
       {
         "name": "Honeywell AGT-1500 Tiger 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.29,
-        "acc_to_top": 20.05
+        "time_to_speed_32": 5.29,
+        "time_to_speed_top": 20.05
       }
     ],
     "parts": [
@@ -16080,8 +16080,8 @@
       {
         "name": "Honeywell AGT-1500 Tiger 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.29,
-        "acc_to_top": 20.05
+        "time_to_speed_32": 5.29,
+        "time_to_speed_top": 20.05
       }
     ],
     "parts": [
@@ -16245,8 +16245,8 @@
       {
         "name": "General Dynamics GD883 1500 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.29,
-        "acc_to_top": 28.84
+        "time_to_speed_32": 6.29,
+        "time_to_speed_top": 28.84
       }
     ],
     "parts": [
@@ -16433,20 +16433,20 @@
       {
         "name": "Klimov GTD-1250TF 1250 hp Gas Turbine Engine",
         "top_speed": 75,
-        "acc_to_32": 5.99,
-        "acc_to_top": 27.87
+        "time_to_speed_32": 5.99,
+        "time_to_speed_top": 27.87
       },
       {
         "name": "Klimov GTD-1400 1400 hp Gas Turbine Engine",
         "top_speed": 80,
-        "acc_to_32": 6.03,
-        "acc_to_top": 29
+        "time_to_speed_32": 6.03,
+        "time_to_speed_top": 29
       },
       {
         "name": "Klimov GTD-1400TF 1400 hp Gas Turbine Engine",
         "top_speed": 80,
-        "acc_to_32": 6.03,
-        "acc_to_top": 29
+        "time_to_speed_32": 6.03,
+        "time_to_speed_top": 29
       }
     ],
     "parts": [
@@ -16613,14 +16613,14 @@
       {
         "name": "ChTZ V92S2F 1130 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.96,
-        "acc_to_top": 31.04
+        "time_to_speed_32": 5.96,
+        "time_to_speed_top": 31.04
       },
       {
         "name": "ChTZ V-99 1250 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.53,
-        "acc_to_top": 28.8
+        "time_to_speed_32": 5.53,
+        "time_to_speed_top": 28.8
       }
     ],
     "parts": [
@@ -16779,8 +16779,8 @@
       {
         "name": "ChTZ V-99 1250 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.53,
-        "acc_to_top": 28.8
+        "time_to_speed_32": 5.53,
+        "time_to_speed_top": 28.8
       }
     ],
     "parts": [
@@ -16990,14 +16990,14 @@
       {
         "name": "Honeywell AGT-1500C 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 4.4,
-        "acc_to_top": 19.08
+        "time_to_speed_32": 4.4,
+        "time_to_speed_top": 19.08
       },
       {
         "name": "MTU MT 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 3.96,
-        "acc_to_top": 22.31
+        "time_to_speed_32": 3.96,
+        "time_to_speed_top": 22.31
       }
     ],
     "parts": [
@@ -17188,14 +17188,14 @@
       {
         "name": "Shanxi 12V150HB 1200 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.96,
-        "acc_to_top": 33.13
+        "time_to_speed_32": 5.96,
+        "time_to_speed_top": 33.13
       },
       {
         "name": "Shanxi 12V150HB-5 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.19,
-        "acc_to_top": 28.94
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 28.94
       }
     ],
     "parts": [
@@ -17353,8 +17353,8 @@
       {
         "name": "Cummins ACE 1630 hp Hybrid Engine",
         "top_speed": 75,
-        "acc_to_32": 4.5,
-        "acc_to_top": 25
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 25
       }
     ],
     "parts": [
@@ -17591,8 +17591,8 @@
       {
         "name": "BAE Systems 1800 hp Hybrid Engine",
         "top_speed": 55,
-        "acc_to_32": 3.06,
-        "acc_to_top": 10.82
+        "time_to_speed_32": 3.06,
+        "time_to_speed_top": 10.82
       }
     ],
     "parts": [
@@ -17732,8 +17732,8 @@
       {
         "name": "KhZTM 6TD-2 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.83,
-        "acc_to_top": 21.51
+        "time_to_speed_32": 4.83,
+        "time_to_speed_top": 21.51
       }
     ],
     "parts": [
@@ -17883,14 +17883,14 @@
       {
         "name": "Cummins XAP-1000 1450 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.86,
-        "acc_to_top": 26.21
+        "time_to_speed_32": 5.86,
+        "time_to_speed_top": 26.21
       },
       {
         "name": "BAE Systems 1800 hp Hybrid Engine",
         "top_speed": 55,
-        "acc_to_32": 3.03,
-        "acc_to_top": 10.56
+        "time_to_speed_32": 3.03,
+        "time_to_speed_top": 10.56
       }
     ],
     "parts": [
@@ -18056,8 +18056,8 @@
       {
         "name": "MTU MT 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 6.09,
-        "acc_to_top": 20.81
+        "time_to_speed_32": 6.09,
+        "time_to_speed_top": 20.81
       }
     ],
     "parts": [
@@ -18209,8 +18209,8 @@
       {
         "name": "MTU MT 883 Ka-500 1500 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 7.16,
-        "acc_to_top": 29.27
+        "time_to_speed_32": 7.16,
+        "time_to_speed_top": 29.27
       }
     ],
     "parts": [
@@ -18402,14 +18402,14 @@
       {
         "name": "V-46K1 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.66,
-        "acc_to_top": 27.81
+        "time_to_speed_32": 5.66,
+        "time_to_speed_top": 27.81
       },
       {
         "name": "Shanxi 12V150HB-2 1500 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 4.53,
-        "acc_to_top": 28.94
+        "time_to_speed_32": 4.53,
+        "time_to_speed_top": 28.94
       }
     ],
     "parts": [
@@ -18533,8 +18533,8 @@
       {
         "name": "MTU MT 883 EPP 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.19,
-        "acc_to_top": 32.23
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 32.23
       }
     ],
     "parts": [
@@ -18713,20 +18713,20 @@
       {
         "name": "MTU MB 873 Ka-500 1500 hp Diesel engine",
         "top_speed": 70,
-        "acc_to_32": 5.26,
-        "acc_to_top": 28.8
+        "time_to_speed_32": 5.26,
+        "time_to_speed_top": 28.8
       },
       {
         "name": "MTU MB 873 Ka-501 1650 hp Diesel engine",
         "top_speed": 75,
-        "acc_to_32": 4.8,
-        "acc_to_top": 30.27
+        "time_to_speed_32": 4.8,
+        "time_to_speed_top": 30.27
       },
       {
         "name": "Doosan DST 1500 hp Hybrid Engine",
         "top_speed": 55,
-        "acc_to_32": 2.93,
-        "acc_to_top": 10.46
+        "time_to_speed_32": 2.93,
+        "time_to_speed_top": 10.46
       }
     ],
     "parts": [
@@ -18924,8 +18924,8 @@
       {
         "name": "MTU MT 873 Ka-501 1500 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.43,
-        "acc_to_top": 29.1
+        "time_to_speed_32": 5.43,
+        "time_to_speed_top": 29.1
       }
     ],
     "parts": [
@@ -19064,14 +19064,14 @@
       {
         "name": "Wärtsilä V8X SACM 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 6.03,
-        "acc_to_top": 31.14
+        "time_to_speed_32": 6.03,
+        "time_to_speed_top": 31.14
       },
       {
         "name": "Upgr. Wärtsilä V8X SACM 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 5.66,
-        "acc_to_top": 29.34
+        "time_to_speed_32": 5.66,
+        "time_to_speed_top": 29.34
       }
     ],
     "parts": [
@@ -19278,8 +19278,8 @@
       {
         "name": "MTU MT 883 Ka-501 1630 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.73,
-        "acc_to_top": 35.4
+        "time_to_speed_32": 5.73,
+        "time_to_speed_top": 35.4
       }
     ],
     "parts": [
@@ -19484,8 +19484,8 @@
       {
         "name": "General Dynamics GD883 1500 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.29,
-        "acc_to_top": 28.84
+        "time_to_speed_32": 6.29,
+        "time_to_speed_top": 28.84
       }
     ],
     "parts": [
@@ -19661,8 +19661,8 @@
       {
         "name": "ChTZ A-85-3A 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.46,
-        "acc_to_top": 21.58
+        "time_to_speed_32": 5.46,
+        "time_to_speed_top": 21.58
       }
     ],
     "parts": [
@@ -19825,20 +19825,20 @@
       {
         "name": "Klimov GTD-1250 1250 hp Gas Turbine Engine",
         "top_speed": 75,
-        "acc_to_32": 6.26,
-        "acc_to_top": 29.17
+        "time_to_speed_32": 6.26,
+        "time_to_speed_top": 29.17
       },
       {
         "name": "Klimov GTD-1500G 1500 hp Gas Turbine Engine",
         "top_speed": 80,
-        "acc_to_32": 5.79,
-        "acc_to_top": 28.01
+        "time_to_speed_32": 5.79,
+        "time_to_speed_top": 28.01
       },
       {
         "name": "Klimov GTD-1800G 1800 hp Gas Turbine Engine",
         "top_speed": 80,
-        "acc_to_32": 4.83,
-        "acc_to_top": 23.21
+        "time_to_speed_32": 4.83,
+        "time_to_speed_top": 23.21
       }
     ],
     "parts": [
@@ -19978,8 +19978,8 @@
       {
         "name": "KhZTM 4TD 2000 hp Twin Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 3.6,
-        "acc_to_top": 23.94
+        "time_to_speed_32": 3.6,
+        "time_to_speed_top": 23.94
       }
     ],
     "parts": [
@@ -20150,14 +20150,14 @@
       {
         "name": "Klimov GTD-1500 1500 hp Gas Turbine Engine",
         "top_speed": 85,
-        "acc_to_32": 4.2,
-        "acc_to_top": 27.87
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 27.87
       },
       {
         "name": "Klimov GTD-1800 1800 hp Gas Turbine Engine",
         "top_speed": 95,
-        "acc_to_32": 3.43,
-        "acc_to_top": 29.47
+        "time_to_speed_32": 3.43,
+        "time_to_speed_top": 29.47
       }
     ],
     "parts": [
@@ -20290,8 +20290,8 @@
       {
         "name": "MTU MB 873 Ka-501 1500 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5.69,
-        "acc_to_top": 31.17
+        "time_to_speed_32": 5.69,
+        "time_to_speed_top": 31.17
       }
     ],
     "parts": [
@@ -20440,8 +20440,8 @@
       {
         "name": "MTU MB 873 Ka-501 1500 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 6.09,
-        "acc_to_top": 32.7
+        "time_to_speed_32": 6.09,
+        "time_to_speed_top": 32.7
       }
     ],
     "parts": [
@@ -20616,14 +20616,14 @@
       {
         "name": "ChTZ A-85-3A 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 4.96,
-        "acc_to_top": 28.14
+        "time_to_speed_32": 4.96,
+        "time_to_speed_top": 28.14
       },
       {
         "name": "ChTZ A-85-3AF 2200 hp Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 3.26,
-        "acc_to_top": 26.47
+        "time_to_speed_32": 3.26,
+        "time_to_speed_top": 26.47
       }
     ],
     "parts": [
@@ -20871,14 +20871,14 @@
       {
         "name": "ChTZ A-85-3A 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 4.96,
-        "acc_to_top": 28.14
+        "time_to_speed_32": 4.96,
+        "time_to_speed_top": 28.14
       },
       {
         "name": "ChTZ A-85-3AF 2200 hp Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 3.26,
-        "acc_to_top": 26.47
+        "time_to_speed_32": 3.26,
+        "time_to_speed_top": 26.47
       }
     ],
     "parts": [
@@ -21075,14 +21075,14 @@
       {
         "name": "ChTZ A-85-3A 1500 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 4.6,
-        "acc_to_top": 29.24
+        "time_to_speed_32": 4.6,
+        "time_to_speed_top": 29.24
       },
       {
         "name": "ChTZ A-85-3AF 2200 hp Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 3.13,
-        "acc_to_top": 25.27
+        "time_to_speed_32": 3.13,
+        "time_to_speed_top": 25.27
       }
     ],
     "parts": [
@@ -21266,14 +21266,14 @@
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.83,
-        "acc_to_top": 30
+        "time_to_speed_32": 5.83,
+        "time_to_speed_top": 30
       },
       {
         "name": "ChTZ V-99 1200 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.69,
-        "acc_to_top": 29
+        "time_to_speed_32": 5.69,
+        "time_to_speed_top": 29
       }
     ],
     "parts": [
@@ -21420,8 +21420,8 @@
       {
         "name": "Mitsubishi V8 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.43,
-        "acc_to_top": 21.78
+        "time_to_speed_32": 4.43,
+        "time_to_speed_top": 21.78
       }
     ],
     "parts": [
@@ -21608,14 +21608,14 @@
       {
         "name": "Shanxi 12V150HB-2 1500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 5.19,
-        "acc_to_top": 28.11
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 28.11
       },
       {
         "name": "MTU MT 883 Ka-501 1630 hp Diesel Engine",
         "top_speed": 85,
-        "acc_to_32": 4.86,
-        "acc_to_top": 33.93
+        "time_to_speed_32": 4.86,
+        "time_to_speed_top": 33.93
       }
     ],
     "parts": [
@@ -21829,8 +21829,8 @@
       {
         "name": "MTU MT 883 Ka-501 1630 hp Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 5.19,
-        "acc_to_top": 41.36
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 41.36
       }
     ],
     "parts": [
@@ -21980,8 +21980,8 @@
       {
         "name": "MTU MT 883 Ka-501 1630 hp Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 5.19,
-        "acc_to_top": 31.67
+        "time_to_speed_32": 5.19,
+        "time_to_speed_top": 31.67
       }
     ],
     "parts": [
@@ -22150,8 +22150,8 @@
       {
         "name": "Shanxi 12V150HB-3 1630 hp Diesel Engine",
         "top_speed": 79,
-        "acc_to_32": 5.16,
-        "acc_to_top": 31.44
+        "time_to_speed_32": 5.16,
+        "time_to_speed_top": 31.44
       }
     ],
     "parts": [
@@ -22360,8 +22360,8 @@
       {
         "name": "Doosan DST 1500 hp Hybrid Engine",
         "top_speed": 70,
-        "acc_to_32": 2.6,
-        "acc_to_top": 8.13
+        "time_to_speed_32": 2.6,
+        "time_to_speed_top": 8.13
       }
     ],
     "parts": [
@@ -22593,14 +22593,14 @@
       {
         "name": "Honeywell AGT-1500 Tiger 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.43,
-        "acc_to_top": 25.44
+        "time_to_speed_32": 5.43,
+        "time_to_speed_top": 25.44
       },
       {
         "name": "MTU MT 883 Ka-501 1630 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 5,
-        "acc_to_top": 23.31
+        "time_to_speed_32": 5,
+        "time_to_speed_top": 23.31
       }
     ],
     "parts": [
@@ -22794,8 +22794,8 @@
       {
         "name": "Shanxi Feima Zuo 1600 hp Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 5.16,
-        "acc_to_top": 40.86
+        "time_to_speed_32": 5.16,
+        "time_to_speed_top": 40.86
       }
     ],
     "parts": [
@@ -22945,14 +22945,14 @@
       {
         "name": "Jaguar J60 190 hp Petrol Engine",
         "top_speed": 80,
-        "acc_to_32": 3.1,
-        "acc_to_top": 13.42
+        "time_to_speed_32": 3.1,
+        "time_to_speed_top": 13.42
       },
       {
         "name": "Perkins Tb.3544 250 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.43,
-        "acc_to_top": 10.52
+        "time_to_speed_32": 2.43,
+        "time_to_speed_top": 10.52
       }
     ],
     "parts": [
@@ -23083,14 +23083,14 @@
       {
         "name": "Chrysler 361 191 hp Petrol Engine",
         "top_speed": 100,
-        "acc_to_32": 2.43,
-        "acc_to_top": 19.51
+        "time_to_speed_32": 2.43,
+        "time_to_speed_top": 19.51
       },
       {
         "name": "Cummins V-504 210 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 2.23,
-        "acc_to_top": 18.38
+        "time_to_speed_32": 2.23,
+        "time_to_speed_top": 18.38
       }
     ],
     "parts": [
@@ -23230,14 +23230,14 @@
       {
         "name": "BTM 5D20-240 240 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 2.23,
-        "acc_to_top": 8.62
+        "time_to_speed_32": 2.23,
+        "time_to_speed_top": 8.62
       },
       {
         "name": "BTM 5D20-300 300 hp Diesel Engine",
         "top_speed": 61,
-        "acc_to_32": 1.77,
-        "acc_to_top": 5.76
+        "time_to_speed_32": 1.77,
+        "time_to_speed_top": 5.76
       }
     ],
     "parts": [
@@ -23377,14 +23377,14 @@
       {
         "name": "BTM UTD-20 300 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.43,
-        "acc_to_top": 11.69
+        "time_to_speed_32": 3.43,
+        "time_to_speed_top": 11.69
       },
       {
         "name": "BTM UTD-23 350 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 2.9,
-        "acc_to_top": 9.92
+        "time_to_speed_32": 2.9,
+        "time_to_speed_top": 9.92
       }
     ],
     "parts": [
@@ -23516,14 +23516,14 @@
       {
         "name": "Csepel D.414.44 100 hp Diesel Engine",
         "top_speed": 85,
-        "acc_to_32": 3.83,
-        "acc_to_top": 20.11
+        "time_to_speed_32": 3.83,
+        "time_to_speed_top": 20.11
       },
       {
         "name": "GAZ-41 140 hp Petrol Engine",
         "top_speed": 85,
-        "acc_to_32": 2.73,
-        "acc_to_top": 14.95
+        "time_to_speed_32": 2.73,
+        "time_to_speed_top": 14.95
       }
     ],
     "parts": [
@@ -23659,8 +23659,8 @@
       {
         "name": "Detroit Diesel 6V53T 300 hp Diesel Engine",
         "top_speed": 74,
-        "acc_to_32": 2.66,
-        "acc_to_top": 8.06
+        "time_to_speed_32": 2.66,
+        "time_to_speed_top": 8.06
       }
     ],
     "parts": [
@@ -23799,8 +23799,8 @@
       {
         "name": "BTM 5D20-300 300 hp Diesel Engine",
         "top_speed": 61,
-        "acc_to_32": 1.77,
-        "acc_to_top": 5.76
+        "time_to_speed_32": 1.77,
+        "time_to_speed_top": 5.76
       }
     ],
     "parts": [
@@ -23955,8 +23955,8 @@
       {
         "name": "BTM UTD-20 300 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.46,
-        "acc_to_top": 11.76
+        "time_to_speed_32": 3.46,
+        "time_to_speed_top": 11.76
       }
     ],
     "parts": [
@@ -24088,8 +24088,8 @@
       {
         "name": "BTM UTD-29 500 hp Diesel Engine",
         "top_speed": 73,
-        "acc_to_32": 2.63,
-        "acc_to_top": 10.49
+        "time_to_speed_32": 2.63,
+        "time_to_speed_top": 10.49
       }
     ],
     "parts": [
@@ -24240,14 +24240,14 @@
       {
         "name": "Tatra T-603A 76 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 3.26,
-        "acc_to_top": 12.19
+        "time_to_speed_32": 3.26,
+        "time_to_speed_top": 12.19
       },
       {
         "name": "Tatra T-603 93 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.66,
-        "acc_to_top": 9.92
+        "time_to_speed_32": 2.66,
+        "time_to_speed_top": 9.92
       }
     ],
     "parts": [
@@ -24373,8 +24373,8 @@
       {
         "name": "RMZ V-6R 280 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.33,
-        "acc_to_top": 17.85
+        "time_to_speed_32": 6.33,
+        "time_to_speed_top": 17.85
       }
     ],
     "parts": [
@@ -24493,8 +24493,8 @@
       {
         "name": "NORINCO 6V150F 310 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.4,
-        "acc_to_top": 11.46
+        "time_to_speed_32": 3.4,
+        "time_to_speed_top": 11.46
       }
     ],
     "parts": [
@@ -24668,14 +24668,14 @@
       {
         "name": "SOFAM 8 Gxb 250 hp Petrol Engine",
         "top_speed": 60,
-        "acc_to_32": 4.93,
-        "acc_to_top": 13.79
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 13.79
       },
       {
         "name": "Detroit Diesel 6V53T 300 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.2,
-        "acc_to_top": 13.35
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 13.35
       }
     ],
     "parts": [
@@ -24843,14 +24843,14 @@
       {
         "name": "BTM 5D20-240 240 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 2.1,
-        "acc_to_top": 8.36
+        "time_to_speed_32": 2.1,
+        "time_to_speed_top": 8.36
       },
       {
         "name": "BTM 5D20-300 300 hp Diesel Engine",
         "top_speed": 61,
-        "acc_to_32": 1.6,
-        "acc_to_top": 5.09
+        "time_to_speed_32": 1.6,
+        "time_to_speed_top": 5.09
       }
     ],
     "parts": [
@@ -25023,14 +25023,14 @@
       {
         "name": "BTM UTD-20S1 300 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.46,
-        "acc_to_top": 11.69
+        "time_to_speed_32": 3.46,
+        "time_to_speed_top": 11.69
       },
       {
         "name": "BTM UTD-23 350 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 2.93,
-        "acc_to_top": 9.92
+        "time_to_speed_32": 2.93,
+        "time_to_speed_top": 9.92
       }
     ],
     "parts": [
@@ -25205,8 +25205,8 @@
       {
         "name": "FAMOS 10V003 315 hp Diesel Engine",
         "top_speed": 66,
-        "acc_to_32": 3.36,
-        "acc_to_top": 11.26
+        "time_to_speed_32": 3.36,
+        "time_to_speed_top": 11.26
       }
     ],
     "parts": [
@@ -25333,8 +25333,8 @@
       {
         "name": "Tatra T-928-14 180 hp Diesel Engine",
         "top_speed": 95,
-        "acc_to_32": 3.63,
-        "acc_to_top": 22.64
+        "time_to_speed_32": 3.63,
+        "time_to_speed_top": 22.64
       }
     ],
     "parts": [
@@ -25489,14 +25489,14 @@
       {
         "name": "Peugeot XDT3T 95 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 2.56,
-        "acc_to_top": 18.65
+        "time_to_speed_32": 2.56,
+        "time_to_speed_top": 18.65
       },
       {
         "name": "Steyr M14 TCI 129 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 1.7,
-        "acc_to_top": 13.12
+        "time_to_speed_32": 1.7,
+        "time_to_speed_top": 13.12
       }
     ],
     "parts": [
@@ -25600,8 +25600,8 @@
       {
         "name": "Continental AVSI-1790-6 950 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 5.43,
-        "acc_to_top": 16.75
+        "time_to_speed_32": 5.43,
+        "time_to_speed_top": 16.75
       }
     ],
     "parts": [
@@ -25764,14 +25764,14 @@
       {
         "name": "ChTZ 2V-06-2 455 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 2.46,
-        "acc_to_top": 10.52
+        "time_to_speed_32": 2.46,
+        "time_to_speed_top": 10.52
       },
       {
         "name": "BTM UTD-29 500 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 2.2,
-        "acc_to_top": 9.29
+        "time_to_speed_32": 2.2,
+        "time_to_speed_top": 9.29
       }
     ],
     "parts": [
@@ -25964,14 +25964,14 @@
       {
         "name": "BTM UTD-29 500 hp Diesel Engine",
         "top_speed": 73,
-        "acc_to_32": 2.63,
-        "acc_to_top": 10.66
+        "time_to_speed_32": 2.63,
+        "time_to_speed_top": 10.66
       },
       {
         "name": "KhKBM 3TD-4 600 hp Diesel Engine",
         "top_speed": 73,
-        "acc_to_32": 2,
-        "acc_to_top": 8.09
+        "time_to_speed_32": 2,
+        "time_to_speed_top": 8.09
       }
     ],
     "parts": [
@@ -26141,8 +26141,8 @@
       {
         "name": "Caterpillar C9.3 430 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 2.83,
-        "acc_to_top": 9.16
+        "time_to_speed_32": 2.83,
+        "time_to_speed_top": 9.16
       }
     ],
     "parts": [
@@ -26305,14 +26305,14 @@
       {
         "name": "Jaguar J60 190 hp Petrol Engine",
         "top_speed": 100,
-        "acc_to_32": 2.43,
-        "acc_to_top": 17.95
+        "time_to_speed_32": 2.43,
+        "time_to_speed_top": 17.95
       },
       {
         "name": "Jaguar XK 4.2L 265 hp Petrol Engine",
         "top_speed": 100,
-        "acc_to_32": 1.86,
-        "acc_to_top": 14.45
+        "time_to_speed_32": 1.86,
+        "time_to_speed_top": 14.45
       }
     ],
     "parts": [
@@ -26409,8 +26409,8 @@
       {
         "name": "YaMZ-238ND8 300 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 2.2,
-        "acc_to_top": 6.29
+        "time_to_speed_32": 2.2,
+        "time_to_speed_top": 6.29
       }
     ],
     "parts": [
@@ -26530,8 +26530,8 @@
       {
         "name": "Cummins BTAA 5.9 190 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.2,
-        "acc_to_top": 9.49
+        "time_to_speed_32": 2.2,
+        "time_to_speed_top": 9.49
       }
     ],
     "parts": [
@@ -26658,8 +26658,8 @@
       {
         "name": "Perkins T6.3544 250 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.43,
-        "acc_to_top": 10.59
+        "time_to_speed_32": 2.43,
+        "time_to_speed_top": 10.59
       }
     ],
     "parts": [
@@ -26774,8 +26774,8 @@
       {
         "name": "Deutz BF6M1015C 440 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 3.73,
-        "acc_to_top": 24.21
+        "time_to_speed_32": 3.73,
+        "time_to_speed_top": 24.21
       }
     ],
     "parts": [
@@ -26927,8 +26927,8 @@
       {
         "name": "BTM 5D20-300 300 hp Diesel Engine",
         "top_speed": 62,
-        "acc_to_32": 2.76,
-        "acc_to_top": 8.23
+        "time_to_speed_32": 2.76,
+        "time_to_speed_top": 8.23
       }
     ],
     "parts": [
@@ -27081,14 +27081,14 @@
       {
         "name": "BTM UTD-20S1 300 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.2,
-        "acc_to_top": 11.22
+        "time_to_speed_32": 3.2,
+        "time_to_speed_top": 11.22
       },
       {
         "name": "BTM UTD-20S1 360 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 2.63,
-        "acc_to_top": 9.76
+        "time_to_speed_32": 2.63,
+        "time_to_speed_top": 9.76
       }
     ],
     "parts": [
@@ -27268,14 +27268,14 @@
       {
         "name": "BTM UTD-29M 500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 3.46,
-        "acc_to_top": 13.39
+        "time_to_speed_32": 3.46,
+        "time_to_speed_top": 13.39
       },
       {
         "name": "BTM UTD-32T 660 hp Diesel Engine",
         "top_speed": 73,
-        "acc_to_32": 3,
-        "acc_to_top": 11.95
+        "time_to_speed_32": 3,
+        "time_to_speed_top": 11.95
       }
     ],
     "parts": [
@@ -27441,8 +27441,8 @@
       {
         "name": "ChTZ V-46-6 780 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 4.1,
-        "acc_to_top": 20.81
+        "time_to_speed_32": 4.1,
+        "time_to_speed_top": 20.81
       }
     ],
     "parts": [
@@ -27638,14 +27638,14 @@
       {
         "name": "Scania DI12 490 hp Diesel Engine",
         "top_speed": 103,
-        "acc_to_32": 3.03,
-        "acc_to_top": 28.97
+        "time_to_speed_32": 3.03,
+        "time_to_speed_top": 28.97
       },
       {
         "name": "Scania DI13 550 hp Diesel Engine",
         "top_speed": 103,
-        "acc_to_32": 2.73,
-        "acc_to_top": 25.71
+        "time_to_speed_32": 2.73,
+        "time_to_speed_top": 25.71
       }
     ],
     "parts": [
@@ -27800,8 +27800,8 @@
       {
         "name": "Mitsubishi Type 6SY31 WA 600 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.86,
-        "acc_to_top": 14.09
+        "time_to_speed_32": 3.86,
+        "time_to_speed_top": 14.09
       }
     ],
     "parts": [
@@ -27930,8 +27930,8 @@
       {
         "name": "Steyr M14 TCI 129 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 2.23,
-        "acc_to_top": 9.69
+        "time_to_speed_32": 2.23,
+        "time_to_speed_top": 9.69
       }
     ],
     "parts": [
@@ -28104,14 +28104,14 @@
       {
         "name": "Perkins Condor V8-550A 550 hp Diesel Engine",
         "top_speed": 76,
-        "acc_to_32": 4.23,
-        "acc_to_top": 17.68
+        "time_to_speed_32": 4.23,
+        "time_to_speed_top": 17.68
       },
       {
         "name": "Perkins Tb.3544 250 hp Diesel Engine",
         "top_speed": 76,
-        "acc_to_32": 3.7,
-        "acc_to_top": 15.55
+        "time_to_speed_32": 3.7,
+        "time_to_speed_top": 15.55
       }
     ],
     "parts": [
@@ -28266,8 +28266,8 @@
       {
         "name": "NORINCO 6V150 670 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 2.2,
-        "acc_to_top": 9.29
+        "time_to_speed_32": 2.2,
+        "time_to_speed_top": 9.29
       }
     ],
     "parts": [
@@ -28464,8 +28464,8 @@
       {
         "name": "KamAZ 740.14-300 300 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 3.13,
-        "acc_to_top": 17.88
+        "time_to_speed_32": 3.13,
+        "time_to_speed_top": 17.88
       }
     ],
     "parts": [
@@ -28708,14 +28708,14 @@
       {
         "name": "Cummins VTA-903 500 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 4.1,
-        "acc_to_top": 13.85
+        "time_to_speed_32": 4.1,
+        "time_to_speed_top": 13.85
       },
       {
         "name": "Cummins VTA-903T 600 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.53,
-        "acc_to_top": 11.82
+        "time_to_speed_32": 3.53,
+        "time_to_speed_top": 11.82
       }
     ],
     "parts": [
@@ -28858,8 +28858,8 @@
       {
         "name": "Scania DS16 1000 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.26,
-        "acc_to_top": 9.02
+        "time_to_speed_32": 3.26,
+        "time_to_speed_top": 9.02
       }
     ],
     "parts": [
@@ -29059,8 +29059,8 @@
       {
         "name": "BTM UTD-29 500 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.03,
-        "acc_to_top": 14.99
+        "time_to_speed_32": 4.03,
+        "time_to_speed_top": 14.99
       }
     ],
     "parts": [
@@ -29222,8 +29222,8 @@
       {
         "name": "MTU MB 838 830 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.16,
-        "acc_to_top": 22.11
+        "time_to_speed_32": 5.16,
+        "time_to_speed_top": 22.11
       }
     ],
     "parts": [
@@ -29315,8 +29315,8 @@
       {
         "name": "MTU 8V199 TE21 816 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.13,
-        "acc_to_top": 16.72
+        "time_to_speed_32": 4.13,
+        "time_to_speed_top": 16.72
       }
     ],
     "parts": [
@@ -29522,8 +29522,8 @@
       {
         "name": "Doosan D2840LXE PIP mod. 840 hp Diesel Engine",
         "top_speed": 76,
-        "acc_to_32": 2.13,
-        "acc_to_top": 13.19
+        "time_to_speed_32": 2.13,
+        "time_to_speed_top": 13.19
       }
     ],
     "parts": [
@@ -29654,8 +29654,8 @@
       {
         "name": "MTU MT 881 Ka-501 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 3.83,
-        "acc_to_top": 14.95
+        "time_to_speed_32": 3.83,
+        "time_to_speed_top": 14.95
       }
     ],
     "parts": [
@@ -29760,8 +29760,8 @@
       {
         "name": "450 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 2.06,
-        "acc_to_top": 7.66
+        "time_to_speed_32": 2.06,
+        "time_to_speed_top": 7.66
       }
     ],
     "parts": [
@@ -29930,14 +29930,14 @@
       {
         "name": "Scania DI12 490 hp Diesel Engine",
         "top_speed": 103,
-        "acc_to_32": 3.63,
-        "acc_to_top": 34.63
+        "time_to_speed_32": 3.63,
+        "time_to_speed_top": 34.63
       },
       {
         "name": "Scania DI13 550 hp Diesel Engine",
         "top_speed": 106,
-        "acc_to_32": 3.2,
-        "acc_to_top": 33.17
+        "time_to_speed_32": 3.2,
+        "time_to_speed_top": 33.17
       }
     ],
     "parts": [
@@ -30112,8 +30112,8 @@
       {
         "name": "ChTZ V-46-2S 840 hp Diesel Engine",
         "top_speed": 94,
-        "acc_to_32": 3.4,
-        "acc_to_top": 27.07
+        "time_to_speed_32": 3.4,
+        "time_to_speed_top": 27.07
       }
     ],
     "parts": [
@@ -30256,8 +30256,8 @@
       {
         "name": "MTU 4R106 325 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 2.36,
-        "acc_to_top": 17.12
+        "time_to_speed_32": 2.36,
+        "time_to_speed_top": 17.12
       }
     ],
     "parts": [
@@ -30401,8 +30401,8 @@
       {
         "name": "Shanxi FX0012 1000 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.43,
-        "acc_to_top": 17.15
+        "time_to_speed_32": 3.43,
+        "time_to_speed_top": 17.15
       }
     ],
     "parts": [
@@ -30551,8 +30551,8 @@
       {
         "name": "MTU MT 881 Ka-501 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.66,
-        "acc_to_top": 20.71
+        "time_to_speed_32": 4.66,
+        "time_to_speed_top": 20.71
       }
     ],
     "parts": [
@@ -30820,8 +30820,8 @@
       {
         "name": "BTM UTD-23 360 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 3.5,
-        "acc_to_top": 12.22
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 12.22
       }
     ],
     "parts": [
@@ -31004,8 +31004,8 @@
       {
         "name": "MTU 8V199 TE21 816 hp Diesel Engine",
         "top_speed": 103,
-        "acc_to_32": 4.06,
-        "acc_to_top": 37.3
+        "time_to_speed_32": 4.06,
+        "time_to_speed_top": 37.3
       }
     ],
     "parts": [
@@ -31177,8 +31177,8 @@
       {
         "name": "Steyr M16 320hp Diesel Engine",
         "top_speed": 110,
-        "acc_to_32": 1.57,
-        "acc_to_top": 14.09
+        "time_to_speed_32": 1.57,
+        "time_to_speed_top": 14.09
       }
     ],
     "parts": [
@@ -31326,8 +31326,8 @@
       {
         "name": "MTU 8V199 TE20 720 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 3.7,
-        "acc_to_top": 13.99
+        "time_to_speed_32": 3.7,
+        "time_to_speed_top": 13.99
       }
     ],
     "parts": [
@@ -31439,8 +31439,8 @@
       {
         "name": "Kia S2 225 hp Diesel Engine",
         "top_speed": 122,
-        "acc_to_32": 2.13,
-        "acc_to_top": 35.03
+        "time_to_speed_32": 2.13,
+        "time_to_speed_top": 35.03
       }
     ],
     "parts": [
@@ -31552,8 +31552,8 @@
       {
         "name": "Detroit Diesel 6V53T 275 hp Diesel Engine",
         "top_speed": 68,
-        "acc_to_32": 4.46,
-        "acc_to_top": 21.51
+        "time_to_speed_32": 4.46,
+        "time_to_speed_top": 21.51
       }
     ],
     "parts": [
@@ -31715,8 +31715,8 @@
       {
         "name": "MTU v8 199 TE21 805 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 6.49,
-        "acc_to_top": 30
+        "time_to_speed_32": 6.49,
+        "time_to_speed_top": 30
       }
     ],
     "parts": [
@@ -31890,8 +31890,8 @@
       {
         "name": "MTU 8V199 TE20 720 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 3.1,
-        "acc_to_top": 10.06
+        "time_to_speed_32": 3.1,
+        "time_to_speed_top": 10.06
       }
     ],
     "parts": [
@@ -32124,8 +32124,8 @@
       {
         "name": "MTU 881 CR 1180 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 2.9,
-        "acc_to_top": 12.05
+        "time_to_speed_32": 2.9,
+        "time_to_speed_top": 12.05
       }
     ],
     "parts": [
@@ -32295,8 +32295,8 @@
       {
         "name": "Renault DXi 7 490 hp Diesel Engine",
         "top_speed": 110,
-        "acc_to_32": 2.8,
-        "acc_to_top": 26.11
+        "time_to_speed_32": 2.8,
+        "time_to_speed_top": 26.11
       }
     ],
     "parts": [
@@ -32412,14 +32412,14 @@
       {
         "name": "YaMZ-5347-10 215 hp Diesel Engine",
         "top_speed": 140,
-        "acc_to_32": 2.3,
-        "acc_to_top": 46.42
+        "time_to_speed_32": 2.3,
+        "time_to_speed_top": 46.42
       },
       {
         "name": "Cummins HO TDI L6 420 hp Diesel Engine",
         "top_speed": 140,
-        "acc_to_32": 1.13,
-        "acc_to_top": 23.21
+        "time_to_speed_32": 1.13,
+        "time_to_speed_top": 23.21
       }
     ],
     "parts": [
@@ -32669,8 +32669,8 @@
       {
         "name": "Liebherr 976 1140 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.2,
-        "acc_to_top": 14.85
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 14.85
       }
     ],
     "parts": [
@@ -32828,8 +32828,8 @@
       {
         "name": "Liebherr 976 1140 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.2,
-        "acc_to_top": 14.85
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 14.85
       }
     ],
     "parts": [
@@ -32998,8 +32998,8 @@
       {
         "name": "MTU 10V892 1088 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.2,
-        "acc_to_top": 14.85
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 14.85
       }
     ],
     "parts": [
@@ -33177,8 +33177,8 @@
       {
         "name": "Mercedes-Benz 1860 598 hp Diesel Engine",
         "top_speed": 110,
-        "acc_to_32": 2.16,
-        "acc_to_top": 20.75
+        "time_to_speed_32": 2.16,
+        "time_to_speed_top": 20.75
       }
     ],
     "parts": [
@@ -33314,8 +33314,8 @@
       {
         "name": "Detroit Diesel DI-4V 153 hp Hybrid Engine",
         "top_speed": 112,
-        "acc_to_32": 1.9,
-        "acc_to_top": 23.98
+        "time_to_speed_32": 1.9,
+        "time_to_speed_top": 23.98
       }
     ],
     "parts": [
@@ -33471,8 +33471,8 @@
       {
         "name": "KamAZ-650.10-350 350 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 2.2,
-        "acc_to_top": 18.35
+        "time_to_speed_32": 2.2,
+        "time_to_speed_top": 18.35
       }
     ],
     "parts": [
@@ -33635,14 +33635,14 @@
       {
         "name": "Continental AOS-895-3 500 hp Petrol Engine",
         "top_speed": 72,
-        "acc_to_32": 4.46,
-        "acc_to_top": 17.62
+        "time_to_speed_32": 4.46,
+        "time_to_speed_top": 17.62
       },
       {
         "name": "Continental AOS-895-3 500 hp Petrol Engine",
         "top_speed": 72,
-        "acc_to_32": 4,
-        "acc_to_top": 15.75
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 15.75
       }
     ],
     "parts": [
@@ -33774,14 +33774,14 @@
       {
         "name": "RMZ V-6 240 hp Diesel Engine",
         "top_speed": 44,
-        "acc_to_32": 4.16,
-        "acc_to_top": 7.79
+        "time_to_speed_32": 4.16,
+        "time_to_speed_top": 7.79
       },
       {
         "name": "RMZ V-6M 300 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 3.66,
-        "acc_to_top": 12.25
+        "time_to_speed_32": 3.66,
+        "time_to_speed_top": 12.25
       }
     ],
     "parts": [
@@ -33908,14 +33908,14 @@
       {
         "name": "BTM UTD-20 300 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4,
-        "acc_to_top": 18.08
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 18.08
       },
       {
         "name": "BTM UTD-23 350 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 3.66,
-        "acc_to_top": 17.45
+        "time_to_speed_32": 3.66,
+        "time_to_speed_top": 17.45
       }
     ],
     "parts": [
@@ -34047,8 +34047,8 @@
       {
         "name": "Continental AOI-628-1 340 hp Petrol Engine",
         "top_speed": 72,
-        "acc_to_32": 4.06,
-        "acc_to_top": 14.82
+        "time_to_speed_32": 4.06,
+        "time_to_speed_top": 14.82
       }
     ],
     "parts": [
@@ -34188,8 +34188,8 @@
       {
         "name": "Continental AOI-628-1 340 hp Petrol Engine",
         "top_speed": 72,
-        "acc_to_32": 4.06,
-        "acc_to_top": 14.82
+        "time_to_speed_32": 4.06,
+        "time_to_speed_top": 14.82
       }
     ],
     "parts": [
@@ -34305,14 +34305,14 @@
       {
         "name": "Jaguar J60 No.1 Mk.100b 190 hp Petrol Engine",
         "top_speed": 80,
-        "acc_to_32": 3.1,
-        "acc_to_top": 13.45
+        "time_to_speed_32": 3.1,
+        "time_to_speed_top": 13.45
       },
       {
         "name": "Perkins Tb.3544 250 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.43,
-        "acc_to_top": 10.56
+        "time_to_speed_32": 2.43,
+        "time_to_speed_top": 10.56
       }
     ],
     "parts": [
@@ -34448,14 +34448,14 @@
       {
         "name": "Jaguar J60 No.1 Mk.100b 190 hp Petrol Engine",
         "top_speed": 80,
-        "acc_to_32": 3.13,
-        "acc_to_top": 13.49
+        "time_to_speed_32": 3.13,
+        "time_to_speed_top": 13.49
       },
       {
         "name": "Perkins Tb.3544 250 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.43,
-        "acc_to_top": 10.59
+        "time_to_speed_32": 2.43,
+        "time_to_speed_top": 10.59
       }
     ],
     "parts": [
@@ -34604,14 +34604,14 @@
       {
         "name": "MTU MB 833 Ea-500 600 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 3.8,
-        "acc_to_top": 16.05
+        "time_to_speed_32": 3.8,
+        "time_to_speed_top": 16.05
       },
       {
         "name": "Liebherr 750 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 2.8,
-        "acc_to_top": 11.89
+        "time_to_speed_32": 2.8,
+        "time_to_speed_top": 11.89
       }
     ],
     "parts": [
@@ -34734,14 +34734,14 @@
       {
         "name": "Detroit Diesel 6V51T 285 hp Petrol Engine",
         "top_speed": 72,
-        "acc_to_32": 2.8,
-        "acc_to_top": 11
+        "time_to_speed_32": 2.8,
+        "time_to_speed_top": 11
       },
       {
         "name": "Detroit Diesel 6V53T 300 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 3.83,
-        "acc_to_top": 14.35
+        "time_to_speed_32": 3.83,
+        "time_to_speed_top": 14.35
       }
     ],
     "parts": [
@@ -34869,8 +34869,8 @@
       {
         "name": "Cummins VTA-903T 600 hp Diesel Engine",
         "top_speed": 82,
-        "acc_to_32": 2.83,
-        "acc_to_top": 16.05
+        "time_to_speed_32": 2.83,
+        "time_to_speed_top": 16.05
       }
     ],
     "parts": [
@@ -34981,8 +34981,8 @@
       {
         "name": "Detroit Diesel 6V53T 350 hp Diesel Engine",
         "top_speed": 90,
-        "acc_to_32": 1.67,
-        "acc_to_top": 11
+        "time_to_speed_32": 1.67,
+        "time_to_speed_top": 11
       }
     ],
     "parts": [
@@ -35141,14 +35141,14 @@
       {
         "name": "Detroit Diesel 8V92TA 535 hp Diesel Engine",
         "top_speed": 66,
-        "acc_to_32": 4.63,
-        "acc_to_top": 20.81
+        "time_to_speed_32": 4.63,
+        "time_to_speed_top": 20.81
       },
       {
         "name": "Detroit Diesel 8V92TA 550 hp Diesel Engine",
         "top_speed": 66,
-        "acc_to_32": 4,
-        "acc_to_top": 18.05
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 18.05
       }
     ],
     "parts": [
@@ -35315,8 +35315,8 @@
       {
         "name": "Detroit Diesel 6M92TA 550 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 3.5,
-        "acc_to_top": 16.35
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 16.35
       }
     ],
     "parts": [
@@ -35452,8 +35452,8 @@
       {
         "name": "Scania DS14 550 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.3,
-        "acc_to_top": 11.92
+        "time_to_speed_32": 3.3,
+        "time_to_speed_top": 11.92
       }
     ],
     "parts": [
@@ -35589,14 +35589,14 @@
       {
         "name": "Detroit Diesel 6V53T 300 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.46,
-        "acc_to_top": 13.12
+        "time_to_speed_32": 3.46,
+        "time_to_speed_top": 13.12
       },
       {
         "name": "Detroit Diesel 6V53T 350 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 2.63,
-        "acc_to_top": 9.76
+        "time_to_speed_32": 2.63,
+        "time_to_speed_top": 9.76
       }
     ],
     "parts": [
@@ -35747,14 +35747,14 @@
       {
         "name": "Detroit Diesel 8V92TA 550 hp Diesel Engine",
         "top_speed": 66,
-        "acc_to_32": 4.03,
-        "acc_to_top": 18.22
+        "time_to_speed_32": 4.03,
+        "time_to_speed_top": 18.22
       },
       {
         "name": "Detroit Diesel 8V92TA 600 hp Diesel Engine",
         "top_speed": 66,
-        "acc_to_32": 3.7,
-        "acc_to_top": 16.62
+        "time_to_speed_32": 3.7,
+        "time_to_speed_top": 16.62
       }
     ],
     "parts": [
@@ -35909,8 +35909,8 @@
       {
         "name": "MTU MT 881 Ka-501 1000 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 3.56,
-        "acc_to_top": 15.45
+        "time_to_speed_32": 3.56,
+        "time_to_speed_top": 15.45
       }
     ],
     "parts": [
@@ -36091,8 +36091,8 @@
       {
         "name": "MTU 8V183 TE22 600 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.56,
-        "acc_to_top": 20.55
+        "time_to_speed_32": 4.56,
+        "time_to_speed_top": 20.55
       }
     ],
     "parts": [
@@ -36271,8 +36271,8 @@
       {
         "name": "BTM UTD-32TF 816 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 3.03,
-        "acc_to_top": 16.55
+        "time_to_speed_32": 3.03,
+        "time_to_speed_top": 16.55
       }
     ],
     "parts": [
@@ -36451,8 +36451,8 @@
       {
         "name": "MTU 8V199 TE21 816 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 4.4,
-        "acc_to_top": 21.21
+        "time_to_speed_32": 4.4,
+        "time_to_speed_top": 21.21
       }
     ],
     "parts": [
@@ -36626,14 +36626,14 @@
       {
         "name": "Caterpillar C13 520 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.46,
-        "acc_to_top": 21.08
+        "time_to_speed_32": 4.46,
+        "time_to_speed_top": 21.08
       },
       {
         "name": "Caterpillar C13 711 hp Diesel Engine",
         "top_speed": 78,
-        "acc_to_32": 3.96,
-        "acc_to_top": 22.91
+        "time_to_speed_32": 3.96,
+        "time_to_speed_top": 22.91
       }
     ],
     "parts": [
@@ -36814,8 +36814,8 @@
       {
         "name": "MTU MB 838 Ca M-500 830 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4,
-        "acc_to_top": 23.04
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 23.04
       }
     ],
     "parts": [
@@ -36986,14 +36986,14 @@
       {
         "name": "Detroit Diesel 6V92TIA 550 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 4.1,
-        "acc_to_top": 22.41
+        "time_to_speed_32": 4.1,
+        "time_to_speed_top": 22.41
       },
       {
         "name": "Detroit Diesel 6V92TIA 580 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 3.66,
-        "acc_to_top": 20.08
+        "time_to_speed_32": 3.66,
+        "time_to_speed_top": 20.08
       }
     ],
     "parts": [
@@ -37204,14 +37204,14 @@
       {
         "name": "Detroit Diesel 6V53T 300 hp Diesel Engine",
         "top_speed": 66,
-        "acc_to_32": 2.83,
-        "acc_to_top": 12.02
+        "time_to_speed_32": 2.83,
+        "time_to_speed_top": 12.02
       },
       {
         "name": "Curtiss Wright RC2-350 600 hp Rotary Engine",
         "top_speed": 95,
-        "acc_to_32": 1.5,
-        "acc_to_top": 13.79
+        "time_to_speed_32": 1.5,
+        "time_to_speed_top": 13.79
       }
     ],
     "parts": [
@@ -37379,8 +37379,8 @@
       {
         "name": "Scania DS16 1200 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.3,
-        "acc_to_top": 11.92
+        "time_to_speed_32": 3.3,
+        "time_to_speed_top": 11.92
       }
     ],
     "parts": [
@@ -37528,8 +37528,8 @@
       {
         "name": "Detroit Diesel 6V92TIA 600 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.5,
-        "acc_to_top": 17
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 17
       }
     ],
     "parts": [
@@ -37676,14 +37676,14 @@
       {
         "name": "Detroit Diesel 6V92TIA 580 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.33,
-        "acc_to_top": 20.88
+        "time_to_speed_32": 4.33,
+        "time_to_speed_top": 20.88
       },
       {
         "name": "Detroit Diesel 6V92TIA 600 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.5,
-        "acc_to_top": 17
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 17
       }
     ],
     "parts": [
@@ -37849,8 +37849,8 @@
       {
         "name": "Shanxi 8V150HB 883 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.43,
-        "acc_to_top": 17.15
+        "time_to_speed_32": 3.43,
+        "time_to_speed_top": 17.15
       }
     ],
     "parts": [
@@ -38042,8 +38042,8 @@
       {
         "name": "MTU 8V199 TE20 720 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.9,
-        "acc_to_top": 19.48
+        "time_to_speed_32": 3.9,
+        "time_to_speed_top": 19.48
       }
     ],
     "parts": [
@@ -38218,8 +38218,8 @@
       {
         "name": "Shanxi 132HB 883 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.83,
-        "acc_to_top": 19.11
+        "time_to_speed_32": 3.83,
+        "time_to_speed_top": 19.11
       }
     ],
     "parts": [
@@ -38418,8 +38418,8 @@
       {
         "name": "Doosan D2840LXE 750 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 2.96,
-        "acc_to_top": 14.99
+        "time_to_speed_32": 2.96,
+        "time_to_speed_top": 14.99
       }
     ],
     "parts": [
@@ -38562,8 +38562,8 @@
       {
         "name": "Cummins ACE 1000 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 4,
-        "acc_to_top": 22.34
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 22.34
       }
     ],
     "parts": [
@@ -38737,8 +38737,8 @@
       {
         "name": "MTU 8V199 TE21 816 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4,
-        "acc_to_top": 19.91
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 19.91
       }
     ],
     "parts": [
@@ -38933,14 +38933,14 @@
       {
         "name": "MTU 6V199 TE21 550 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 2.96,
-        "acc_to_top": 15.12
+        "time_to_speed_32": 2.96,
+        "time_to_speed_top": 15.12
       },
       {
         "name": "MTU 6V199 TE21 585 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 2.76,
-        "acc_to_top": 14.19
+        "time_to_speed_32": 2.76,
+        "time_to_speed_top": 14.19
       }
     ],
     "parts": [
@@ -39111,8 +39111,8 @@
       {
         "name": "Detroit Diesel 6V53T 300 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.53,
-        "acc_to_top": 24.48
+        "time_to_speed_32": 3.53,
+        "time_to_speed_top": 24.48
       }
     ],
     "parts": [
@@ -39222,14 +39222,14 @@
       {
         "name": "Chrysler 75M 209 hp Diesel Engine",
         "top_speed": 68,
-        "acc_to_32": 5.93,
-        "acc_to_top": 32.8
+        "time_to_speed_32": 5.93,
+        "time_to_speed_top": 32.8
       },
       {
         "name": "Detroit Diesel 6V53T 275 hp Diesel Engine",
         "top_speed": 68,
-        "acc_to_32": 3.93,
-        "acc_to_top": 21.88
+        "time_to_speed_32": 3.93,
+        "time_to_speed_top": 21.88
       }
     ],
     "parts": [
@@ -39376,8 +39376,8 @@
       {
         "name": "Hispano-Suiza Model 115-2 280 hp Diesel Engine",
         "top_speed": 66,
-        "acc_to_32": 4.46,
-        "acc_to_top": 16.62
+        "time_to_speed_32": 4.46,
+        "time_to_speed_top": 16.62
       }
     ],
     "parts": [
@@ -39491,8 +39491,8 @@
       {
         "name": "Cummins V-504 210 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.4,
-        "acc_to_top": 23.21
+        "time_to_speed_32": 3.4,
+        "time_to_speed_top": 23.21
       }
     ],
     "parts": [
@@ -39610,14 +39610,14 @@
       {
         "name": "Cummins VT-504 270 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 4.4,
-        "acc_to_top": 28.94
+        "time_to_speed_32": 4.4,
+        "time_to_speed_top": 28.94
       },
       {
         "name": "Cummins V-504 210 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.9,
-        "acc_to_top": 25.67
+        "time_to_speed_32": 3.9,
+        "time_to_speed_top": 25.67
       }
     ],
     "parts": [
@@ -39735,8 +39735,8 @@
       {
         "name": "Chrysler HT-361-318 180 hp Petrol Engine",
         "top_speed": 56,
-        "acc_to_32": 3.06,
-        "acc_to_top": 9.59
+        "time_to_speed_32": 3.06,
+        "time_to_speed_top": 9.59
       }
     ],
     "parts": [
@@ -39867,8 +39867,8 @@
       {
         "name": "ZMZ-4905 240 hp Twin Petrol Engine",
         "top_speed": 80,
-        "acc_to_32": 4.5,
-        "acc_to_top": 20.75
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 20.75
       }
     ],
     "parts": [
@@ -40005,14 +40005,14 @@
       {
         "name": "Peugeot V6 155 hp Petrol Engine",
         "top_speed": 95,
-        "acc_to_32": 4.5,
-        "acc_to_top": 27.34
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 27.34
       },
       {
         "name": "Peugeot XD3T 180 hp Twin Diesel Engine",
         "top_speed": 95,
-        "acc_to_32": 3.5,
-        "acc_to_top": 21.81
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 21.81
       }
     ],
     "parts": [
@@ -40116,8 +40116,8 @@
       {
         "name": "ChTZ V-55U 620 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 5.03,
-        "acc_to_top": 16.38
+        "time_to_speed_32": 5.03,
+        "time_to_speed_top": 16.38
       }
     ],
     "parts": [
@@ -40235,8 +40235,8 @@
       {
         "name": "BAE Systems M67/0 856 hp Hybrid Engine",
         "top_speed": 120,
-        "acc_to_32": 2.4,
-        "acc_to_top": 33.3
+        "time_to_speed_32": 2.4,
+        "time_to_speed_top": 33.3
       }
     ],
     "parts": [
@@ -40376,8 +40376,8 @@
       {
         "name": "ChTZ V-54-105 480 hp Diesel Engine",
         "top_speed": 63,
-        "acc_to_32": 5.89,
-        "acc_to_top": 26.07
+        "time_to_speed_32": 5.89,
+        "time_to_speed_top": 26.07
       }
     ],
     "parts": [
@@ -40473,14 +40473,14 @@
       {
         "name": "Audi EA831 100 hp Petrol Engine",
         "top_speed": 80,
-        "acc_to_32": 3.23,
-        "acc_to_top": 22.38
+        "time_to_speed_32": 3.23,
+        "time_to_speed_top": 22.38
       },
       {
         "name": "Volkswagen 069 89 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.86,
-        "acc_to_top": 19.68
+        "time_to_speed_32": 2.86,
+        "time_to_speed_top": 19.68
       }
     ],
     "parts": [
@@ -40582,14 +40582,14 @@
       {
         "name": "Isotta Fraschini ID 38 SS 334 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.93,
-        "acc_to_top": 26.21
+        "time_to_speed_32": 4.93,
+        "time_to_speed_top": 26.21
       },
       {
         "name": "MTU 8V183-TA22 368 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.43,
-        "acc_to_top": 20.68
+        "time_to_speed_32": 3.43,
+        "time_to_speed_top": 20.68
       }
     ],
     "parts": [
@@ -40787,8 +40787,8 @@
       {
         "name": "ChTZ V-46-6 780 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.23,
-        "acc_to_top": 22
+        "time_to_speed_32": 5.23,
+        "time_to_speed_top": 22
       }
     ],
     "parts": [
@@ -40934,14 +40934,14 @@
       {
         "name": "6V53T hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 4.4,
-        "acc_to_top": 29
+        "time_to_speed_32": 4.4,
+        "time_to_speed_top": 29
       },
       {
         "name": "Cummins QSC 8.3-550 500 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3,
-        "acc_to_top": 20.28
+        "time_to_speed_32": 3,
+        "time_to_speed_top": 20.28
       }
     ],
     "parts": [
@@ -41064,8 +41064,8 @@
       {
         "name": "KhTZM 5TDFM 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.83,
-        "acc_to_top": 19.65
+        "time_to_speed_32": 4.83,
+        "time_to_speed_top": 19.65
       }
     ],
     "parts": [
@@ -41220,8 +41220,8 @@
       {
         "name": "Scania DSI-11 384 hp Diesel Engine",
         "top_speed": 105,
-        "acc_to_32": 2.9,
-        "acc_to_top": 22.18
+        "time_to_speed_32": 2.9,
+        "time_to_speed_top": 22.18
       }
     ],
     "parts": [
@@ -41337,14 +41337,14 @@
       {
         "name": "Rolls Royce B81 200 hp Petrol Engine",
         "top_speed": 68,
-        "acc_to_32": 7.09,
-        "acc_to_top": 35.43
+        "time_to_speed_32": 7.09,
+        "time_to_speed_top": 35.43
       },
       {
         "name": "Rolls Royce K60 240 hp Diesel Engine",
         "top_speed": 68,
-        "acc_to_32": 5.26,
-        "acc_to_top": 26.51
+        "time_to_speed_32": 5.26,
+        "time_to_speed_top": 26.51
       }
     ],
     "parts": [
@@ -41463,8 +41463,8 @@
       {
         "name": "Detroit Diesel 8V71TA 575 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4.33,
-        "acc_to_top": 24.54
+        "time_to_speed_32": 4.33,
+        "time_to_speed_top": 24.54
       }
     ],
     "parts": [
@@ -41591,8 +41591,8 @@
       {
         "name": "Deutz BF8L413F 320 hp Diesel Engine",
         "top_speed": 85,
-        "acc_to_32": 4.33,
-        "acc_to_top": 22.44
+        "time_to_speed_32": 4.33,
+        "time_to_speed_top": 22.44
       }
     ],
     "parts": [
@@ -41743,8 +41743,8 @@
       {
         "name": "Iveco V6 TCA 520 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.63,
-        "acc_to_top": 32.77
+        "time_to_speed_32": 3.63,
+        "time_to_speed_top": 32.77
       }
     ],
     "parts": [
@@ -41860,14 +41860,14 @@
       {
         "name": "Detroit Diesel 6V53 212 hp Diesel Engine",
         "top_speed": 64,
-        "acc_to_32": 5.49,
-        "acc_to_top": 24.64
+        "time_to_speed_32": 5.49,
+        "time_to_speed_top": 24.64
       },
       {
         "name": "Detroit Diesel 6V53T 275 hp Diesel Engine",
         "top_speed": 64,
-        "acc_to_32": 4.6,
-        "acc_to_top": 21.25
+        "time_to_speed_32": 4.6,
+        "time_to_speed_top": 21.25
       }
     ],
     "parts": [
@@ -41970,8 +41970,8 @@
       {
         "name": "NORINCO 12V150L 520 hp Diesel Engine",
         "top_speed": 55,
-        "acc_to_32": 6.59,
-        "acc_to_top": 22.28
+        "time_to_speed_32": 6.59,
+        "time_to_speed_top": 22.28
       }
     ],
     "parts": [
@@ -42115,8 +42115,8 @@
       {
         "name": "Mitsubishi 4ZG 570 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 4.03,
-        "acc_to_top": 36.1
+        "time_to_speed_32": 4.03,
+        "time_to_speed_top": 36.1
       }
     ],
     "parts": [
@@ -42232,8 +42232,8 @@
       {
         "name": "Volkswagen 069 89 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 2.8,
-        "acc_to_top": 18.55
+        "time_to_speed_32": 2.8,
+        "time_to_speed_top": 18.55
       }
     ],
     "parts": [
@@ -42389,8 +42389,8 @@
       {
         "name": "Cummins ISX 516 hp Diesel Engine",
         "top_speed": 115,
-        "acc_to_32": 3.76,
-        "acc_to_top": 47.12
+        "time_to_speed_32": 3.76,
+        "time_to_speed_top": 47.12
       }
     ],
     "parts": [
@@ -42549,8 +42549,8 @@
       {
         "name": "Baudouin 6F11 SRX 280 hp Diesel Engine",
         "top_speed": 85,
-        "acc_to_32": 5,
-        "acc_to_top": 25.54
+        "time_to_speed_32": 5,
+        "time_to_speed_top": 25.54
       }
     ],
     "parts": [
@@ -42681,8 +42681,8 @@
       {
         "name": "ChTZ V-92S2 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.09,
-        "acc_to_top": 31.54
+        "time_to_speed_32": 6.09,
+        "time_to_speed_top": 31.54
       }
     ],
     "parts": [
@@ -42826,8 +42826,8 @@
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.09,
-        "acc_to_top": 31.54
+        "time_to_speed_32": 6.09,
+        "time_to_speed_top": 31.54
       }
     ],
     "parts": [
@@ -42916,8 +42916,8 @@
       {
         "name": "Cummins VTA-903 500 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 4.46,
-        "acc_to_top": 14.85
+        "time_to_speed_32": 4.46,
+        "time_to_speed_top": 14.85
       }
     ],
     "parts": [
@@ -43039,8 +43039,8 @@
       {
         "name": "BTM UTD-29 500 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.76,
-        "acc_to_top": 18.35
+        "time_to_speed_32": 3.76,
+        "time_to_speed_top": 18.35
       }
     ],
     "parts": [
@@ -43209,14 +43209,14 @@
       {
         "name": "Caterpillar 3126 350 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 4.56,
-        "acc_to_top": 33.93
+        "time_to_speed_32": 4.56,
+        "time_to_speed_top": 33.93
       },
       {
         "name": "Caterpillar 3412 450 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 4.16,
-        "acc_to_top": 30.9
+        "time_to_speed_32": 4.16,
+        "time_to_speed_top": 30.9
       }
     ],
     "parts": [
@@ -43336,8 +43336,8 @@
       {
         "name": "Caterpillar 3412 450 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 3.96,
-        "acc_to_top": 29.57
+        "time_to_speed_32": 3.96,
+        "time_to_speed_top": 29.57
       }
     ],
     "parts": [
@@ -43471,14 +43471,14 @@
       {
         "name": "ChTZ V-84MS 840 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.49,
-        "acc_to_top": 34.1
+        "time_to_speed_32": 6.49,
+        "time_to_speed_top": 34.1
       },
       {
         "name": "ChTZ V-92S2 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.09,
-        "acc_to_top": 31.54
+        "time_to_speed_32": 6.09,
+        "time_to_speed_top": 31.54
       }
     ],
     "parts": [
@@ -43633,14 +43633,14 @@
       {
         "name": "Deutz BF6M1015C 407 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 4.16,
-        "acc_to_top": 36.6
+        "time_to_speed_32": 4.16,
+        "time_to_speed_top": 36.6
       },
       {
         "name": "Deutz BF8M1015C 543 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 3.33,
-        "acc_to_top": 29.37
+        "time_to_speed_32": 3.33,
+        "time_to_speed_top": 29.37
       }
     ],
     "parts": [
@@ -43795,8 +43795,8 @@
       {
         "name": "ChTZ 2V-06-2S 510 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4,
-        "acc_to_top": 19.21
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 19.21
       }
     ],
     "parts": [
@@ -43941,14 +43941,14 @@
       {
         "name": "Renault MIDS 06-20-45 220 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.3,
-        "acc_to_top": 31.14
+        "time_to_speed_32": 3.3,
+        "time_to_speed_top": 31.14
       },
       {
         "name": "Renault DXi 320 hp Diesel Engine",
         "top_speed": 110,
-        "acc_to_32": 2.6,
-        "acc_to_top": 31.2
+        "time_to_speed_32": 2.6,
+        "time_to_speed_top": 31.2
       }
     ],
     "parts": [
@@ -44115,8 +44115,8 @@
       {
         "name": "Scania DI 12 490 hp Diesel Engine",
         "top_speed": 103,
-        "acc_to_32": 3.9,
-        "acc_to_top": 37.06
+        "time_to_speed_32": 3.9,
+        "time_to_speed_top": 37.06
       }
     ],
     "parts": [
@@ -44266,8 +44266,8 @@
       {
         "name": "Honeywell AGT-1500 1500 hp Gas Turbine Engine",
         "top_speed": 72,
-        "acc_to_32": 5.56,
-        "acc_to_top": 24.58
+        "time_to_speed_32": 5.56,
+        "time_to_speed_top": 24.58
       }
     ],
     "parts": [
@@ -44421,8 +44421,8 @@
       {
         "name": "Iveco V6M TCA 600 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.43,
-        "acc_to_top": 30.74
+        "time_to_speed_32": 3.43,
+        "time_to_speed_top": 30.74
       }
     ],
     "parts": [
@@ -44611,14 +44611,14 @@
       {
         "name": "ChTZ V-92S2 1000 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.49,
-        "acc_to_top": 33.43
+        "time_to_speed_32": 6.49,
+        "time_to_speed_top": 33.43
       },
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.89,
-        "acc_to_top": 30.5
+        "time_to_speed_32": 5.89,
+        "time_to_speed_top": 30.5
       }
     ],
     "parts": [
@@ -44774,8 +44774,8 @@
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 5.99,
-        "acc_to_top": 30.6
+        "time_to_speed_32": 5.99,
+        "time_to_speed_top": 30.6
       }
     ],
     "parts": [
@@ -44930,14 +44930,14 @@
       {
         "name": "Iveco V6 TCA 520 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.9,
-        "acc_to_top": 35.07
+        "time_to_speed_32": 3.9,
+        "time_to_speed_top": 35.07
       },
       {
         "name": "Iveco V6M TCA 600 hp Diesel Engine",
         "top_speed": 100,
-        "acc_to_32": 3.43,
-        "acc_to_top": 30.74
+        "time_to_speed_32": 3.43,
+        "time_to_speed_top": 30.74
       }
     ],
     "parts": [
@@ -45097,8 +45097,8 @@
       {
         "name": "YaMZ-780 750 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.5,
-        "acc_to_top": 12.22
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 12.22
       }
     ],
     "parts": [
@@ -45244,8 +45244,8 @@
       {
         "name": "Wärtsilä V8X SACM 1500 hp Diesel Engine",
         "top_speed": 72,
-        "acc_to_32": 4.5,
-        "acc_to_top": 23.34
+        "time_to_speed_32": 4.5,
+        "time_to_speed_top": 23.34
       }
     ],
     "parts": [
@@ -45424,8 +45424,8 @@
       {
         "name": "Detroit Diesel 6V53T 275 hp Diesel Engine",
         "top_speed": 68,
-        "acc_to_32": 5.06,
-        "acc_to_top": 27.91
+        "time_to_speed_32": 5.06,
+        "time_to_speed_top": 27.91
       }
     ],
     "parts": [
@@ -45560,8 +45560,8 @@
       {
         "name": "MTU MB 838 Ca M500 830 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 3.5,
-        "acc_to_top": 12.22
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 12.22
       }
     ],
     "parts": [
@@ -45727,8 +45727,8 @@
       {
         "name": "NORINCO 12150L-7BW 580 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 6.63,
-        "acc_to_top": 27.47
+        "time_to_speed_32": 6.63,
+        "time_to_speed_top": 27.47
       }
     ],
     "parts": [
@@ -45863,8 +45863,8 @@
       {
         "name": "Caterpillar C9.3 430 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 4.6,
-        "acc_to_top": 34
+        "time_to_speed_32": 4.6,
+        "time_to_speed_top": 34
       }
     ],
     "parts": [
@@ -46049,8 +46049,8 @@
       {
         "name": "Deutz BF6M1015C 440 hp Diesel Engine",
         "top_speed": 99,
-        "acc_to_32": 3.73,
-        "acc_to_top": 24.21
+        "time_to_speed_32": 3.73,
+        "time_to_speed_top": 24.21
       }
     ],
     "parts": [
@@ -46169,8 +46169,8 @@
       {
         "name": "NORINCO 6V150 600 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4.06,
-        "acc_to_top": 23.24
+        "time_to_speed_32": 4.06,
+        "time_to_speed_top": 23.24
       }
     ],
     "parts": [
@@ -46328,8 +46328,8 @@
       {
         "name": "ChTZ V-92S2F 1130 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 7,
-        "acc_to_top": 25
+        "time_to_speed_32": 7,
+        "time_to_speed_top": 25
       }
     ],
     "parts": [
@@ -46429,8 +46429,8 @@
       {
         "name": "Doosan DST 1000 hp Hybrid Engine",
         "top_speed": 90,
-        "acc_to_32": 3.1,
-        "acc_to_top": 20.25
+        "time_to_speed_32": 3.1,
+        "time_to_speed_top": 20.25
       }
     ],
     "parts": [
@@ -46575,8 +46575,8 @@
       {
         "name": "BTM UTD-29 500 hp Diesel Engine",
         "top_speed": 71,
-        "acc_to_32": 3.5,
-        "acc_to_top": 7.69
+        "time_to_speed_32": 3.5,
+        "time_to_speed_top": 7.69
       }
     ],
     "parts": [
@@ -46679,14 +46679,14 @@
       {
         "name": "Continental AVDS-1790-2A 750 hp Diesel Engine",
         "top_speed": 50,
-        "acc_to_32": 6.33,
-        "acc_to_top": 17.15
+        "time_to_speed_32": 6.33,
+        "time_to_speed_top": 17.15
       },
       {
         "name": "Continental AVSI-1790-6 950 hp Diesel Engine",
         "top_speed": 54,
-        "acc_to_32": 5.56,
-        "acc_to_top": 18.12
+        "time_to_speed_32": 5.56,
+        "time_to_speed_top": 18.12
       }
     ],
     "parts": [
@@ -46813,14 +46813,14 @@
       {
         "name": "Detroit Diesel 6V92TIA 580 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 4.43,
-        "acc_to_top": 24.34
+        "time_to_speed_32": 4.43,
+        "time_to_speed_top": 24.34
       },
       {
         "name": "Detroit Diesel 6V92TIA 600 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 3.93,
-        "acc_to_top": 21.61
+        "time_to_speed_32": 3.93,
+        "time_to_speed_top": 21.61
       }
     ],
     "parts": [
@@ -47001,8 +47001,8 @@
       {
         "name": "Continental AVDS-1790-9AR 1200 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 6.69,
-        "acc_to_top": 30.74
+        "time_to_speed_32": 6.69,
+        "time_to_speed_top": 30.74
       }
     ],
     "parts": [
@@ -47197,14 +47197,14 @@
       {
         "name": "ChTZ A-85-3A 1500 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 4.63,
-        "acc_to_top": 29.3
+        "time_to_speed_32": 4.63,
+        "time_to_speed_top": 29.3
       },
       {
         "name": "ChTZ A-85-3A 1650 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 4.33,
-        "acc_to_top": 27.44
+        "time_to_speed_32": 4.33,
+        "time_to_speed_top": 27.44
       }
     ],
     "parts": [
@@ -47369,8 +47369,8 @@
       {
         "name": "ChTZ A-85-3A 1650 hp Diesel Engine",
         "top_speed": 80,
-        "acc_to_32": 4.33,
-        "acc_to_top": 27.44
+        "time_to_speed_32": 4.33,
+        "time_to_speed_top": 27.44
       }
     ],
     "parts": [
@@ -47593,8 +47593,8 @@
       {
         "name": "NORINCO 6V150 670 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 3.73,
-        "acc_to_top": 18.65
+        "time_to_speed_32": 3.73,
+        "time_to_speed_top": 18.65
       }
     ],
     "parts": [
@@ -47786,14 +47786,14 @@
       {
         "name": "Scania Dl 12 490 hp Diesel Engine",
         "top_speed": 103,
-        "acc_to_32": 4.23,
-        "acc_to_top": 40.03
+        "time_to_speed_32": 4.23,
+        "time_to_speed_top": 40.03
       },
       {
         "name": "Scania DC 13 550 hp Diesel Engine",
         "top_speed": 106,
-        "acc_to_32": 3.66,
-        "acc_to_top": 37.63
+        "time_to_speed_32": 3.66,
+        "time_to_speed_top": 37.63
       }
     ],
     "parts": [
@@ -47940,8 +47940,8 @@
       {
         "name": "Detroit Diesel 8V71T 340 hp Diesel Engine",
         "top_speed": 56,
-        "acc_to_32": 4.2,
-        "acc_to_top": 13
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 13
       }
     ],
     "parts": [
@@ -48067,8 +48067,8 @@
       {
         "name": "Rolls Royce K60 Mk.4G 240 hp Diesel Engine",
         "top_speed": 47,
-        "acc_to_32": 6.39,
-        "acc_to_top": 14.92
+        "time_to_speed_32": 6.39,
+        "time_to_speed_top": 14.92
       }
     ],
     "parts": [
@@ -48186,8 +48186,8 @@
       {
         "name": "Rolls Royce K60 MK 60G/1 240 hp Diesel Engine",
         "top_speed": 47,
-        "acc_to_32": 6.39,
-        "acc_to_top": 14.92
+        "time_to_speed_32": 6.39,
+        "time_to_speed_top": 14.92
       }
     ],
     "parts": [
@@ -48305,14 +48305,14 @@
       {
         "name": "YaMZ-238ND5 300 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 5.06,
-        "acc_to_top": 24.38
+        "time_to_speed_32": 5.06,
+        "time_to_speed_top": 24.38
       },
       {
         "name": "YaMZ-238ND8 300 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 4,
-        "acc_to_top": 22.18
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 22.18
       }
     ],
     "parts": [
@@ -48438,14 +48438,14 @@
       {
         "name": "Detroit Diesel 8V71T 340 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 4.2,
-        "acc_to_top": 16
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 16
       },
       {
         "name": "Detroit Diesel 8V71T 405 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 4.2,
-        "acc_to_top": 19.21
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 19.21
       }
     ],
     "parts": [
@@ -48567,8 +48567,8 @@
       {
         "name": "ChTZ V-59U 520 hp V-12 Diesel Engine",
         "top_speed": 63,
-        "acc_to_32": 3.73,
-        "acc_to_top": 15.18
+        "time_to_speed_32": 3.73,
+        "time_to_speed_top": 15.18
       }
     ],
     "parts": [
@@ -48702,14 +48702,14 @@
       {
         "name": "MTU MB 837 Ea-500 750 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 7.09,
-        "acc_to_top": 36.36
+        "time_to_speed_32": 7.09,
+        "time_to_speed_top": 36.36
       },
       {
         "name": "MTU MB 837 Ka-500 1000 hp Diesel Engine",
         "top_speed": 62,
-        "acc_to_32": 4.6,
-        "acc_to_top": 22.74
+        "time_to_speed_32": 4.6,
+        "time_to_speed_top": 22.74
       }
     ],
     "parts": [
@@ -48843,14 +48843,14 @@
       {
         "name": "NORINCO 12V150L-12 450 hp Diesel Engine",
         "top_speed": 70,
-        "acc_to_32": 4,
-        "acc_to_top": 21.65
+        "time_to_speed_32": 4,
+        "time_to_speed_top": 21.65
       },
       {
         "name": "Deutz BF8M1015CP 590 hp Diesel Engine",
         "top_speed": 75,
-        "acc_to_32": 3.7,
-        "acc_to_top": 21.68
+        "time_to_speed_32": 3.7,
+        "time_to_speed_top": 21.68
       }
     ],
     "parts": [
@@ -48985,8 +48985,8 @@
       {
         "name": "Cummins VTA-903T-660 660 hp Diesel Engine",
         "top_speed": 56,
-        "acc_to_32": 4.2,
-        "acc_to_top": 16
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 16
       }
     ],
     "parts": [
@@ -49124,8 +49124,8 @@
       {
         "name": "Detroit Diesel 8V71T LHR 500 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 4.2,
-        "acc_to_top": 19.21
+        "time_to_speed_32": 4.2,
+        "time_to_speed_top": 19.21
       }
     ],
     "parts": [
@@ -49263,8 +49263,8 @@
       {
         "name": "ChTZ V-84A 780 hp Diesel Engine",
         "top_speed": 60,
-        "acc_to_32": 6.56,
-        "acc_to_top": 27.07
+        "time_to_speed_32": 6.56,
+        "time_to_speed_top": 27.07
       }
     ],
     "parts": [
@@ -49423,8 +49423,8 @@
       {
         "name": "NORINCO 8V150 800 hp Diesel Engine",
         "top_speed": 65,
-        "acc_to_32": 3.6,
-        "acc_to_top": 16.02
+        "time_to_speed_32": 3.6,
+        "time_to_speed_top": 16.02
       }
     ],
     "parts": [
@@ -49586,8 +49586,8 @@
       {
         "name": "MTU MB 881 Ka-501 1100 hp Diesel Engine",
         "top_speed": 67,
-        "acc_to_32": 4.1,
-        "acc_to_top": 20.68
+        "time_to_speed_32": 4.1,
+        "time_to_speed_top": 20.68
       }
     ],
     "parts": [
@@ -49711,8 +49711,8 @@
       {
         "name": "Iveco V6 TCA 520 hp Diesel Engine",
         "top_speed": 104,
-        "acc_to_32": 2.9,
-        "acc_to_top": 28.7
+        "time_to_speed_32": 2.9,
+        "time_to_speed_top": 28.7
       }
     ],
     "parts": [
@@ -49856,8 +49856,8 @@
       {
         "name": "Honeywell LV100-5 1500 hp Gas Turbine Engine",
         "top_speed": 67,
-        "acc_to_32": 3.1,
-        "acc_to_top": 11.16
+        "time_to_speed_32": 3.1,
+        "time_to_speed_top": 11.16
       }
     ],
     "parts": [
