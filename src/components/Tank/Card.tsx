@@ -1,3 +1,4 @@
+import { TbChevronDown } from "solid-icons/tb";
 import { For } from "solid-js";
 import {
   getAgilityRank,
@@ -74,6 +75,11 @@ export function TankCard({
             rank={getSpeedRank(tank)}
             value={`${getHighestSpeed(tank).timeToTop}s to ${getHighestSpeed(tank).topSpeed}km/h`}
           />
+        </div>
+        <div>
+          <button class="btn btn-square btn-ghost">
+            <TbChevronDown />
+          </button>
         </div>
       </div>
     </div>
