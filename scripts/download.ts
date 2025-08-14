@@ -27,12 +27,22 @@ async function downloadData() {
           el
             .querySelector("td:first-child img")
             ?.getAttribute("data-src")
-            ?.replace("https://static.wikia.nocookie.net", "") ?? "",
+            ?.replace("https://static.wikia.nocookie.net", "") ??
+          el
+            .querySelector("td:first-child img")
+            ?.getAttribute("src")
+            ?.replace("https://static.wikia.nocookie.net", "") ??
+          "",
         flag_icon:
           el
             .querySelector("td:nth-child(4) img")
             ?.getAttribute("data-src")
-            ?.replace("https://static.wikia.nocookie.net", "") ?? "",
+            ?.replace("https://static.wikia.nocookie.net", "") ??
+          el
+            .querySelector("td:nth-child(4) img")
+            ?.getAttribute("src")
+            ?.replace("https://static.wikia.nocookie.net", "") ??
+          "",
         link:
           "https://armoredwarfare.fandom.com" +
           (el
@@ -54,6 +64,7 @@ async function downloadData() {
         // if (tank.name !== "Boxer RIWP") return tank;
         // if (tank.name !== "Merkava 4M") return tank;
         // if (tank.name !== "Object 287") return tank;
+        // if (tank.name !== "AMX-50") return tank;
         const info = await fetch(tank.link).then((r) => r.text());
         console.log(`Download tank data [${++count}]: ${tank.name}`);
         const { window } = new JSDOM(info);
@@ -431,7 +442,12 @@ async function downloadData() {
                 el
                   .querySelector("td:nth-child(1) img")
                   ?.getAttribute("data-src")
-                  ?.replace("https://static.wikia.nocookie.net", "") ?? "",
+                  ?.replace("https://static.wikia.nocookie.net", "") ??
+                el
+                  .querySelector("td:nth-child(1) img")
+                  ?.getAttribute("src")
+                  ?.replace("https://static.wikia.nocookie.net", "") ??
+                "",
             })),
           abilities: [
             ...([...document.querySelectorAll("table.wikitable")]
@@ -455,6 +471,10 @@ async function downloadData() {
                       el
                         .querySelector("td:nth-child(2) img")
                         ?.getAttribute("data-src")
+                        ?.replace("https://static.wikia.nocookie.net", "") ??
+                      el
+                        .querySelector("td:nth-child(2) img")
+                        ?.getAttribute("src")
                         ?.replace("https://static.wikia.nocookie.net", "") ??
                       "",
                   },
