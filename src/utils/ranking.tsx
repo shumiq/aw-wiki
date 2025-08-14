@@ -17,8 +17,7 @@ export const getDPMRank = (
   tank: (typeof import("~/data/wiki_data.json"))[number],
 ) => {
   const dpm = getHighestDPM(tank);
-  if (dpm < 5000) return "C";
   if (dpm < 10000) return "B";
-  if (dpm < 15000) return "A";
+  if (dpm < 16000) return "A";
   return "S";
 };

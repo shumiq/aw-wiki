@@ -1,5 +1,5 @@
-import { For } from "solid-js";
-import { getDPMRank } from "~/utils/ranking";
+import { For, Show } from "solid-js";
+import { getDPMRank, getHighestDPM } from "~/utils/ranking";
 
 export function TankCard({
   tank,
@@ -35,7 +35,11 @@ export function TankCard({
           </div>
         </div>
         <div class="flex flex-1 justify-end">
-          <Rank label="DPM" rank={getDPMRank(tank)} />
+          <Rank
+            label="DPM"
+            rank={getDPMRank(tank)}
+            value={getHighestDPM(tank)}
+          />
         </div>
       </div>
       <div class="collapse-content"></div>
@@ -43,17 +47,31 @@ export function TankCard({
   );
 }
 
-const Rank = ({ label, rank }: { label: string; rank: string }) => {
+const Rank = ({
+  label,
+  rank,
+  value,
+}: {
+  label: string;
+  rank: string;
+  value?: string | number;
+}) => {
   const rankStyle = {
-    S: "text-[28px] text-gray-200 drop-shadow-[0_0_4px_rgba(229,228,226,0.8)] font-bold",
-    A: "text-[18px] text-yellow-400",
-    B: "text-[18px] text-gray-400",
+    S: "text-[28px] text-yellow-400",
+    A: "text-[18px] text-gray-300",
     default: "text-[18px] text-orange-700",
   } as Record<string, string>;
   return (
-    <div class="flex flex-col items-center justify-center">
-      <div class="text-xs text-neutral-500">{label}</div>
+    <div class="flex flex-col items-center justify-center leading-none">
+      <div class="badge badge-xs badge-soft my-2">{label}</div>
       <div class={rankStyle[rank] ?? rankStyle["default"]}>{rank}</div>
+      <Show when={Boolean(value)}>
+        <div class={`${rankStyle[rank] ?? rankStyle["default"]} text-[10px]!`}>
+          {typeof value === "number"
+            ? new Intl.NumberFormat().format(Math.round(value))
+            : value}
+        </div>
+      </Show>
     </div>
   );
 };
