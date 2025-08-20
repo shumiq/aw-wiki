@@ -965,10 +965,10 @@ packages:
       }
     engines: { node: ">=18.0.0" }
 
-  "@netlify/serverless-functions-api@2.2.0":
+  "@netlify/serverless-functions-api@2.2.1":
     resolution:
       {
-        integrity: sha512-eQNnGUMyatgEeFJ8iKI2DT7wXDEjbWmZ+hJpCZtfg1bVsD4JdprIhLqdrUqmrDgPG2r45sQYigO9oq8BWXO37w==,
+        integrity: sha512-PAEyziX2pkENwQLCqWfS2Jw5CKATwAty/4mcnBcAEVWrfWE5vqKx82qta1nDrbeFOcBw6QD5ShYCfbXUnQ4MNA==,
       }
     engines: { node: ">=18.0.0" }
 
@@ -2826,10 +2826,10 @@ packages:
         integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==,
       }
 
-  electron-to-chromium@1.5.204:
+  electron-to-chromium@1.5.207:
     resolution:
       {
-        integrity: sha512-s9VbBXWxfDrl67PlO4avwh0/GU2vcwx8Fph3wlR8LJl7ySGYId59EFE17VWVcuC3sLWNPENm6Z/uGqKbkPCcXA==,
+        integrity: sha512-mryFrrL/GXDTmAtIVMVf+eIXM09BBPlO5IQ7lUyKmK8d+A4VpRGG+M3ofoVef6qyF8s60rJei8ymlJxjUA8Faw==,
       }
 
   emoji-regex-xs@1.0.0:
@@ -3982,10 +3982,10 @@ packages:
       }
     engines: { node: ">=20.0.0" }
 
-  local-pkg@1.1.1:
+  local-pkg@1.1.2:
     resolution:
       {
-        integrity: sha512-WunYko2W1NcdfAFpuLUoucsgULmgDBRkdxHxWQ7mK0cQqwPiy8E1enjuRBrhLtZkB5iScJ1XIPdhVEFK8aOLSg==,
+        integrity: sha512-arhlxbFRmoQHl33a0Zkle/YWlmNwoyt6QNZEIJcqNbdrsix5Lvc4HyyI3EnwxTYlZYc32EbYrQ8SzEZ7dqgg9A==,
       }
     engines: { node: ">=14" }
 
@@ -4682,10 +4682,10 @@ packages:
         integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==,
       }
 
-  pkg-types@2.2.0:
+  pkg-types@2.3.0:
     resolution:
       {
-        integrity: sha512-2SM/GZGAEkPp3KWORxQZns4M+WSeXbC2HEvmOIJe3Cmiv6ieAJvdVhDldtHqM5J1Y7MrR1XhkBT/rMlhh9FdqQ==,
+        integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==,
       }
 
   postcss-values-parser@6.0.2:
@@ -6792,14 +6792,14 @@ snapshots:
 
   "@netlify/serverless-functions-api@1.41.2": {}
 
-  "@netlify/serverless-functions-api@2.2.0": {}
+  "@netlify/serverless-functions-api@2.2.1": {}
 
   "@netlify/zip-it-and-ship-it@12.2.1(rollup@4.46.3)":
     dependencies:
       "@babel/parser": 7.28.3
       "@babel/types": 7.28.0
       "@netlify/binary-info": 1.0.0
-      "@netlify/serverless-functions-api": 2.2.0
+      "@netlify/serverless-functions-api": 2.2.1
       "@vercel/nft": 0.29.4(rollup@4.46.3)
       archiver: 7.0.1
       common-path-prefix: 3.0.0
@@ -7604,7 +7604,7 @@ snapshots:
   browserslist@4.25.3:
     dependencies:
       caniuse-lite: 1.0.30001735
-      electron-to-chromium: 1.5.204
+      electron-to-chromium: 1.5.207
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.3)
 
@@ -7633,7 +7633,7 @@ snapshots:
       ohash: 2.0.11
       pathe: 2.0.3
       perfect-debounce: 1.0.0
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       rc9: 2.1.2
     optionalDependencies:
       magicast: 0.3.5
@@ -7933,7 +7933,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.204: {}
+  electron-to-chromium@1.5.207: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -8607,10 +8607,10 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 9.0.0
 
-  local-pkg@1.1.1:
+  local-pkg@1.1.2:
     dependencies:
       mlly: 1.7.4
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       quansync: 0.2.11
 
   locate-path@7.2.0:
@@ -8831,7 +8831,7 @@ snapshots:
       ohash: 2.0.11
       pathe: 2.0.3
       perfect-debounce: 1.0.0
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       pretty-bytes: 6.1.1
       radix3: 1.1.2
       rollup: 4.46.3
@@ -8936,7 +8936,7 @@ snapshots:
       citty: 0.1.6
       consola: 3.4.2
       pathe: 2.0.3
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       tinyexec: 1.0.1
 
   object-inspect@1.13.4: {}
@@ -9056,7 +9056,7 @@ snapshots:
       mlly: 1.7.4
       pathe: 2.0.3
 
-  pkg-types@2.2.0:
+  pkg-types@2.3.0:
     dependencies:
       confbox: 0.2.2
       exsolve: 1.0.7
@@ -9696,12 +9696,12 @@ snapshots:
       acorn: 8.15.0
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
-      local-pkg: 1.1.1
+      local-pkg: 1.1.2
       magic-string: 0.30.17
       mlly: 1.7.4
       pathe: 2.0.3
       picomatch: 4.0.3
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       scule: 1.3.0
       strip-literal: 3.0.0
       tinyglobby: 0.2.14
@@ -9782,7 +9782,7 @@ snapshots:
       magic-string: 0.30.17
       mlly: 1.7.4
       pathe: 2.0.3
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       unplugin: 2.3.6
 
   update-browserslist-db@1.1.3(browserslist@4.25.3):
