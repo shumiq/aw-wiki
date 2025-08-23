@@ -319,10 +319,10 @@ packages:
       }
     engines: { node: ">=0.1.90" }
 
-  "@csstools/color-helpers@5.0.2":
+  "@csstools/color-helpers@5.1.0":
     resolution:
       {
-        integrity: sha512-JqWH1vsgdGcw2RR6VliXXdA0/59LttzlU8UlRT/iUUsEeWfYq8I+K0yhihEUTTHLRm1EXvpsCx3083EU15ecsA==,
+        integrity: sha512-S11EXWJyy0Mz5SYvRmY8nJYTFFd1LCNV+7cXyAgQtOOuzb4EsgfqDufL+9esx72/eLhsRdGZwaldu/h+E4t4BA==,
       }
     engines: { node: ">=18" }
 
@@ -336,10 +336,10 @@ packages:
       "@csstools/css-parser-algorithms": ^3.0.5
       "@csstools/css-tokenizer": ^3.0.4
 
-  "@csstools/css-color-parser@3.0.10":
+  "@csstools/css-color-parser@3.1.0":
     resolution:
       {
-        integrity: sha512-TiJ5Ajr6WRd1r8HSiwJvZBiJOqtH86aHpUjq5aEKWHiII2Qfjqd/HCWKPOW8EP4vcspXbHnXrwIDlu5savQipg==,
+        integrity: sha512-nbtKwh3a6xNVIp/VRuXV64yTKnb1IjTAEEh3irzS+HkKjAOYLTGNb9pmVNntZ8iVBHcWDA2Dof0QtPgFI1BaTA==,
       }
     engines: { node: ">=18" }
     peerDependencies:
@@ -2229,10 +2229,10 @@ packages:
       }
     engines: { node: ">=16" }
 
-  caniuse-lite@1.0.30001736:
+  caniuse-lite@1.0.30001737:
     resolution:
       {
-        integrity: sha512-ImpN5gLEY8gWeqfLUyEF4b7mYWcYoR2Si1VhnrbM4JizRFmfGaAQ12PhNykq6nvI4XvKLrsp8Xde74D5phJOSw==,
+        integrity: sha512-BiloLiXtQNrY5UyF0+1nSJLXUENuhka2pzy2Fx5pGxqavdrxSCW4U6Pn/PoG3Efspi2frRbHpBV2XsrPE6EDlw==,
       }
 
   ccount@2.0.1:
@@ -3369,6 +3369,12 @@ packages:
         integrity: sha512-z6GknHqyX0h9aQaTx22VZDf6QyZn+0Nh+Ym8O/u0SGSkyF5cuTJYKlc8MkzW3Nzf9LE1ivcpmYC3FUGpywhuUQ==,
       }
 
+  h3@1.15.4:
+    resolution:
+      {
+        integrity: sha512-z5cFQWDffyOe4vQ9xIqNfCZdV4p//vy6fBnr8Q1AWnVZ0teurKMG66rLj++TKwKPUP3u7iMUvrvKaEUiQw2QWQ==,
+      }
+
   has-symbols@1.1.0:
     resolution:
       {
@@ -4254,10 +4260,10 @@ packages:
     engines: { node: ">=10" }
     hasBin: true
 
-  mlly@1.7.4:
+  mlly@1.8.0:
     resolution:
       {
-        integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==,
+        integrity: sha512-l8D9ODSRWLe2KHJSifWGwBqpTZXIXTeo8mlKjY+E2HAakaTeNpqAyBZ8GSqLzHgw4XmHmC8whvpjJNMbFZN7/g==,
       }
 
   module-definition@6.0.1:
@@ -5509,10 +5515,10 @@ packages:
         integrity: sha512-DzFtxOi+7NsFf7DBtI3BJsynR+0Yp6etH+nRPTbpWnS2pZBaSksv/JGctNwSWzbFjp0vxSqknaUylseZqMDGrA==,
       }
 
-  tapable@2.2.2:
+  tapable@2.2.3:
     resolution:
       {
-        integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==,
+        integrity: sha512-ZL6DDuAlRlLGghwcfmSn9sK3Hr6ArtyudlSAiCqQ6IfE+b+HHbydbYDIG15IfS5do+7XQQBdBiubF/cV2dnDzg==,
       }
     engines: { node: ">=6" }
 
@@ -5814,10 +5820,10 @@ packages:
       }
     engines: { node: ">=18.12.0" }
 
-  unstorage@1.16.1:
+  unstorage@1.17.0:
     resolution:
       {
-        integrity: sha512-gdpZ3guLDhz+zWIlYP1UwQ259tG5T5vYRzDaHMkQ1bBY1SQPutvZnrRjTFaWUUpseErJIgAZS51h6NOcZVZiqQ==,
+        integrity: sha512-l9Z7lBiwtNp8ZmcoZ/dmPkFXFdtEdZtTZafCSnEIj3YvtkXeGAtL2rN8MQFy/0cs4eOLpuRJMp9ivdug7TCvww==,
       }
     peerDependencies:
       "@azure/app-configuration": ^1.8.0
@@ -5832,6 +5838,7 @@ packages:
       "@planetscale/database": ^1.19.0
       "@upstash/redis": ^1.34.3
       "@vercel/blob": ">=0.27.1"
+      "@vercel/functions": ^2.2.12
       "@vercel/kv": ^1.0.1
       aws4fetch: ^1.0.20
       db0: ">=0.2.1"
@@ -5862,6 +5869,8 @@ packages:
       "@upstash/redis":
         optional: true
       "@vercel/blob":
+        optional: true
+      "@vercel/functions":
         optional: true
       "@vercel/kv":
         optional: true
@@ -6289,7 +6298,7 @@ snapshots:
   "@asamuzakjp/css-color@3.2.0":
     dependencies:
       "@csstools/css-calc": 2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
-      "@csstools/css-color-parser": 3.0.10(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
+      "@csstools/css-color-parser": 3.1.0(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
       "@csstools/css-parser-algorithms": 3.0.5(@csstools/css-tokenizer@3.0.4)
       "@csstools/css-tokenizer": 3.0.4
       lru-cache: 10.4.3
@@ -6501,16 +6510,16 @@ snapshots:
 
   "@colors/colors@1.6.0": {}
 
-  "@csstools/color-helpers@5.0.2": {}
+  "@csstools/color-helpers@5.1.0": {}
 
   "@csstools/css-calc@2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)":
     dependencies:
       "@csstools/css-parser-algorithms": 3.0.5(@csstools/css-tokenizer@3.0.4)
       "@csstools/css-tokenizer": 3.0.4
 
-  "@csstools/css-color-parser@3.0.10(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)":
+  "@csstools/css-color-parser@3.1.0(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)":
     dependencies:
-      "@csstools/color-helpers": 5.0.2
+      "@csstools/color-helpers": 5.1.0
       "@csstools/css-calc": 2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
       "@csstools/css-parser-algorithms": 3.0.5(@csstools/css-tokenizer@3.0.4)
       "@csstools/css-tokenizer": 3.0.4
@@ -7368,7 +7377,7 @@ snapshots:
       h3: 1.15.3
       http-shutdown: 1.2.2
       jiti: 1.21.7
-      mlly: 1.7.4
+      mlly: 1.8.0
       node-forge: 1.3.1
       pathe: 1.1.2
       std-env: 3.9.0
@@ -7603,7 +7612,7 @@ snapshots:
 
   browserslist@4.25.3:
     dependencies:
-      caniuse-lite: 1.0.30001736
+      caniuse-lite: 1.0.30001737
       electron-to-chromium: 1.5.208
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.3)
@@ -7652,7 +7661,7 @@ snapshots:
 
   camelcase@8.0.0: {}
 
-  caniuse-lite@1.0.30001736: {}
+  caniuse-lite@1.0.30001737: {}
 
   ccount@2.0.1: {}
 
@@ -7956,7 +7965,7 @@ snapshots:
   enhanced-resolve@5.18.3:
     dependencies:
       graceful-fs: 4.2.11
-      tapable: 2.2.2
+      tapable: 2.2.3
 
   entities@4.5.0: {}
 
@@ -8253,6 +8262,18 @@ snapshots:
       duplexer: 0.1.2
 
   h3@1.15.3:
+    dependencies:
+      cookie-es: 1.2.2
+      crossws: 0.3.5
+      defu: 6.1.4
+      destr: 2.0.5
+      iron-webcrypto: 1.2.1
+      node-mock-http: 1.0.2
+      radix3: 1.1.2
+      ufo: 1.6.1
+      uncrypto: 0.1.3
+
+  h3@1.15.4:
     dependencies:
       cookie-es: 1.2.2
       crossws: 0.3.5
@@ -8590,7 +8611,7 @@ snapshots:
       h3: 1.15.3
       http-shutdown: 1.2.2
       jiti: 2.5.1
-      mlly: 1.7.4
+      mlly: 1.8.0
       node-forge: 1.3.1
       pathe: 1.1.2
       std-env: 3.9.0
@@ -8609,7 +8630,7 @@ snapshots:
 
   local-pkg@1.1.2:
     dependencies:
-      mlly: 1.7.4
+      mlly: 1.8.0
       pkg-types: 2.3.0
       quansync: 0.2.11
 
@@ -8752,7 +8773,7 @@ snapshots:
 
   mkdirp@3.0.1: {}
 
-  mlly@1.7.4:
+  mlly@1.8.0:
     dependencies:
       acorn: 8.15.0
       pathe: 2.0.3
@@ -8824,7 +8845,7 @@ snapshots:
       magic-string: 0.30.18
       magicast: 0.3.5
       mime: 4.0.7
-      mlly: 1.7.4
+      mlly: 1.8.0
       node-fetch-native: 1.6.7
       node-mock-http: 1.0.2
       ofetch: 1.4.1
@@ -8849,7 +8870,7 @@ snapshots:
       unenv: 2.0.0-rc.19
       unimport: 5.2.0
       unplugin-utils: 0.2.5
-      unstorage: 1.16.1(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.7.0)
+      unstorage: 1.17.0(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.7.0)
       untyped: 2.0.0
       unwasm: 0.3.11
       youch: 4.1.0-beta.8
@@ -8869,6 +8890,7 @@ snapshots:
       - "@planetscale/database"
       - "@upstash/redis"
       - "@vercel/blob"
+      - "@vercel/functions"
       - "@vercel/kv"
       - aws4fetch
       - better-sqlite3
@@ -9053,7 +9075,7 @@ snapshots:
   pkg-types@1.3.1:
     dependencies:
       confbox: 0.1.8
-      mlly: 1.7.4
+      mlly: 1.8.0
       pathe: 2.0.3
 
   pkg-types@2.3.0:
@@ -9559,7 +9581,7 @@ snapshots:
 
   tailwindcss@4.1.12: {}
 
-  tapable@2.2.2: {}
+  tapable@2.2.3: {}
 
   tar-stream@3.1.7:
     dependencies:
@@ -9698,7 +9720,7 @@ snapshots:
       estree-walker: 3.0.3
       local-pkg: 1.1.2
       magic-string: 0.30.18
-      mlly: 1.7.4
+      mlly: 1.8.0
       pathe: 2.0.3
       picomatch: 4.0.3
       pkg-types: 2.3.0
@@ -9747,12 +9769,12 @@ snapshots:
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
-  unstorage@1.16.1(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.7.0):
+  unstorage@1.17.0(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.7.0):
     dependencies:
       anymatch: 3.1.3
       chokidar: 4.0.3
       destr: 2.0.5
-      h3: 1.15.3
+      h3: 1.15.4
       lru-cache: 10.4.3
       node-fetch-native: 1.6.7
       ofetch: 1.4.1
@@ -9780,7 +9802,7 @@ snapshots:
     dependencies:
       knitwork: 1.2.0
       magic-string: 0.30.18
-      mlly: 1.7.4
+      mlly: 1.8.0
       pathe: 2.0.3
       pkg-types: 2.3.0
       unplugin: 2.3.8
@@ -9851,7 +9873,7 @@ snapshots:
       ufo: 1.6.1
       unctx: 2.4.1
       unenv: 1.10.0
-      unstorage: 1.16.1(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.7.0)
+      unstorage: 1.17.0(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.7.0)
       vite: 6.3.5(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.43.1)(tsx@4.20.4)(yaml@2.8.1)
       zod: 3.25.76
     transitivePeerDependencies:
@@ -9870,6 +9892,7 @@ snapshots:
       - "@types/node"
       - "@upstash/redis"
       - "@vercel/blob"
+      - "@vercel/functions"
       - "@vercel/kv"
       - aws4fetch
       - better-sqlite3
