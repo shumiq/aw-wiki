@@ -46564,11 +46564,11 @@
     "weapons": [
       {
         "name": "Kornet ATGM Launcher",
-        "shells": [
-          "9M133-2 ATGM",
-          "9M133F Thermo. ATGM",
-          "9M133F-3 Thermo. ATGM"
-        ]
+        "shells": ["9M133-2 ATGM", "9M133F Thermo. ATGM"]
+      },
+      {
+        "name": "Upgraded Semi-Automatic Targeting System<sup id=\"cite_ref-PartChoice1_2-1\" class=\"reference\"><a href=\"#cite_note-PartChoice1-2\"><span class=\"cite-bracket\">[</span>note 2<span class=\"cite-bracket\">]</span></a></sup>",
+        "shells": ["9M133-2 ATGM", "9M133F-3 Thermo. ATGM"]
       }
     ],
     "engines": [
@@ -46583,10 +46583,6 @@
       {
         "name": "3D6M Smoke Grenades",
         "icon": "/armoredwarfare_gamepedia/images/e/e0/Smokegrenades.png/revision/latest/scale-to-width-down/40?cb=20220216122453"
-      },
-      {
-        "name": "Upgraded Semi-Automatic Targeting System",
-        "icon": "/armoredwarfare_gamepedia/images/7/7c/Navsystem.png/revision/latest/scale-to-width-down/40?cb=20220306120740"
       },
       {
         "name": "Silent ATGM Launch System",
