@@ -17648,13 +17648,7 @@
     "link": "https://armoredwarfare.fandom.com/wiki/BMT-72-140",
     "tier": 10,
     "dealer": "Marat Shishkin",
-    "traits": [
-      "Armored",
-      "Heavy Weapon",
-      "Trained Crew",
-      "Troop Compartment",
-      "Weapon Diversity"
-    ],
+    "traits": ["Armored", "Heavy Weapon", "Trained Crew", "Troop Compartment"],
     "class": "MBT",
     "nation": "Ukraine",
     "hp": 4000,
@@ -24301,7 +24295,7 @@
         "name": "23mm 3UBR1 AP",
         "type": "AP",
         "damage": 15,
-        "penetration": 60,
+        "penetration": 220,
         "reload": 0.2,
         "homing": false,
         "magazine_type": "autocanon",
@@ -24318,7 +24312,7 @@
         "name": "23mm Mesco APFSDS",
         "type": "APFSDS",
         "damage": 12,
-        "penetration": 100,
+        "penetration": 270,
         "reload": 0.2,
         "homing": false,
         "magazine_type": "autocanon",
@@ -24335,7 +24329,7 @@
         "name": "23mm Arsenal FAPDS",
         "type": "PELE",
         "damage": 11,
-        "penetration": 92,
+        "penetration": 220,
         "reload": 0.2,
         "homing": false,
         "magazine_type": "autocanon",
@@ -34740,8 +34734,8 @@
       {
         "name": "Detroit Diesel 6V53T 300 hp Diesel Engine",
         "top_speed": 72,
-        "time_to_speed_32": 3.83,
-        "time_to_speed_top": 14.35
+        "time_to_speed_32": 2.7,
+        "time_to_speed_top": 11
       }
     ],
     "parts": [
@@ -35218,7 +35212,7 @@
         "homing": false,
         "magazine_type": "magazine",
         "magazine_size": 7,
-        "partial_reload": false,
+        "partial_reload": true,
         "reload_within_magazine": 2.7,
         "burst_rate": 22.22222222222222,
         "rpm": 10,
@@ -35233,7 +35227,7 @@
         "homing": false,
         "magazine_type": "magazine",
         "magazine_size": 7,
-        "partial_reload": false,
+        "partial_reload": true,
         "reload_within_magazine": 2.7,
         "burst_rate": 22.22222222222222,
         "rpm": 10,
@@ -35248,7 +35242,7 @@
         "homing": false,
         "magazine_type": "magazine",
         "magazine_size": 7,
-        "partial_reload": false,
+        "partial_reload": true,
         "reload_within_magazine": 2.7,
         "burst_rate": 22.22222222222222,
         "rpm": 10,
@@ -35263,7 +35257,7 @@
         "homing": false,
         "magazine_type": "magazine",
         "magazine_size": 7,
-        "partial_reload": false,
+        "partial_reload": true,
         "reload_within_magazine": 2.7,
         "burst_rate": 22.22222222222222,
         "rpm": 10,
@@ -38825,7 +38819,7 @@
     "traits": ["Stealthy", "Magazine Loader", "HESH Rounds"],
     "class": "LT",
     "nation": "USA",
-    "hp": 2900,
+    "hp": 3300,
     "ammos": [
       {
         "name": "105mm M900A2 APFSDS",
@@ -38932,7 +38926,7 @@
     "engines": [
       {
         "name": "MTU 6V199 TE21 550 hp Diesel Engine",
-        "top_speed": 72,
+        "top_speed": 85,
         "time_to_speed_32": 2.96,
         "time_to_speed_top": 15.12
       },
@@ -38944,10 +38938,6 @@
       }
     ],
     "parts": [
-      {
-        "name": "Spall Liner",
-        "icon": "/armoredwarfare_gamepedia/images/9/97/Spallliner.png/revision/latest/scale-to-width-down/40?cb=20220216122453"
-      },
       {
         "name": "M19 Smoke Grenades",
         "icon": "/armoredwarfare_gamepedia/images/e/e0/Smokegrenades.png/revision/latest/scale-to-width-down/40?cb=20220216122453"
@@ -38987,10 +38977,6 @@
       {
         "name": "Stock Tracks",
         "icon": "/armoredwarfare_gamepedia/images/e/e6/Treads01.png/revision/latest/scale-to-width-down/40?cb=20220216122610"
-      },
-      {
-        "name": "Allison 3040 MX Transmission",
-        "icon": "/armoredwarfare_gamepedia/images/d/d1/Transmission.png/revision/latest/scale-to-width-down/40?cb=20220317184033"
       },
       {
         "name": "Improved Suspension",
@@ -43881,10 +43867,10 @@
         "magazine_type": "magazine",
         "magazine_size": 4,
         "partial_reload": false,
-        "reload_within_magazine": 3,
-        "burst_rate": 20,
-        "rpm": 7,
-        "dpm": 6300
+        "reload_within_magazine": 2.5,
+        "burst_rate": 24,
+        "rpm": 8,
+        "dpm": 7200
       },
       {
         "name": "HOT-2MP ATGM",
@@ -43896,10 +43882,10 @@
         "magazine_type": "magazine",
         "magazine_size": 4,
         "partial_reload": false,
-        "reload_within_magazine": 3,
-        "burst_rate": 20,
-        "rpm": 7,
-        "dpm": 6650
+        "reload_within_magazine": 2.5,
+        "burst_rate": 24,
+        "rpm": 8,
+        "dpm": 7600
       },
       {
         "name": "HOT-3 ATGM-TH",
@@ -43911,10 +43897,10 @@
         "magazine_type": "magazine",
         "magazine_size": 4,
         "partial_reload": false,
-        "reload_within_magazine": 3,
-        "burst_rate": 20,
-        "rpm": 7,
-        "dpm": 6300
+        "reload_within_magazine": 2.5,
+        "burst_rate": 24,
+        "rpm": 8,
+        "dpm": 7200
       }
     ],
     "armors": [
