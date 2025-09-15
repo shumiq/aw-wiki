@@ -15,7 +15,7 @@ importers:
         version: 0.15.3(solid-js@1.9.9)
       "@solidjs/start":
         specifier: ^1.2.0
-        version: 1.2.0(solid-js@1.9.9)(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+        version: 1.2.0(solid-js@1.9.9)(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
       solid-icons:
         specifier: ^1.1.0
         version: 1.1.0(solid-js@1.9.9)
@@ -24,17 +24,17 @@ importers:
         version: 1.9.9
       vinxi:
         specifier: ^0.5.8
-        version: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+        version: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
     devDependencies:
       "@tailwindcss/vite":
         specifier: ^4.1.13
-        version: 4.1.13(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+        version: 4.1.13(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
       "@types/jsdom":
         specifier: ^21.1.7
         version: 21.1.7
       daisyui:
-        specifier: ^5.1.10
-        version: 5.1.10
+        specifier: ^5.1.12
+        version: 5.1.12
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -1463,10 +1463,10 @@ packages:
         integrity: sha512-7V+8ncr22h4UoYRLnLXSpTxjQrNUXtWHGeMPRJt1nULXI57G9bIcpyrHlmrQ7QK24EyyuXvYcSSWAM8GA9nqCg==,
       }
 
-  "@types/node@24.3.3":
+  "@types/node@24.4.0":
     resolution:
       {
-        integrity: sha512-GKBNHjoNw3Kra1Qg5UXttsY5kiWMEfoHq2TmXb+b1rcm6N7B3wTrFYIf/oSZ1xNQ+hVVijgLkiDZh7jRRsh+Gw==,
+        integrity: sha512-gUuVEAK4/u6F9wRLznPUU4WGUacSEBDPoC2TrBkw3GAnOLHBL45QdfHOXp1kJ4ypBGLxTOB+t7NJLpKoC3gznQ==,
       }
 
   "@types/resolve@1.20.2":
@@ -1938,12 +1938,12 @@ packages:
       }
     engines: { node: ">=18" }
 
-  cli-truncate@4.0.0:
+  cli-truncate@5.0.0:
     resolution:
       {
-        integrity: sha512-nPdaFdQ0h/GEigbPClz11D0v/ZJEwxmeVZGeMo3Z5StPtUTkA9o1lD6QwoirYiSDzbcwn2XcjwmCp68W1IS4TA==,
+        integrity: sha512-ds7u02fPOOBpcUl2VSjLF3lfnAik9u7Zt0BTaaAQlT5RtABALl4cvpJHthXx+rM50J4gSfXKPH5Tix/tfdefUQ==,
       }
-    engines: { node: ">=18" }
+    engines: { node: ">=20" }
 
   clipboardy@4.0.0:
     resolution:
@@ -2128,10 +2128,10 @@ packages:
         integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==,
       }
 
-  daisyui@5.1.10:
+  daisyui@5.1.12:
     resolution:
       {
-        integrity: sha512-p1J/HME2WmaSiy6u2alIbeP3gd5PNVft3+6Bdll0BRSm/UdI4084+pD01LxFug/5wGexNewWqbcEL6nB2n2o+Q==,
+        integrity: sha512-wPk6TfH6cPjYFcJIj1Zn2IYjrXLHtKbHD7GesfTDpH86d6Mgy1GTgl8mhKUqpbnVnTUNgkV7L2diPsvOGSpBIw==,
       }
 
   data-uri-to-buffer@4.0.1:
@@ -2277,10 +2277,10 @@ packages:
     engines: { node: ">=0.10" }
     hasBin: true
 
-  detect-libc@2.0.4:
+  detect-libc@2.1.0:
     resolution:
       {
-        integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==,
+        integrity: sha512-vEtk+OcP7VBRtQZ1EJ3bdgzSfBjgnEalLTp5zjJrS+2Z1w2KZly4SBdac/WDU3hhsNAZ9E8SC96ME4Ey8MZ7cg==,
       }
     engines: { node: ">=8" }
 
@@ -2963,13 +2963,6 @@ packages:
       }
     engines: { node: ">=8" }
 
-  is-fullwidth-code-point@4.0.0:
-    resolution:
-      {
-        integrity: sha512-O4L094N2/dZ7xqVdrXhh9r1KODPJpFms8B5sGdJLPy664AgvXsreZUyCQQNItZRDlYug4xStLjNp/sz3HvBowQ==,
-      }
-    engines: { node: ">=12" }
-
   is-fullwidth-code-point@5.1.0:
     resolution:
       {
@@ -3284,10 +3277,10 @@ packages:
       }
     hasBin: true
 
-  listr2@9.0.3:
+  listr2@9.0.4:
     resolution:
       {
-        integrity: sha512-0aeh5HHHgmq1KRdMMDHfhMWQmIT/m7nRDTlxlFqni2Sp0had9baqsjJRvDGdlvgd6NmPE0nPloOipiQJGFtTHQ==,
+        integrity: sha512-1wd/kpAdKRLwv7/3OKC8zZ5U8e/fajCfWMxacUvB79S5nLrYGPtUI/8chMQhn3LQjsRVErTb9i1ECAwW0ZIHnQ==,
       }
     engines: { node: ">=20.0.0" }
 
@@ -4403,13 +4396,6 @@ packages:
       }
     engines: { node: ">=14.16" }
 
-  slice-ansi@5.0.0:
-    resolution:
-      {
-        integrity: sha512-FC+lgizVPfie0kkhqUScwRu1O/lF6NOgJmlCgK+/LYxDCTk8sGelYaHDhFcDN+Sn3Cv+3VSa4Byeo+IMCzpMgQ==,
-      }
-    engines: { node: ">=12" }
-
   slice-ansi@7.1.2:
     resolution:
       {
@@ -4552,6 +4538,13 @@ packages:
         integrity: sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==,
       }
     engines: { node: ">=18" }
+
+  string-width@8.1.0:
+    resolution:
+      {
+        integrity: sha512-Kxl3KJGb/gxkaUMOjRsQ8IrXiGW75O4E3RPjFIINOVH8AMl2SQ/yWdTzWwF3FevIX9LcMAjJW+GRwAlAbTSXdg==,
+      }
+    engines: { node: ">=20" }
 
   string_decoder@1.1.1:
     resolution:
@@ -4797,10 +4790,10 @@ packages:
         integrity: sha512-3OeMF5Lyowe8VW0skf5qaIE7Or3yS9LS7fvMUI0gg4YxpIBVg0L8BxCmROw2CcYhSkpR68Epz7CGc8MPj94Uww==,
       }
 
-  undici-types@7.10.0:
+  undici-types@7.11.0:
     resolution:
       {
-        integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==,
+        integrity: sha512-kt1ZriHTi7MU+Z/r9DOdAI3ONdaR3M3csEaRc6ewa4f4dTvX4cQCbJ4NkEn0ohE4hHtq85+PhPSTY+pO/1PwgA==,
       }
 
   unenv@1.10.0:
@@ -5689,7 +5682,7 @@ snapshots:
   "@mapbox/node-pre-gyp@2.0.0":
     dependencies:
       consola: 3.4.2
-      detect-libc: 2.0.4
+      detect-libc: 2.1.0
       https-proxy-agent: 7.0.6
       node-fetch: 2.7.0
       nopt: 8.1.0
@@ -5996,11 +5989,11 @@ snapshots:
     dependencies:
       solid-js: 1.9.9
 
-  "@solidjs/start@1.2.0(solid-js@1.9.9)(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
+  "@solidjs/start@1.2.0(solid-js@1.9.9)(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
     dependencies:
-      "@tanstack/server-functions-plugin": 1.121.21(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
-      "@vinxi/plugin-directives": 0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
-      "@vinxi/server-components": 0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+      "@tanstack/server-functions-plugin": 1.121.21(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+      "@vinxi/plugin-directives": 0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+      "@vinxi/server-components": 0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
       cookie-es: 2.0.0
       defu: 6.1.4
       error-stack-parser: 2.1.4
@@ -6012,8 +6005,8 @@ snapshots:
       source-map-js: 1.2.1
       terracotta: 1.0.6(solid-js@1.9.9)
       tinyglobby: 0.2.15
-      vinxi: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
-      vite-plugin-solid: 2.11.8(solid-js@1.9.9)(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+      vinxi: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vite-plugin-solid: 2.11.8(solid-js@1.9.9)(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
     transitivePeerDependencies:
       - "@testing-library/jest-dom"
       - solid-js
@@ -6070,7 +6063,7 @@ snapshots:
 
   "@tailwindcss/oxide@4.1.13":
     dependencies:
-      detect-libc: 2.0.4
+      detect-libc: 2.1.0
       tar: 7.4.3
     optionalDependencies:
       "@tailwindcss/oxide-android-arm64": 4.1.13
@@ -6086,14 +6079,14 @@ snapshots:
       "@tailwindcss/oxide-win32-arm64-msvc": 4.1.13
       "@tailwindcss/oxide-win32-x64-msvc": 4.1.13
 
-  "@tailwindcss/vite@4.1.13(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
+  "@tailwindcss/vite@4.1.13(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
     dependencies:
       "@tailwindcss/node": 4.1.13
       "@tailwindcss/oxide": 4.1.13
       tailwindcss: 4.1.13
-      vite: 6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vite: 6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
 
-  "@tanstack/directive-functions-plugin@1.121.21(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
+  "@tanstack/directive-functions-plugin@1.121.21(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
     dependencies:
       "@babel/code-frame": 7.26.2
       "@babel/core": 7.28.4
@@ -6102,7 +6095,7 @@ snapshots:
       "@tanstack/router-utils": 1.131.2
       babel-dead-code-elimination: 1.0.10
       tiny-invariant: 1.3.3
-      vite: 6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vite: 6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -6117,7 +6110,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  "@tanstack/server-functions-plugin@1.121.21(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
+  "@tanstack/server-functions-plugin@1.121.21(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
     dependencies:
       "@babel/code-frame": 7.26.2
       "@babel/core": 7.28.4
@@ -6126,7 +6119,7 @@ snapshots:
       "@babel/template": 7.27.2
       "@babel/traverse": 7.28.4
       "@babel/types": 7.28.4
-      "@tanstack/directive-functions-plugin": 1.121.21(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+      "@tanstack/directive-functions-plugin": 1.121.21(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
       babel-dead-code-elimination: 1.0.10
       tiny-invariant: 1.3.3
     transitivePeerDependencies:
@@ -6164,7 +6157,7 @@ snapshots:
 
   "@types/jsdom@21.1.7":
     dependencies:
-      "@types/node": 24.3.3
+      "@types/node": 24.4.0
       "@types/tough-cookie": 4.0.5
       parse5: 7.3.0
 
@@ -6176,9 +6169,9 @@ snapshots:
     dependencies:
       "@types/braces": 3.0.5
 
-  "@types/node@24.3.3":
+  "@types/node@24.4.0":
     dependencies:
-      undici-types: 7.10.0
+      undici-types: 7.11.0
 
   "@types/resolve@1.20.2": {}
 
@@ -6227,7 +6220,7 @@ snapshots:
       untun: 0.1.3
       uqr: 0.1.2
 
-  "@vinxi/plugin-directives@0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
+  "@vinxi/plugin-directives@0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
     dependencies:
       "@babel/parser": 7.28.4
       acorn: 8.15.0
@@ -6238,18 +6231,18 @@ snapshots:
       magicast: 0.2.11
       recast: 0.23.11
       tslib: 2.8.1
-      vinxi: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vinxi: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
 
-  "@vinxi/server-components@0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
+  "@vinxi/server-components@0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))":
     dependencies:
-      "@vinxi/plugin-directives": 0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+      "@vinxi/plugin-directives": 0.5.1(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
       acorn: 8.15.0
       acorn-loose: 8.5.2
       acorn-typescript: 1.4.13(acorn@8.15.0)
       astring: 1.9.0
       magicast: 0.2.11
       recast: 0.23.11
-      vinxi: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vinxi: 0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
 
   "@whatwg-node/disposablestack@0.0.6":
     dependencies:
@@ -6508,10 +6501,10 @@ snapshots:
     dependencies:
       restore-cursor: 5.1.0
 
-  cli-truncate@4.0.0:
+  cli-truncate@5.0.0:
     dependencies:
-      slice-ansi: 5.0.0
-      string-width: 7.2.0
+      slice-ansi: 7.1.2
+      string-width: 8.1.0
 
   clipboardy@4.0.0:
     dependencies:
@@ -6603,7 +6596,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  daisyui@5.1.10: {}
+  daisyui@5.1.12: {}
 
   data-uri-to-buffer@4.0.1:
     optional: true
@@ -6653,7 +6646,7 @@ snapshots:
 
   detect-libc@1.0.3: {}
 
-  detect-libc@2.0.4: {}
+  detect-libc@2.1.0: {}
 
   devlop@1.1.0:
     dependencies:
@@ -7064,8 +7057,6 @@ snapshots:
 
   is-fullwidth-code-point@3.0.0: {}
 
-  is-fullwidth-code-point@4.0.0: {}
-
   is-fullwidth-code-point@5.1.0:
     dependencies:
       get-east-asian-width: 1.4.0
@@ -7200,7 +7191,7 @@ snapshots:
 
   lightningcss@1.30.1:
     dependencies:
-      detect-libc: 2.0.4
+      detect-libc: 2.1.0
     optionalDependencies:
       lightningcss-darwin-arm64: 1.30.1
       lightningcss-darwin-x64: 1.30.1
@@ -7221,7 +7212,7 @@ snapshots:
       commander: 14.0.1
       debug: 4.4.3
       lilconfig: 3.1.3
-      listr2: 9.0.3
+      listr2: 9.0.4
       micromatch: 4.0.8
       nano-spawn: 1.0.3
       pidtree: 0.6.0
@@ -7251,9 +7242,9 @@ snapshots:
       untun: 0.1.3
       uqr: 0.1.2
 
-  listr2@9.0.3:
+  listr2@9.0.4:
     dependencies:
-      cli-truncate: 4.0.0
+      cli-truncate: 5.0.0
       colorette: 2.0.20
       eventemitter3: 5.0.1
       log-update: 6.1.0
@@ -7974,11 +7965,6 @@ snapshots:
 
   slash@5.1.0: {}
 
-  slice-ansi@5.0.0:
-    dependencies:
-      ansi-styles: 6.2.3
-      is-fullwidth-code-point: 4.0.0
-
   slice-ansi@7.1.2:
     dependencies:
       ansi-styles: 6.2.3
@@ -8058,6 +8044,11 @@ snapshots:
   string-width@7.2.0:
     dependencies:
       emoji-regex: 10.5.0
+      get-east-asian-width: 1.4.0
+      strip-ansi: 7.1.2
+
+  string-width@8.1.0:
+    dependencies:
       get-east-asian-width: 1.4.0
       strip-ansi: 7.1.2
 
@@ -8194,7 +8185,7 @@ snapshots:
 
   undici-types@5.28.4: {}
 
-  undici-types@7.10.0: {}
+  undici-types@7.11.0: {}
 
   unenv@1.10.0:
     dependencies:
@@ -8340,7 +8331,7 @@ snapshots:
       "@types/unist": 3.0.3
       vfile-message: 4.0.3
 
-  vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.3)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1):
+  vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.4.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1):
     dependencies:
       "@babel/core": 7.28.4
       "@babel/plugin-syntax-jsx": 7.27.1(@babel/core@7.28.4)
@@ -8374,7 +8365,7 @@ snapshots:
       unctx: 2.4.1
       unenv: 1.10.0
       unstorage: 1.17.1(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.7.0)
-      vite: 6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vite: 6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
       zod: 3.25.76
     transitivePeerDependencies:
       - "@azure/app-configuration"
@@ -8420,7 +8411,7 @@ snapshots:
       - xml2js
       - yaml
 
-  vite-plugin-solid@2.11.8(solid-js@1.9.9)(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)):
+  vite-plugin-solid@2.11.8(solid-js@1.9.9)(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)):
     dependencies:
       "@babel/core": 7.28.4
       "@types/babel__core": 7.20.5
@@ -8428,12 +8419,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.9
       solid-refresh: 0.6.3(solid-js@1.9.9)
-      vite: 6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
-      vitefu: 1.1.1(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
+      vite: 6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vitefu: 1.1.1(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1):
+  vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
@@ -8442,7 +8433,7 @@ snapshots:
       rollup: 4.50.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      "@types/node": 24.3.3
+      "@types/node": 24.4.0
       fsevents: 2.3.3
       jiti: 2.5.1
       lightningcss: 1.30.1
@@ -8450,9 +8441,9 @@ snapshots:
       tsx: 4.20.5
       yaml: 2.8.1
 
-  vitefu@1.1.1(vite@6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)):
+  vitefu@1.1.1(vite@6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)):
     optionalDependencies:
-      vite: 6.3.6(@types/node@24.3.3)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
+      vite: 6.3.6(@types/node@24.4.0)(jiti@2.5.1)(lightningcss@1.30.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)
 
   w3c-xmlserializer@5.0.0:
     dependencies:
