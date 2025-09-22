@@ -2123,10 +2123,10 @@ packages:
       }
     engines: { node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0 }
 
-  cssstyle@5.3.0:
+  cssstyle@5.3.1:
     resolution:
       {
-        integrity: sha512-RveJPnk3m7aarYQ2bJ6iw+Urh55S6FzUiqtBq+TihnTDP4cI8y/TYDqGOyqgnG1J1a6BxJXZsV9JFSTulm9Z7g==,
+        integrity: sha512-g5PC9Aiph9eiczFpcgUhd9S4UUO3F+LHGRIi5NUMZ+4xtoIYbHNZwZnWA2JsFGe8OU8nl4WyaEFiZuGuxlutJQ==,
       }
     engines: { node: ">=20" }
 
@@ -3535,20 +3535,12 @@ packages:
       }
     engines: { node: ">=16 || 14 >=14.17" }
 
-  minizlib@3.0.2:
+  minizlib@3.1.0:
     resolution:
       {
-        integrity: sha512-oG62iEk+CYt5Xj2YqI5Xi9xWUeZhDI8jjQmC5oThVH5JGCTgIjr7ciJDzC7MBzYd//WvR1OTmP5Q38Q8ShQtVA==,
+        integrity: sha512-KZxYo1BUkWD2TVFLr0MQoM8vUUigWD3LlD83a/75BqC+4qE0Hb1Vo5v1FgcfaNXvfXzr+5EhQ6ing/CaBijTlw==,
       }
     engines: { node: ">= 18" }
-
-  mkdirp@3.0.1:
-    resolution:
-      {
-        integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==,
-      }
-    engines: { node: ">=10" }
-    hasBin: true
 
   mlly@1.8.0:
     resolution:
@@ -3989,10 +3981,10 @@ packages:
     engines: { node: ">=14" }
     hasBin: true
 
-  pretty-bytes@7.0.1:
+  pretty-bytes@7.1.0:
     resolution:
       {
-        integrity: sha512-285/jRCYIbMGDciDdrw0KPNC4LKEEwz/bwErcYNxSJOi4CpGUuLpb9gQpg3XJP0XYj9ldSRluXxih4lX2YN8Xw==,
+        integrity: sha512-nODzvTiYVRGRqAOvE84Vk5JDPyyxsVk0/fbA/bq7RqlnhksGpset09XTxbpvLTIjoaF7K8Z8DG8yHtKGTPSYRw==,
       }
     engines: { node: ">=20" }
 
@@ -4639,10 +4631,10 @@ packages:
         integrity: sha512-qJj60CXt7IU1Ffyc3NJMjh6EkuCFej46zUqJ4J7pqYlThyd9bO0XBTmcOIhSzZJVWfsLks0+nle/j538YAW9RQ==,
       }
 
-  tar@7.4.3:
+  tar@7.4.4:
     resolution:
       {
-        integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==,
+        integrity: sha512-O1z7ajPkjTgEgmTGz0v9X4eqeEXTDREPTO77pVC1Nbs86feBU1Zhdg+edzavPmYW1olxkwsqA2v4uOw6E8LeDg==,
       }
     engines: { node: ">=18" }
 
@@ -5682,7 +5674,7 @@ snapshots:
       node-fetch: 2.7.0
       nopt: 8.1.0
       semver: 7.7.2
-      tar: 7.4.3
+      tar: 7.4.4
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -6062,7 +6054,7 @@ snapshots:
   "@tailwindcss/oxide@4.1.13":
     dependencies:
       detect-libc: 2.1.0
-      tar: 7.4.3
+      tar: 7.4.4
     optionalDependencies:
       "@tailwindcss/oxide-android-arm64": 4.1.13
       "@tailwindcss/oxide-darwin-arm64": 4.1.13
@@ -6584,7 +6576,7 @@ snapshots:
       mdn-data: 2.12.2
       source-map-js: 1.2.1
 
-  cssstyle@5.3.0(postcss@8.5.6):
+  cssstyle@5.3.1(postcss@8.5.6):
     dependencies:
       "@asamuzakjp/css-color": 4.0.4
       "@csstools/css-syntax-patches-for-csstree": 1.0.14(postcss@8.5.6)
@@ -7118,7 +7110,7 @@ snapshots:
   jsdom@27.0.0(postcss@8.5.6):
     dependencies:
       "@asamuzakjp/dom-selector": 6.5.5
-      cssstyle: 5.3.0(postcss@8.5.6)
+      cssstyle: 5.3.1(postcss@8.5.6)
       data-urls: 6.0.0
       decimal.js: 10.6.0
       html-encoding-sniffer: 4.0.0
@@ -7380,11 +7372,9 @@ snapshots:
 
   minipass@7.1.2: {}
 
-  minizlib@3.0.2:
+  minizlib@3.1.0:
     dependencies:
       minipass: 7.1.2
-
-  mkdirp@3.0.1: {}
 
   mlly@1.8.0:
     dependencies:
@@ -7461,7 +7451,7 @@ snapshots:
       pathe: 2.0.3
       perfect-debounce: 2.0.0
       pkg-types: 2.3.0
-      pretty-bytes: 7.0.1
+      pretty-bytes: 7.1.0
       radix3: 1.1.2
       rollup: 4.52.0
       rollup-plugin-visualizer: 6.0.3(rollup@4.52.0)
@@ -7676,7 +7666,7 @@ snapshots:
 
   prettier@3.6.2: {}
 
-  pretty-bytes@7.0.1: {}
+  pretty-bytes@7.1.0: {}
 
   process-nextick-args@2.0.1: {}
 
@@ -8096,13 +8086,12 @@ snapshots:
     transitivePeerDependencies:
       - react-native-b4a
 
-  tar@7.4.3:
+  tar@7.4.4:
     dependencies:
       "@isaacs/fs-minipass": 4.0.1
       chownr: 3.0.0
       minipass: 7.1.2
-      minizlib: 3.0.2
-      mkdirp: 3.0.1
+      minizlib: 3.1.0
       yallist: 5.0.0
 
   terracotta@1.0.6(solid-js@1.9.9):
