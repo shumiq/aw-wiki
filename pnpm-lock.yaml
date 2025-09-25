@@ -33,8 +33,8 @@ importers:
         specifier: ^21.1.7
         version: 21.1.7
       daisyui:
-        specifier: ^5.1.14
-        version: 5.1.14
+        specifier: ^5.1.18
+        version: 5.1.18
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -2136,10 +2136,10 @@ packages:
         integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==,
       }
 
-  daisyui@5.1.14:
+  daisyui@5.1.18:
     resolution:
       {
-        integrity: sha512-c9Op7tB8vLzzazFaLeyFsmmVMLrU8sYo1sHuStBGTbaAzLVxrulelGQBROo/lS2ZxWm/CnCb9NWdKbTL+MaKFA==,
+        integrity: sha512-hJyDLT20RANfw/I0vlzZM/4BtIEe23vklcRHi7dNv9FKMJPh89ycxI8nXTMUeh7q8wYX1qPNvRoKMrh55hnO/g==,
       }
 
   data-uri-to-buffer@4.0.1:
@@ -2285,10 +2285,10 @@ packages:
     engines: { node: ">=0.10" }
     hasBin: true
 
-  detect-libc@2.1.0:
+  detect-libc@2.1.1:
     resolution:
       {
-        integrity: sha512-vEtk+OcP7VBRtQZ1EJ3bdgzSfBjgnEalLTp5zjJrS+2Z1w2KZly4SBdac/WDU3hhsNAZ9E8SC96ME4Ey8MZ7cg==,
+        integrity: sha512-ecqj/sy1jcK1uWrwpR67UhYrIFQ+5WlGxth34WquCbamhFA6hkkwiu37o6J5xCHdo1oixJRfVRw+ywV+Hq/0Aw==,
       }
     engines: { node: ">=8" }
 
@@ -5669,7 +5669,7 @@ snapshots:
   "@mapbox/node-pre-gyp@2.0.0":
     dependencies:
       consola: 3.4.2
-      detect-libc: 2.1.0
+      detect-libc: 2.1.1
       https-proxy-agent: 7.0.6
       node-fetch: 2.7.0
       nopt: 8.1.0
@@ -6053,7 +6053,7 @@ snapshots:
 
   "@tailwindcss/oxide@4.1.13":
     dependencies:
-      detect-libc: 2.1.0
+      detect-libc: 2.1.1
       tar: 7.5.1
     optionalDependencies:
       "@tailwindcss/oxide-android-arm64": 4.1.13
@@ -6587,7 +6587,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  daisyui@5.1.14: {}
+  daisyui@5.1.18: {}
 
   data-uri-to-buffer@4.0.1:
     optional: true
@@ -6637,7 +6637,7 @@ snapshots:
 
   detect-libc@1.0.3: {}
 
-  detect-libc@2.1.0: {}
+  detect-libc@2.1.1: {}
 
   devlop@1.1.0:
     dependencies:
@@ -7186,7 +7186,7 @@ snapshots:
 
   lightningcss@1.30.1:
     dependencies:
-      detect-libc: 2.1.0
+      detect-libc: 2.1.1
     optionalDependencies:
       lightningcss-darwin-arm64: 1.30.1
       lightningcss-darwin-x64: 1.30.1
