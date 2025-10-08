@@ -33,8 +33,8 @@ importers:
         specifier: ^27.0.0
         version: 27.0.0
       daisyui:
-        specifier: ^5.1.27
-        version: 5.1.27
+        specifier: ^5.1.29
+        version: 5.1.29
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -1216,10 +1216,10 @@ packages:
       }
     engines: { node: ">=18" }
 
-  "@sindresorhus/merge-streams@2.3.0":
+  "@sindresorhus/merge-streams@4.0.0":
     resolution:
       {
-        integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==,
+        integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==,
       }
     engines: { node: ">=18" }
 
@@ -1777,10 +1777,10 @@ packages:
         integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==,
       }
 
-  baseline-browser-mapping@2.8.12:
+  baseline-browser-mapping@2.8.13:
     resolution:
       {
-        integrity: sha512-vAPMQdnyKCBtkmQA6FMCBvU9qFIppS3nzyXnEM+Lo2IAhG4Mpjv9cCxMudhgV3YdNNJv6TNqXy97dfRVL2LmaQ==,
+        integrity: sha512-7s16KR8io8nIBWQyCYhmFhd+ebIzb9VKTzki+wOJXHTxTnV6+mFGH3+Jwn1zoKaY9/H9T/0BcKCZnzXljPnpSQ==,
       }
     hasBin: true
 
@@ -2136,10 +2136,10 @@ packages:
         integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==,
       }
 
-  daisyui@5.1.27:
+  daisyui@5.1.29:
     resolution:
       {
-        integrity: sha512-oCC2RwjrGRPTeEpaXoNmYydzVfSRdyJCthFsi/Q5PErAvaoD8kDarxlW+wiPAx2WmM8W8lXvyAHJUqjObCMWOQ==,
+        integrity: sha512-4eZhqCXO7CJVNGytTZEIQYJz3fah2gPleuqp4qUD4fD8WoEQIYzKwlOewi8nPaz6NX7vvSLZ+YSjt5Z5zqacGw==,
       }
 
   data-uri-to-buffer@4.0.1:
@@ -2305,6 +2305,13 @@ packages:
       }
     engines: { node: ">=0.3.1" }
 
+  dot-prop@10.1.0:
+    resolution:
+      {
+        integrity: sha512-MVUtAugQMOff5RnBy2d9N31iG0lNwg1qAoAOn7pOK5wf94WIaE3My2p3uwTQuvS2AcqchkcR3bHByjaM0mmi7Q==,
+      }
+    engines: { node: ">=20" }
+
   dot-prop@9.0.0:
     resolution:
       {
@@ -2344,10 +2351,10 @@ packages:
         integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==,
       }
 
-  electron-to-chromium@1.5.231:
+  electron-to-chromium@1.5.232:
     resolution:
       {
-        integrity: sha512-cyl6vqZGkEBnz/PmvFHn/u9G/hbo+FF2CNAOXriG87QOeLsUdifCZ9UbHNscE9wGdrC8XstNMli0CbQnZQ+fkA==,
+        integrity: sha512-ENirSe7wf8WzyPCibqKUG1Cg43cPaxH4wRR7AJsX7MCABCHBIOFqvaYODSLKUuZdraxUTHRE/0A2Aq8BYKEHOg==,
       }
 
   emoji-regex-xs@1.0.0:
@@ -2715,10 +2722,10 @@ packages:
       }
     engines: { node: ">=16" }
 
-  get-tsconfig@4.10.1:
+  get-tsconfig@4.11.0:
     resolution:
       {
-        integrity: sha512-auHyJ4AgMz7vgS8Hp3N6HXSmlMdUyhSUrfBF16w153rxtLIEOE+HGqaBppczZvnHLqQJfiHotCYpNhl0lUROFQ==,
+        integrity: sha512-sNsqf7XKQ38IawiVGPOoAlqZo1DMrO7TU+ZcZwi7yLl7/7S0JwmoBMKz/IkUPhSoXM0Ng3vT0yB1iCe5XavDeQ==,
       }
 
   giget@2.0.0:
@@ -2742,12 +2749,12 @@ packages:
       }
     hasBin: true
 
-  globby@14.1.0:
+  globby@15.0.0:
     resolution:
       {
-        integrity: sha512-0Ia46fDOaT7k4og1PDW4YbodWWr3scS2vAr2lTbsplOt2WkKp0vQbkI9wKis/T5LV/dqPjO3bpS/z6GTJB82LA==,
+        integrity: sha512-oB4vkQGqlMl682wL1IlWd02tXCbquGWM4voPEI85QmNKCaw8zGTm1f1rubFgkg3Eli2PtKlFgrnmUqasbQWlkw==,
       }
-    engines: { node: ">=18" }
+    engines: { node: ">=20" }
 
   gopd@1.2.0:
     resolution:
@@ -3581,10 +3588,10 @@ packages:
       }
     engines: { node: ^14.16.0 || >=16.0.0 }
 
-  nitropack@2.12.6:
+  nitropack@2.12.7:
     resolution:
       {
-        integrity: sha512-DEq31s0SP4/Z5DIoVBRo9DbWFPWwIoYD4cQMEz7eE+iJMiAP+1k9A3B9kcc6Ihc0jDJmfUcHYyh6h2XlynCx6g==,
+        integrity: sha512-HWyzMBj2d8b14J6Cfnxv97ztnuHIgXNcrGiWCruLfb2ZfKsp6OCbZYJm5T9sv/ZKl8LedhatrMKG66HWJux9Rg==,
       }
     engines: { node: ^20.19.0 || >=22.12.0 }
     hasBin: true
@@ -4257,10 +4264,10 @@ packages:
       }
     hasBin: true
 
-  semver@7.7.2:
+  semver@7.7.3:
     resolution:
       {
-        integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==,
+        integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==,
       }
     engines: { node: ">=10" }
     hasBin: true
@@ -4611,6 +4618,13 @@ packages:
       }
     engines: { node: ">=18" }
 
+  tagged-tag@1.0.0:
+    resolution:
+      {
+        integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==,
+      }
+    engines: { node: ">=20" }
+
   tailwindcss@4.1.14:
     resolution:
       {
@@ -4752,6 +4766,13 @@ packages:
         integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==,
       }
     engines: { node: ">=16" }
+
+  type-fest@5.0.1:
+    resolution:
+      {
+        integrity: sha512-9MpwAI52m8H6ssA542UxSLnSiSD2dsC3/L85g6hVubLSXd82wdI80eZwTWhdOfN67NlA+D+oipAs1MlcTcu3KA==,
+      }
+    engines: { node: ">=20" }
 
   ufo@1.6.1:
     resolution:
@@ -5673,7 +5694,7 @@ snapshots:
       https-proxy-agent: 7.0.6
       node-fetch: 2.7.0
       nopt: 8.1.0
-      semver: 7.7.2
+      semver: 7.7.3
       tar: 7.5.1
     transitivePeerDependencies:
       - encoding
@@ -5969,7 +5990,7 @@ snapshots:
 
   "@sindresorhus/is@7.1.0": {}
 
-  "@sindresorhus/merge-streams@2.3.0": {}
+  "@sindresorhus/merge-streams@4.0.0": {}
 
   "@solidjs/meta@0.29.4(solid-js@1.9.9)":
     dependencies:
@@ -6386,7 +6407,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.8.12: {}
+  baseline-browser-mapping@2.8.13: {}
 
   bidi-js@1.0.3:
     dependencies:
@@ -6417,9 +6438,9 @@ snapshots:
 
   browserslist@4.26.3:
     dependencies:
-      baseline-browser-mapping: 2.8.12
+      baseline-browser-mapping: 2.8.13
       caniuse-lite: 1.0.30001748
-      electron-to-chromium: 1.5.231
+      electron-to-chromium: 1.5.232
       node-releases: 2.0.23
       update-browserslist-db: 1.1.3(browserslist@4.26.3)
 
@@ -6587,7 +6608,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  daisyui@5.1.27: {}
+  daisyui@5.1.29: {}
 
   data-uri-to-buffer@4.0.1:
     optional: true
@@ -6645,9 +6666,14 @@ snapshots:
 
   diff@8.0.2: {}
 
+  dot-prop@10.1.0:
+    dependencies:
+      type-fest: 5.0.1
+
   dot-prop@9.0.0:
     dependencies:
       type-fest: 4.41.0
+    optional: true
 
   dotenv@17.2.3: {}
 
@@ -6664,7 +6690,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.231: {}
+  electron-to-chromium@1.5.232: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -6868,7 +6894,7 @@ snapshots:
 
   get-stream@8.0.1: {}
 
-  get-tsconfig@4.10.1:
+  get-tsconfig@4.11.0:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
@@ -6894,9 +6920,9 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  globby@14.1.0:
+  globby@15.0.0:
     dependencies:
-      "@sindresorhus/merge-streams": 2.3.0
+      "@sindresorhus/merge-streams": 4.0.0
       fast-glob: 3.3.3
       ignore: 7.0.5
       path-type: 6.0.0
@@ -7399,7 +7425,7 @@ snapshots:
       qs: 6.14.0
     optional: true
 
-  nitropack@2.12.6(@netlify/blobs@9.1.2):
+  nitropack@2.12.7(@netlify/blobs@9.1.2):
     dependencies:
       "@cloudflare/kv-asset-handler": 0.4.0
       "@rollup/plugin-alias": 5.1.1(rollup@4.52.4)
@@ -7423,12 +7449,12 @@ snapshots:
       db0: 0.3.4
       defu: 6.1.4
       destr: 2.0.5
-      dot-prop: 9.0.0
+      dot-prop: 10.1.0
       esbuild: 0.25.10
       escape-string-regexp: 5.0.0
       etag: 1.8.1
       exsolve: 1.0.7
-      globby: 14.1.0
+      globby: 15.0.0
       gzip-size: 7.0.0
       h3: 1.15.4
       hookable: 5.5.3
@@ -7454,7 +7480,7 @@ snapshots:
       rollup: 4.52.4
       rollup-plugin-visualizer: 6.0.4(rollup@4.52.4)
       scule: 1.3.0
-      semver: 7.7.2
+      semver: 7.7.3
       serve-placeholder: 2.0.2
       serve-static: 2.2.0
       source-map: 0.7.6
@@ -7827,7 +7853,7 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.7.2: {}
+  semver@7.7.3: {}
 
   send@0.19.0:
     dependencies:
@@ -8071,6 +8097,8 @@ snapshots:
 
   system-architecture@0.1.0: {}
 
+  tagged-tag@1.0.0: {}
+
   tailwindcss@4.1.14: {}
 
   tapable@2.3.0: {}
@@ -8147,11 +8175,15 @@ snapshots:
   tsx@4.20.6:
     dependencies:
       esbuild: 0.25.10
-      get-tsconfig: 4.10.1
+      get-tsconfig: 4.11.0
     optionalDependencies:
       fsevents: 2.3.3
 
   type-fest@4.41.0: {}
+
+  type-fest@5.0.1:
+    dependencies:
+      tagged-tag: 1.0.0
 
   ufo@1.6.1: {}
 
@@ -8330,7 +8362,7 @@ snapshots:
       hookable: 5.5.3
       http-proxy: 1.18.1
       micromatch: 4.0.8
-      nitropack: 2.12.6(@netlify/blobs@9.1.2)
+      nitropack: 2.12.7(@netlify/blobs@9.1.2)
       node-fetch-native: 1.6.7
       path-to-regexp: 6.3.0
       pathe: 1.1.2
