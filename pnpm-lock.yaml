@@ -33,8 +33,8 @@ importers:
         specifier: ^27.0.0
         version: 27.0.0
       daisyui:
-        specifier: ^5.1.30
-        version: 5.1.30
+        specifier: ^5.2.0
+        version: 5.2.0
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -693,10 +693,10 @@ packages:
       }
     engines: { node: ^14.16.0 || >=16.0.0 }
 
-  "@netlify/open-api@2.39.0":
+  "@netlify/open-api@2.40.0":
     resolution:
       {
-        integrity: sha512-PMBktDmSRBS5act/GxHL3kvbRww5HPFZ9HIHXOrBu6vQesWYapoJaDiU/KDbqmkW1TyelGmURVcwsYr00qSAFg==,
+        integrity: sha512-Dp4lilDnkRKGWnljGkFVxfoh1wsWqxheE5/ZOf/sMZPsh3jGu5QZ4hVLEidzXYB/zIKFFqLaUbP2XYVxTqWqyQ==,
       }
     engines: { node: ">=14.8.0" }
 
@@ -1765,11 +1765,16 @@ packages:
         integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==,
       }
 
-  bare-events@2.7.0:
+  bare-events@2.8.0:
     resolution:
       {
-        integrity: sha512-b3N5eTW1g7vXkw+0CXh/HazGTcO5KYuu/RCNaJbDMPI6LHDi+7qe8EmxKUVe1sUbY2KZOVZFyj62x0OEz9qyAA==,
+        integrity: sha512-AOhh6Bg5QmFIXdViHbMc2tLDsBIRxdkIaIddPslJF9Z5De3APBScuqGP2uThXnIpqFrgoxMNC6km7uXNIMLHXA==,
       }
+    peerDependencies:
+      bare-abort-controller: "*"
+    peerDependenciesMeta:
+      bare-abort-controller:
+        optional: true
 
   base64-js@1.5.1:
     resolution:
@@ -1777,10 +1782,10 @@ packages:
         integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==,
       }
 
-  baseline-browser-mapping@2.8.15:
+  baseline-browser-mapping@2.8.16:
     resolution:
       {
-        integrity: sha512-qsJ8/X+UypqxHXN75M7dF88jNK37dLBRW7LeUzCPz+TNs37G8cfWy9nWzS+LS//g600zrt2le9KuXt0rWfDz5Q==,
+        integrity: sha512-OMu3BGQ4E7P1ErFsIPpbJh0qvDudM/UuJeHgkAvfWe+0HFJCXh+t/l8L6fVLR55RI/UbKrVLnAXZSVwd9ysWYw==,
       }
     hasBin: true
 
@@ -2136,10 +2141,10 @@ packages:
         integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==,
       }
 
-  daisyui@5.1.30:
+  daisyui@5.2.0:
     resolution:
       {
-        integrity: sha512-eMg8g8VQmQSl4AyUhXHTdQQiffXerjqL//W7ggACjzNejDXIbVSgRtJkv6JwRLXIhm7X6fcVrweEg1X1H3FhLA==,
+        integrity: sha512-/DXfgR3qI5nGEzBygK9kXsKHO+abiMyv31efTi5ezEsZcrojq9cyNrrgX3+FxHyXSorxJ+CVUG7Ho9nUrCBmfg==,
       }
 
   data-uri-to-buffer@4.0.1:
@@ -5721,7 +5726,7 @@ snapshots:
       write-file-atomic: 6.0.0
     optional: true
 
-  "@netlify/open-api@2.39.0":
+  "@netlify/open-api@2.40.0":
     optional: true
 
   "@netlify/runtime-utils@1.3.1":
@@ -6361,6 +6366,7 @@ snapshots:
       tar-stream: 3.1.7
       zip-stream: 6.0.1
     transitivePeerDependencies:
+      - bare-abort-controller
       - react-native-b4a
 
   ast-types@0.16.1:
@@ -6403,11 +6409,11 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  bare-events@2.7.0: {}
+  bare-events@2.8.0: {}
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.8.15: {}
+  baseline-browser-mapping@2.8.16: {}
 
   bidi-js@1.0.3:
     dependencies:
@@ -6438,7 +6444,7 @@ snapshots:
 
   browserslist@4.26.3:
     dependencies:
-      baseline-browser-mapping: 2.8.15
+      baseline-browser-mapping: 2.8.16
       caniuse-lite: 1.0.30001749
       electron-to-chromium: 1.5.234
       node-releases: 2.0.23
@@ -6608,7 +6614,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  daisyui@5.1.30: {}
+  daisyui@5.2.0: {}
 
   data-uri-to-buffer@4.0.1:
     optional: true
@@ -6788,7 +6794,9 @@ snapshots:
 
   events-universal@1.0.1:
     dependencies:
-      bare-events: 2.7.0
+      bare-events: 2.8.0
+    transitivePeerDependencies:
+      - bare-abort-controller
 
   events@3.3.0: {}
 
@@ -7417,7 +7425,7 @@ snapshots:
 
   netlify@13.3.5:
     dependencies:
-      "@netlify/open-api": 2.39.0
+      "@netlify/open-api": 2.40.0
       lodash-es: 4.17.21
       micro-api-client: 3.3.0
       node-fetch: 3.3.2
@@ -7515,6 +7523,7 @@ snapshots:
       - "@vercel/functions"
       - "@vercel/kv"
       - aws4fetch
+      - bare-abort-controller
       - better-sqlite3
       - drizzle-orm
       - encoding
@@ -8035,6 +8044,7 @@ snapshots:
       fast-fifo: 1.3.2
       text-decoder: 1.2.3
     transitivePeerDependencies:
+      - bare-abort-controller
       - react-native-b4a
 
   string-argv@0.3.2: {}
@@ -8109,6 +8119,7 @@ snapshots:
       fast-fifo: 1.3.2
       streamx: 2.23.0
     transitivePeerDependencies:
+      - bare-abort-controller
       - react-native-b4a
 
   tar@7.5.1:
@@ -8396,6 +8407,7 @@ snapshots:
       - "@vercel/functions"
       - "@vercel/kv"
       - aws4fetch
+      - bare-abort-controller
       - better-sqlite3
       - db0
       - debug
