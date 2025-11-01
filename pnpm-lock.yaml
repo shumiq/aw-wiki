@@ -39,8 +39,8 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       jsdom:
-        specifier: ^27.0.1
-        version: 27.0.1
+        specifier: ^27.1.0
+        version: 27.1.0
       lint-staged:
         specifier: ^16.2.6
         version: 16.2.6
@@ -58,16 +58,22 @@ importers:
         version: 4.20.6
 
 packages:
+  "@acemir/cssom@0.9.19":
+    resolution:
+      {
+        integrity: sha512-Pp2gAQXPZ2o7lt4j0IMwNRXqQ3pagxtDj5wctL5U2Lz4oV0ocDNlkgx4DpxfyKav4S/bePuI+SMqcBSUHLy9kg==,
+      }
+
   "@asamuzakjp/css-color@4.0.5":
     resolution:
       {
         integrity: sha512-lMrXidNhPGsDjytDy11Vwlb6OIGrT3CmLg3VWNFyWkLWtijKl7xjvForlh8vuj0SHGjgl4qZEQzUmYTeQA2JFQ==,
       }
 
-  "@asamuzakjp/dom-selector@6.7.3":
+  "@asamuzakjp/dom-selector@6.7.4":
     resolution:
       {
-        integrity: sha512-kiGFeY+Hxf5KbPpjRLf+ffWbkos1aGo8MBfd91oxS3O57RgU3XhZrt/6UzoVF9VMpWbC3v87SRc9jxGrc9qHtQ==,
+        integrity: sha512-buQDjkm+wDPXd6c13534URWZqbz0RP5PAhXZ+LIoa5LgwInT9HVJvGIJivg75vi8I13CxDGdTnz+aY5YUJlIAA==,
       }
 
   "@asamuzakjp/nwsapi@2.3.9":
@@ -1207,10 +1213,10 @@ packages:
         integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==,
       }
 
-  "@sindresorhus/is@7.1.0":
+  "@sindresorhus/is@7.1.1":
     resolution:
       {
-        integrity: sha512-7F/yz2IphV39hiS2zB4QYVkivrptHHh0K8qJJd9HhuWSdvf8AN7NpebW3CcDZDBQsUPMoDKWsY2WWgW7bqOcfA==,
+        integrity: sha512-rO92VvpgMc3kfiTjGT52LEtJ8Yc5kCWhZjLQ3LwlA4pSgPpQO7bVpYXParOD8Jwf+cVQECJo3yP/4I8aZtUQTQ==,
       }
     engines: { node: ">=18" }
 
@@ -1780,10 +1786,10 @@ packages:
         integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==,
       }
 
-  baseline-browser-mapping@2.8.21:
+  baseline-browser-mapping@2.8.22:
     resolution:
       {
-        integrity: sha512-JU0h5APyQNsHOlAM7HnQnPToSDQoEBZqzu/YBlqDnEeymPnZDREeXJA3KBMQee+dKteAxZ2AtvQEvVYdZf241Q==,
+        integrity: sha512-/tk9kky/d8T8CTXIQYASLyhAxR5VwL3zct1oAoVTaOUHwrmsGnfbRwNdEq+vOl2BN8i3PcDdP0o4Q+jjKQoFbQ==,
       }
     hasBin: true
 
@@ -1884,10 +1890,10 @@ packages:
       }
     engines: { node: ">=16" }
 
-  caniuse-lite@1.0.30001751:
+  caniuse-lite@1.0.30001752:
     resolution:
       {
-        integrity: sha512-A0QJhug0Ly64Ii3eIqHu5X51ebln3k4yTUkY1j8drqpWHVreg/VLijN48cZ1bYPiqOQuqpkIKnzr/Ul8V+p6Cw==,
+        integrity: sha512-vKUk7beoukxE47P5gcVNKkDRzXdVofotshHwfR9vmpeFKxmI5PBpgOMC18LUJUA/DvJ70Y7RveasIBraqsyO/g==,
       }
 
   ccount@2.0.1:
@@ -2126,10 +2132,10 @@ packages:
       }
     engines: { node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0 }
 
-  cssstyle@5.3.1:
+  cssstyle@5.3.2:
     resolution:
       {
-        integrity: sha512-g5PC9Aiph9eiczFpcgUhd9S4UUO3F+LHGRIi5NUMZ+4xtoIYbHNZwZnWA2JsFGe8OU8nl4WyaEFiZuGuxlutJQ==,
+        integrity: sha512-zDMqXh8Vs1CdRYZQ2M633m/SFgcjlu8RB8b/1h82i+6vpArF507NSYIWJHGlJaTWoS+imcnctmEz43txhbVkOw==,
       }
     engines: { node: ">=20" }
 
@@ -3127,12 +3133,12 @@ packages:
         integrity: sha512-mxa9E9ITFOt0ban3j6L5MpjwegGz6lBQmM1IJkWeBZGcMxto50+eWdjC/52xDbS2vy0k7vIMK0Fe2wfL9OQSpQ==,
       }
 
-  jsdom@27.0.1:
+  jsdom@27.1.0:
     resolution:
       {
-        integrity: sha512-SNSQteBL1IlV2zqhwwolaG9CwhIhTvVHWg3kTss/cLE7H/X4644mtPQqYvCfsSrGQWt9hSZcgOXX8bOZaMN+kA==,
+        integrity: sha512-Pcfm3eZ+eO4JdZCXthW9tCDT3nF4K+9dmeZ+5X39n+Kqz0DDIABRP5CAEOHRFZk8RGuC2efksTJxrjp8EXCunQ==,
       }
-    engines: { node: ">=20" }
+    engines: { node: ^20.19.0 || ^22.12.0 || >=24.0.0 }
     peerDependencies:
       canvas: ^3.0.0
     peerDependenciesMeta:
@@ -4226,12 +4232,6 @@ packages:
     engines: { node: ">=18.0.0", npm: ">=8.0.0" }
     hasBin: true
 
-  rrweb-cssom@0.8.0:
-    resolution:
-      {
-        integrity: sha512-guoltQEx+9aMf2gDZ0s62EcV8lsXR+0w8915TC3ITdn2YueuNjdAYh/levpU9nFaoChh9RUS5ZdQMrKfVEN9tw==,
-      }
-
   run-parallel@1.2.0:
     resolution:
       {
@@ -4899,10 +4899,10 @@ packages:
       }
     engines: { node: ">=18.12.0" }
 
-  unstorage@1.17.1:
+  unstorage@1.17.2:
     resolution:
       {
-        integrity: sha512-KKGwRTT0iVBCErKemkJCLs7JdxNVfqTPc/85ae1XES0+bsHbc/sFBfVi5kJp156cc51BHinIH2l3k0EZ24vOBQ==,
+        integrity: sha512-cKEsD6iBWJgOMJ6vW1ID/SYuqNf8oN4yqRk8OYqaVQ3nnkJXOT1PSpaMh2QfzLs78UN5kSNRD2c/mgjT8tX7+w==,
       }
     peerDependencies:
       "@azure/app-configuration": ^1.8.0
@@ -5324,6 +5324,8 @@ packages:
       }
 
 snapshots:
+  "@acemir/cssom@0.9.19": {}
+
   "@asamuzakjp/css-color@4.0.5":
     dependencies:
       "@csstools/css-calc": 2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
@@ -5332,7 +5334,7 @@ snapshots:
       "@csstools/css-tokenizer": 3.0.4
       lru-cache: 11.2.2
 
-  "@asamuzakjp/dom-selector@6.7.3":
+  "@asamuzakjp/dom-selector@6.7.4":
     dependencies:
       "@asamuzakjp/nwsapi": 2.3.9
       bidi-js: 1.0.3
@@ -5823,7 +5825,7 @@ snapshots:
   "@poppinss/dumper@0.6.4":
     dependencies:
       "@poppinss/colors": 4.1.5
-      "@sindresorhus/is": 7.1.0
+      "@sindresorhus/is": 7.1.1
       supports-color: 10.2.2
 
   "@poppinss/exception@1.2.2": {}
@@ -5992,7 +5994,7 @@ snapshots:
 
   "@shikijs/vscode-textmate@10.0.2": {}
 
-  "@sindresorhus/is@7.1.0": {}
+  "@sindresorhus/is@7.1.1": {}
 
   "@sindresorhus/merge-streams@4.0.0": {}
 
@@ -6408,7 +6410,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.8.21: {}
+  baseline-browser-mapping@2.8.22: {}
 
   bidi-js@1.0.3:
     dependencies:
@@ -6439,8 +6441,8 @@ snapshots:
 
   browserslist@4.27.0:
     dependencies:
-      baseline-browser-mapping: 2.8.21
-      caniuse-lite: 1.0.30001751
+      baseline-browser-mapping: 2.8.22
+      caniuse-lite: 1.0.30001752
       electron-to-chromium: 1.5.244
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
@@ -6488,7 +6490,7 @@ snapshots:
 
   camelcase@8.0.0: {}
 
-  caniuse-lite@1.0.30001751: {}
+  caniuse-lite@1.0.30001752: {}
 
   ccount@2.0.1: {}
 
@@ -6599,7 +6601,7 @@ snapshots:
       mdn-data: 2.12.2
       source-map-js: 1.2.1
 
-  cssstyle@5.3.1:
+  cssstyle@5.3.2:
     dependencies:
       "@asamuzakjp/css-color": 4.0.5
       "@csstools/css-syntax-patches-for-csstree": 1.0.15
@@ -7139,10 +7141,11 @@ snapshots:
 
   js-tokens@9.0.1: {}
 
-  jsdom@27.0.1:
+  jsdom@27.1.0:
     dependencies:
-      "@asamuzakjp/dom-selector": 6.7.3
-      cssstyle: 5.3.1
+      "@acemir/cssom": 0.9.19
+      "@asamuzakjp/dom-selector": 6.7.4
+      cssstyle: 5.3.2
       data-urls: 6.0.0
       decimal.js: 10.6.0
       html-encoding-sniffer: 4.0.0
@@ -7150,7 +7153,6 @@ snapshots:
       https-proxy-agent: 7.0.6
       is-potential-custom-element-name: 1.0.1
       parse5: 8.0.0
-      rrweb-cssom: 0.8.0
       saxes: 6.0.0
       symbol-tree: 3.2.4
       tough-cookie: 6.0.0
@@ -7496,7 +7498,7 @@ snapshots:
       unenv: 2.0.0-rc.24
       unimport: 5.5.0
       unplugin-utils: 0.3.1
-      unstorage: 1.17.1(@netlify/blobs@9.1.2)(db0@0.3.4)(ioredis@5.8.2)
+      unstorage: 1.17.2(@netlify/blobs@9.1.2)(db0@0.3.4)(ioredis@5.8.2)
       untyped: 2.0.0
       unwasm: 0.3.11
       youch: 4.1.0-beta.11
@@ -7841,8 +7843,6 @@ snapshots:
       "@rollup/rollup-win32-x64-gnu": 4.52.5
       "@rollup/rollup-win32-x64-msvc": 4.52.5
       fsevents: 2.3.3
-
-  rrweb-cssom@0.8.0: {}
 
   run-parallel@1.2.0:
     dependencies:
@@ -8282,7 +8282,7 @@ snapshots:
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
-  unstorage@1.17.1(@netlify/blobs@9.1.2)(db0@0.3.4)(ioredis@5.8.2):
+  unstorage@1.17.2(@netlify/blobs@9.1.2)(db0@0.3.4)(ioredis@5.8.2):
     dependencies:
       anymatch: 3.1.3
       chokidar: 4.0.3
@@ -8379,7 +8379,7 @@ snapshots:
       ufo: 1.6.1
       unctx: 2.4.1
       unenv: 1.10.0
-      unstorage: 1.17.1(@netlify/blobs@9.1.2)(db0@0.3.4)(ioredis@5.8.2)
+      unstorage: 1.17.2(@netlify/blobs@9.1.2)(db0@0.3.4)(ioredis@5.8.2)
       vite: 6.4.1(@types/node@24.9.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(tsx@4.20.6)(yaml@2.8.1)
       zod: 3.25.76
     transitivePeerDependencies:
