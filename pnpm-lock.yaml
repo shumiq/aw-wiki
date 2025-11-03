@@ -1251,10 +1251,10 @@ packages:
     peerDependencies:
       vinxi: ^0.5.7
 
-  "@speed-highlight/core@1.2.8":
+  "@speed-highlight/core@1.2.9":
     resolution:
       {
-        integrity: sha512-IGytNtnUnPIobIbOq5Y6LIlqiHNX+vnToQIS7lj6L5819C+rA8TXRDkkG8vePsiBOGcoW9R6i+dp2YBUKdB09Q==,
+        integrity: sha512-4Zxu0O1UN7cfN62Hv5RqcuqcIb93qkIKhl3Mv9gzmFcAf7Ilow/kwS6CXZhvJeAQu8QuyX4kIHUhbag+UfnIxA==,
       }
 
   "@tailwindcss/node@4.1.16":
@@ -1890,10 +1890,10 @@ packages:
       }
     engines: { node: ">=16" }
 
-  caniuse-lite@1.0.30001752:
+  caniuse-lite@1.0.30001753:
     resolution:
       {
-        integrity: sha512-vKUk7beoukxE47P5gcVNKkDRzXdVofotshHwfR9vmpeFKxmI5PBpgOMC18LUJUA/DvJ70Y7RveasIBraqsyO/g==,
+        integrity: sha512-Bj5H35MD/ebaOV4iDLqPEtiliTN29qkGtEHCwawWn4cYm+bPJM2NsaP30vtZcnERClMzp52J4+aw2UNbK4o+zw==,
       }
 
   ccount@2.0.1:
@@ -6030,7 +6030,7 @@ snapshots:
       - supports-color
       - vite
 
-  "@speed-highlight/core@1.2.8": {}
+  "@speed-highlight/core@1.2.9": {}
 
   "@tailwindcss/node@4.1.16":
     dependencies:
@@ -6442,7 +6442,7 @@ snapshots:
   browserslist@4.27.0:
     dependencies:
       baseline-browser-mapping: 2.8.23
-      caniuse-lite: 1.0.30001752
+      caniuse-lite: 1.0.30001753
       electron-to-chromium: 1.5.244
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
@@ -6490,7 +6490,7 @@ snapshots:
 
   camelcase@8.0.0: {}
 
-  caniuse-lite@1.0.30001752: {}
+  caniuse-lite@1.0.30001753: {}
 
   ccount@2.0.1: {}
 
@@ -8564,7 +8564,7 @@ snapshots:
     dependencies:
       "@poppinss/colors": 4.1.5
       "@poppinss/dumper": 0.6.4
-      "@speed-highlight/core": 1.2.8
+      "@speed-highlight/core": 1.2.9
       cookie: 1.0.2
       youch-core: 0.3.3
 
