@@ -1543,17 +1543,17 @@ packages:
       }
     engines: { node: ">=18.0.0" }
 
-  "@whatwg-node/fetch@0.10.11":
+  "@whatwg-node/fetch@0.10.12":
     resolution:
       {
-        integrity: sha512-eR8SYtf9Nem1Tnl0IWrY33qJ5wCtIWlt3Fs3c6V4aAaTFLtkEQErXu3SSZg/XCHrj9hXSJ8/8t+CdMk5Qec/ZA==,
+        integrity: sha512-XmsCdDgQxbM8ha7xvIbDQyO/iES2ga0wQcM5sb+mugll1F+IzSshOMPK6n1TuqDDgjTwoU01mMa6oRhHWnpDcw==,
       }
     engines: { node: ">=18.0.0" }
 
-  "@whatwg-node/node-fetch@0.8.1":
+  "@whatwg-node/node-fetch@0.8.2":
     resolution:
       {
-        integrity: sha512-cQmQEo7IsI0EPX9VrwygXVzrVlX43Jb7/DBZSmpnC7xH4xkyOnn/HykHpTaQk7TUs7zh59A5uTGqx3p2Ouzffw==,
+        integrity: sha512-1PihEl0a8hm/AZD/LVRs1lEWCZCo2Q65Xm1goaHeqR314e+/Z7NI7YE10Yser8+2iZFGtv542IYr685o3aaZ/g==,
       }
     engines: { node: ">=18.0.0" }
 
@@ -1637,10 +1637,10 @@ packages:
         integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==,
       }
 
-  ansi-escapes@7.1.1:
+  ansi-escapes@7.2.0:
     resolution:
       {
-        integrity: sha512-Zhl0ErHcSRUaVfGUeUdDuLgpkEo8KIFjB4Y9uAc46ScOpdDiU1Dbyplh7qWJeJ/ZHpbyMSM26+X3BySgnIz40Q==,
+        integrity: sha512-g6LhBsl+GBPRWGWsBtutpzBYuIIdBkLEvad5C/va/74Db018+5TZiyA26cZJAr3Rft5lprVqOIPxf5Vid6tqAw==,
       }
     engines: { node: ">=18" }
 
@@ -1786,10 +1786,10 @@ packages:
         integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==,
       }
 
-  baseline-browser-mapping@2.8.23:
+  baseline-browser-mapping@2.8.24:
     resolution:
       {
-        integrity: sha512-616V5YX4bepJFzNyOfce5Fa8fDJMfoxzOIzDCZwaGL8MKVpFrXqfNUoIpRn9YMI5pXf/VKgzjB4htFMsFKKdiQ==,
+        integrity: sha512-uUhTRDPXamakPyghwrUcjaGvvBqGrWvBHReoiULMIpOJVM9IYzQh83Xk2Onx5HlGI2o10NNCzcs9TG/S3TkwrQ==,
       }
     hasBin: true
 
@@ -4685,11 +4685,12 @@ packages:
         integrity: sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==,
       }
 
-  tinyexec@1.0.1:
+  tinyexec@1.0.2:
     resolution:
       {
-        integrity: sha512-5uC6DDlmeqiOwCPmK9jMSdOuZTh8bU39Ys6yidB+UTt5hfZUPGAypSgFRiEp+jbi9qH40BLDvy85jIU88wKSqw==,
+        integrity: sha512-W/KYk+NFhkmsYpuHq5JykngiOCnxeVL8v8dFnqxSD8qEEdRfXk1SDM6JzNqcERbcGYj9tMrDQBYV9cjgnunFIg==,
       }
+    engines: { node: ">=18" }
 
   tinyglobby@0.2.15:
     resolution:
@@ -6259,13 +6260,13 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  "@whatwg-node/fetch@0.10.11":
+  "@whatwg-node/fetch@0.10.12":
     dependencies:
-      "@whatwg-node/node-fetch": 0.8.1
+      "@whatwg-node/node-fetch": 0.8.2
       urlpattern-polyfill: 10.1.0
     optional: true
 
-  "@whatwg-node/node-fetch@0.8.1":
+  "@whatwg-node/node-fetch@0.8.2":
     dependencies:
       "@fastify/busboy": 3.2.0
       "@whatwg-node/disposablestack": 0.0.6
@@ -6281,7 +6282,7 @@ snapshots:
   "@whatwg-node/server@0.9.71":
     dependencies:
       "@whatwg-node/disposablestack": 0.0.6
-      "@whatwg-node/fetch": 0.10.11
+      "@whatwg-node/fetch": 0.10.12
       "@whatwg-node/promise-helpers": 1.3.2
       tslib: 2.8.1
     optional: true
@@ -6316,7 +6317,7 @@ snapshots:
     dependencies:
       string-width: 4.2.3
 
-  ansi-escapes@7.1.1:
+  ansi-escapes@7.2.0:
     dependencies:
       environment: 1.1.0
 
@@ -6403,7 +6404,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.8.23: {}
+  baseline-browser-mapping@2.8.24: {}
 
   bidi-js@1.0.3:
     dependencies:
@@ -6434,7 +6435,7 @@ snapshots:
 
   browserslist@4.27.0:
     dependencies:
-      baseline-browser-mapping: 2.8.23
+      baseline-browser-mapping: 2.8.24
       caniuse-lite: 1.0.30001753
       electron-to-chromium: 1.5.244
       node-releases: 2.0.27
@@ -7287,7 +7288,7 @@ snapshots:
 
   log-update@6.1.0:
     dependencies:
-      ansi-escapes: 7.1.1
+      ansi-escapes: 7.2.0
       cli-cursor: 5.0.0
       slice-ansi: 7.1.2
       strip-ansi: 7.1.2
@@ -7566,7 +7567,7 @@ snapshots:
       consola: 3.4.2
       pathe: 2.0.3
       pkg-types: 2.3.0
-      tinyexec: 1.0.1
+      tinyexec: 1.0.2
 
   object-inspect@1.13.4:
     optional: true
@@ -8141,7 +8142,7 @@ snapshots:
 
   tiny-invariant@1.3.3: {}
 
-  tinyexec@1.0.1: {}
+  tinyexec@1.0.2: {}
 
   tinyglobby@0.2.15:
     dependencies:
