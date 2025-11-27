@@ -309,10 +309,10 @@ packages:
       }
     engines: { node: ">=6.9.0" }
 
-  "@cloudflare/kv-asset-handler@0.4.0":
+  "@cloudflare/kv-asset-handler@0.4.1":
     resolution:
       {
-        integrity: sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA==,
+        integrity: sha512-Nu8ahitGFFJztxUml9oD/DLb7Z28C8cd8F46IVQ7y5Btz575pvMY8AqZsXkX7Gds29eCKdMgIHjIvzskHgPSFg==,
       }
     engines: { node: ">=18.0.0" }
 
@@ -352,10 +352,10 @@ packages:
     peerDependencies:
       "@csstools/css-tokenizer": ^3.0.4
 
-  "@csstools/css-syntax-patches-for-csstree@1.0.17":
+  "@csstools/css-syntax-patches-for-csstree@1.0.19":
     resolution:
       {
-        integrity: sha512-LCC++2h8pLUSPY+EsZmrrJ1EOUu+5iClpEiDhhdw3zRJpPbABML/N5lmRuBHjxtKm9VnRcsUzioyD0sekFMF0A==,
+        integrity: sha512-QW5/SM2ARltEhoKcmRI1LoLf3/C7dHGswwCnfLcoMgqurBT4f8GvwXMgAbK/FwcxthmJRK5MGTtddj0yQn0J9g==,
       }
     engines: { node: ">=18" }
 
@@ -675,10 +675,10 @@ packages:
         integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==,
       }
 
-  "@mapbox/node-pre-gyp@2.0.0":
+  "@mapbox/node-pre-gyp@2.0.3":
     resolution:
       {
-        integrity: sha512-llMXd39jtP0HpQLVI37Bf1m2ADlEb35GYSh1SDSLsBhR+5iCxiNGlT31yqbNtVHygHAtMy6dWFERpU2JgufhPg==,
+        integrity: sha512-uwPAhccfFJlsfCxMYTwOdVfOz3xqyj8xYL3zJj8f0pb30tLohnnFPhLuqp4/qoEz8sNxe4SESZedcBojRefIzg==,
       }
     engines: { node: ">=18" }
     hasBin: true
@@ -2353,10 +2353,10 @@ packages:
         integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==,
       }
 
-  electron-to-chromium@1.5.260:
+  electron-to-chromium@1.5.262:
     resolution:
       {
-        integrity: sha512-ov8rBoOBhVawpzdre+Cmz4FB+y66Eqrk6Gwqd8NGxuhv99GQ8XqMAr351KEkOt7gukXWDg6gJWEMKgL2RLMPtA==,
+        integrity: sha512-NlAsMteRHek05jRUxUR0a5jpjYq9ykk6+kO0yRaMi5moe7u0fVIOeQ3Y30A8dIiWFBNUoQGi1ljb1i5VtS9WQQ==,
       }
 
   emoji-regex-xs@1.0.0:
@@ -5557,7 +5557,7 @@ snapshots:
       "@babel/helper-string-parser": 7.27.1
       "@babel/helper-validator-identifier": 7.28.5
 
-  "@cloudflare/kv-asset-handler@0.4.0":
+  "@cloudflare/kv-asset-handler@0.4.1":
     dependencies:
       mime: 3.0.0
 
@@ -5579,7 +5579,7 @@ snapshots:
     dependencies:
       "@csstools/css-tokenizer": 3.0.4
 
-  "@csstools/css-syntax-patches-for-csstree@1.0.17": {}
+  "@csstools/css-syntax-patches-for-csstree@1.0.19": {}
 
   "@csstools/css-tokenizer@3.0.4": {}
 
@@ -5710,7 +5710,7 @@ snapshots:
       "@jridgewell/resolve-uri": 3.1.2
       "@jridgewell/sourcemap-codec": 1.5.5
 
-  "@mapbox/node-pre-gyp@2.0.0":
+  "@mapbox/node-pre-gyp@2.0.3":
     dependencies:
       consola: 3.4.2
       detect-libc: 2.1.2
@@ -6216,7 +6216,7 @@ snapshots:
 
   "@vercel/nft@0.30.4(rollup@4.53.3)":
     dependencies:
-      "@mapbox/node-pre-gyp": 2.0.0
+      "@mapbox/node-pre-gyp": 2.0.3
       "@rollup/pluginutils": 5.3.0(rollup@4.53.3)
       acorn: 8.15.0
       acorn-import-attributes: 1.9.5(acorn@8.15.0)
@@ -6460,7 +6460,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.8.31
       caniuse-lite: 1.0.30001757
-      electron-to-chromium: 1.5.260
+      electron-to-chromium: 1.5.262
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
@@ -6619,7 +6619,7 @@ snapshots:
   cssstyle@5.3.3:
     dependencies:
       "@asamuzakjp/css-color": 4.1.0
-      "@csstools/css-syntax-patches-for-csstree": 1.0.17
+      "@csstools/css-syntax-patches-for-csstree": 1.0.19
       css-tree: 3.1.0
 
   csstype@3.2.3: {}
@@ -6706,7 +6706,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.260: {}
+  electron-to-chromium@1.5.262: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -7456,7 +7456,7 @@ snapshots:
 
   nitropack@2.12.9(@netlify/blobs@9.1.2):
     dependencies:
-      "@cloudflare/kv-asset-handler": 0.4.0
+      "@cloudflare/kv-asset-handler": 0.4.1
       "@rollup/plugin-alias": 5.1.1(rollup@4.53.3)
       "@rollup/plugin-commonjs": 28.0.9(rollup@4.53.3)
       "@rollup/plugin-inject": 5.0.5(rollup@4.53.3)
