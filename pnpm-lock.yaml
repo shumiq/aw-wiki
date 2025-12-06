@@ -58,10 +58,10 @@ importers:
         version: 4.21.0
 
 packages:
-  "@acemir/cssom@0.9.25":
+  "@acemir/cssom@0.9.26":
     resolution:
       {
-        integrity: sha512-ZWKTnGx+py7q6W3Q1q7+ZOW0GLuhgaxjBRMytOxYu5CQwIF6YCu5iCgY7NzuTt+DkpAa4jqKfvxANuCBWTzdVg==,
+        integrity: sha512-UMFbL3EnWH/eTvl21dz9s7Td4wYDMtxz/56zD8sL9IZGYyi48RxmdgPMiyT7R6Vn3rjMTwYZ42bqKa7ex74GEQ==,
       }
 
   "@asamuzakjp/css-color@4.1.0":
@@ -2020,10 +2020,10 @@ packages:
         integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==,
       }
 
-  baseline-browser-mapping@2.9.2:
+  baseline-browser-mapping@2.9.3:
     resolution:
       {
-        integrity: sha512-PxSsosKQjI38iXkmb3d0Y32efqyA0uW4s41u4IVBsLlWLhCiYNpH/AfNOVWRqCQBlD8TFJTz6OUWNd4DFJCnmw==,
+        integrity: sha512-8QdH6czo+G7uBsNo0GiUfouPN1lRzKdJTGnKXwe12gkFbnnOUaUKGN55dMkfy+mnxmvjwl9zcI4VncczcVXDhA==,
       }
     hasBin: true
 
@@ -2587,10 +2587,10 @@ packages:
         integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==,
       }
 
-  electron-to-chromium@1.5.265:
+  electron-to-chromium@1.5.266:
     resolution:
       {
-        integrity: sha512-B7IkLR1/AE+9jR2LtVF/1/6PFhY5TlnEHnlrKmGk7PvkJibg5jr+mLXLLzq3QYl6PA1T/vLDthQPqIPAlS/PPA==,
+        integrity: sha512-kgWEglXvkEfMH7rxP5OSZZwnaDWT7J9EoZCujhnpLbfi0bbNtRkgdX2E3gt0Uer11c61qCYktB3hwkAS325sJg==,
       }
 
   emoji-regex-xs@1.0.0:
@@ -5583,7 +5583,7 @@ packages:
       }
 
 snapshots:
-  "@acemir/cssom@0.9.25": {}
+  "@acemir/cssom@0.9.26": {}
 
   "@asamuzakjp/css-color@4.1.0":
     dependencies:
@@ -6747,7 +6747,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.9.2: {}
+  baseline-browser-mapping@2.9.3: {}
 
   bidi-js@1.0.3:
     dependencies:
@@ -6778,9 +6778,9 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.2
+      baseline-browser-mapping: 2.9.3
       caniuse-lite: 1.0.30001759
-      electron-to-chromium: 1.5.265
+      electron-to-chromium: 1.5.266
       node-releases: 2.0.27
       update-browserslist-db: 1.2.2(browserslist@4.28.1)
 
@@ -7026,7 +7026,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.265: {}
+  electron-to-chromium@1.5.266: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -7515,7 +7515,7 @@ snapshots:
 
   jsdom@27.2.0:
     dependencies:
-      "@acemir/cssom": 0.9.25
+      "@acemir/cssom": 0.9.26
       "@asamuzakjp/dom-selector": 6.7.5
       cssstyle: 5.3.3
       data-urls: 6.0.0
